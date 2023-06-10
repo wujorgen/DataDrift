@@ -1,0 +1,13 @@
+setup.py
+BLUESKY.egg-info/PKG-INFO
+BLUESKY.egg-info/SOURCES.txt
+BLUESKY.egg-info/dependency_links.txt
+BLUESKY.egg-info/top_level.txt
+src/__init__.py
+src/aaaaaa.py
+src/bs_scrapers.py
+src/genurls.py
+src/scrapy_scrapers.py
+tests/__init__.py
+tests/demo_tests.py
+tests/test_.py

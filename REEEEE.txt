@@ -1,0 +1,2831 @@
+
+
+--- NEW DIV ---
+
+<div class="vehicle-details">
+<a class="card-whitespace-link" data-override-payload='{"sponsored_type":"inventory_ad","vertical_position":1,"web_page_type_from":"inventory-ad-whitespace"}' data-linkname="inventory-ad-whitespace" data-activity-rule-type="page-over-page" href="/vehicledetail/b7196b6e-a27b-4907-8862-2606fc378542/?attribution_type=isa" phx-click="element_clicked" phx-target="8" phx-value-source="whitespace" rel="nofollow" trc="" trid="iHQXZUZciBWgKM10fhm8uR"></a>
+      <div class="save-vehicle">
+<div class="hover-icon favorite">
+  <button id="vehicle-heart-1" class="heart" data-activity-rule-type="custom" data-component="save-vehicle-add" data-index="1" data-linkname="save-vehicle-sign-up" data-listing-id="b7196b6e-a27b-4907-8862-2606fc378542" data-hook-heart-id="vehicle-heart-1" phx-click="save_listing" phx-hook="RecordSaveListingAction" phx-target="91" phx-value-is_vdp="false" phx-value-listing_id="b7196b6e-a27b-4907-8862-2606fc378542" onclick="event.preventDefault()" trid="jUya9zno8mAxVvj4yVIcNS" trc>
+      <spark-svg name="heart-empty" class="sds-text-field__icon heart-empty"></spark-svg>
+      <spark-svg name="heart-filled" class="sds-text-field__icon active-state heart-filled"></spark-svg>
+    <span class="text">Save</span>
+  </button>
+</div>
+
+      </div>
+      <p class="stock-type">Used</p>
+<a class="vehicle-card-link" data-linkname="inventory-ad-header" data-activity-rule-type="page-over-page" data-override-payload='{"sponsored_type":"inventory_ad","vertical_position":1,"web_page_type_from":"inventory-ad-header"}' href="/vehicledetail/b7196b6e-a27b-4907-8862-2606fc378542/?attribution_type=isa" phx-click="element_clicked" phx-target="8" phx-value-source="title" rel="nofollow" target="" trc="" trid="wpcJmKBMzZozhleowIGziO">
+    <h2 class="title">2021 Ford Mustang GT Premium</h2>
+</a>
+
+  <div class="mileage">7,744 mi.</div>
+
+<div class="price-section price-section-vehicle-card">
+
+
+      <span class="primary-price">$48,990</span>
+
+
+</div>
+
+  <div tabindex="0" class="vehicle-badging" data-toggle="expanda-modal" data-target="#sds-modal" data-contents="{&quot;home_delivery_badge&quot;:true,&quot;hot_car_badge&quot;:true,&quot;price_badge&quot;:{&quot;price_badge&quot;:&quot;competitively&quot;,&quot;price_badge_description&quot;:&quot;This car presents a good buying opportunity, priced at $554 under market. Our analysis compares this car's price, features, and condition with similar 2021 Mustangs.&quot;,&quot;price_badge_savings_icon_text&quot;:&quot; | $554 under&quot;,&quot;price_badge_text&quot;:&quot;Good&quot;,&quot;price_badge_text_lowercase&quot;:&quot;good&quot;,&quot;price_savings_text&quot;:&quot; | $554 under&quot;,&quot;svg_tag&quot;:&quot;&lt;svg class=\&quot;sds-text-field__icon\&quot; height=\&quot;16\&quot; width=\&quot;16\&quot;&gt;&lt;use xlink:href=\&quot;/svg/spritemap-45f421b6ebaae75d4813e9a2ac89dbe3.svg?vsn=d#arrow-up-right-thick\&quot;&gt;&lt;/use&gt;&lt;/svg&gt;&quot;},&quot;virtual_appointments_badge&quot;:true,&quot;href_to_vdp&quot;:{&quot;href_to_vdp&quot;:&quot;/vehicledetail/b7196b6e-a27b-4907-8862-2606fc378542/?bodystyle=convertible&amp;cpo_indicator=false&amp;customer_id=5396178&amp;intent_id=badges-explainer&amp;listing_id=b7196b6e-a27b-4907-8862-2606fc378542&amp;make=ford&amp;model=mustang&amp;model_year=2021&amp;msrp=&amp;price=48990&amp;sponsored=true&amp;sponsored_type=inventory_ad&amp;stock_type=used&amp;trim=gt+premium&quot;}}" data-click-intent-id="badges-explainer" data-override-payload='{"bodystyle":"convertible","cpo_indicator":false,"customer_id":"5396178","horizontal_position":null,"listing_id":"b7196b6e-a27b-4907-8862-2606fc378542","make":"ford","model":"mustang","model_year":"2021","msrp":null,"price":"48990","results_page_number":1,"sponsored":true,"sponsored_type":"inventory_ad","stock_type":"used","trim":"gt premium","vertical_position":1,"web_page_type_from":"premier-module"}' trid="3WhpRsPZn4KHXkdAGLNNbp" trc>
+      <div class="sds-badge sds-badge--icon sds-badge--good js-price-badging" aria-label="price_badge" data-linkname="price-badge-good">
+    <div class="sds-badge__icon">
+      <spark-svg name="arrow-up-right" class="sds-text-field__icon"></spark-svg>
+    </div>
+    <span class="sds-badge__label">Good Deal<span class="sds-badge--price-savings"> | $554 under</span></span>
+  </div>
+  <div class="sds-badge sds-badge--icon sds-badge--hot-car">
+    <div class="sds-badge__icon">
+      <spark-svg library="cars-duotone" name="flames" class="sds-text-field__icon flame-svg"></spark-svg>
+    </div>
+    <span class="sds-badge__label">Hot Car</span>
+  </div>
+
+  </div>
+
+
+<div class="vehicle-dealer not-rated">
+  <div class="dealer-name">
+    <strong>#1 Cochran Ford</strong>
+  </div>
+
+  
+    <div class="sds-rating--not-rated ">
+  <spark-tooltip>
+    <span slot="trigger">Not rated</span>
+    <span>
+      Dealerships need five reviews in the past 24 months before we can display a rating.
+    </span>
+  </spark-tooltip>
+  <div class="sds-rating__wrapper">
+    <span class="sds-rating__item">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+<span class="sds-rating__item">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+<span class="sds-rating__item">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+<span class="sds-rating__item">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+<span class="sds-rating__item">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+
+  </div>
+    <span class="sds-rating__link sds-button-link">(5 reviews)</span>
+
+</div>
+
+  
+
+  
+    <div data-qa="miles-from-user" class="miles-from hidden">
+       mi. from 15024
+    </div>
+  
+</div>
+
+
+  <div class="sds-link--ext sds-button--link inventory_ad_deeplink" data-hidden-link-target="dealer-deeplink-b7196b6e-a27b-4907-8862-2606fc378542" id="z57uzjm7g5pk5e2liol4afm7kmricyhv" phx-hook="DealerDeeplinkInventoryAd" phx-target="#vehicle-card-b7196b6e-a27b-4907-8862-2606fc378542-sponsored" role="link" tabindex="0" trid="qajAgVcfHTRf9Pi7mxTKgZ" trc>
+    <span>View on dealer's site</span>
+    <spark-svg name="arrow-up-right" class="sds-text-field__icon"></spark-svg>
+  </div>
+
+
+
+  </div>
+
+--- NEW DIV ---
+
+<div class="vehicle-details">
+        <div class="save-vehicle">
+          <div class="hover-icon favorite">
+  <button id="vehicle-heart-2" class="heart" data-activity-rule-type="custom" data-component="save-vehicle-add" data-index="2" data-linkname="save-vehicle-sign-up" data-listing-id="cacf3c9b-e16b-41f3-80de-f7c0d8e30344" data-hook-heart-id="vehicle-heart-2" phx-click="save_listing" phx-hook="RecordSaveListingAction" phx-target="92" phx-value-is_vdp="false" phx-value-listing_id="cacf3c9b-e16b-41f3-80de-f7c0d8e30344" onclick="event.preventDefault()" trid="jUya9zno8mAxVvj4yVIcNS" trc>
+      <spark-svg name="heart-empty" class="sds-text-field__icon heart-empty"></spark-svg>
+      <spark-svg name="heart-filled" class="sds-text-field__icon active-state heart-filled"></spark-svg>
+    <span class="text">Save</span>
+  </button>
+</div>
+
+        </div>
+        <p class="stock-type">Ford Certified</p>
+        <a class="vehicle-card-link js-gallery-click-link" data-linkname="vehicle-listing" data-activity-rule-type="page-over-page" href="/vehicledetail/cacf3c9b-e16b-41f3-80de-f7c0d8e30344/" rel="nofollow" target="">
+    <h2 class="title">2022 Ford Mustang GT</h2>
+</a>
+
+          <div class="mileage">5,403 mi.</div>
+
+        <div class="price-section price-section-vehicle-card">
+
+
+      <span class="primary-price">$41,393</span>
+
+        <span class="secondary-price price-drop">$536 price drop</span>
+
+
+</div>
+
+        
+
+
+
+<span class="estimated-monthly-payments-tooltip js-tooltip-container ">
+  <div id="emp-tooltip-2" class="list-item-tooltip-container" phx-hook="MonthlyPaymentsCalculator" data-hook-base-price="41393" data-hook-index="2" data-hook-listing-id="cacf3c9b-e16b-41f3-80de-f7c0d8e30344" data-hook-init-data='{"creditRates":{"average":{"forty_eight":14.5,"seventy_two":14.5,"sixty":14.5,"thirty_six":14.5},"excellent":{"forty_eight":7.0,"seventy_two":7.0,"sixty":7.0,"thirty_six":7.0},"fair":{"forty_eight":19.5,"seventy_two":19.5,"sixty":19.5,"thirty_six":19.5},"good":{"forty_eight":8.5,"seventy_two":8.5,"sixty":8.5,"thirty_six":8.5}},"defaults":{"apr":"5.99","creditTier":"excellent","downPaymentPercentage":0.1,"lengthOfLoan":72},"isModalEnabled":false,"modalId":"srp-payment-calculator-modal"}' data-hook-page="srp">
+    <span class="sds-tooltip">
+      <a class="sds-link" tabindex="0" data-override-payload='{"bodystyle":"coupe","cpo_indicator":true,"customer_id":"102393","listing_id":"cacf3c9b-e16b-41f3-80de-f7c0d8e30344","make":"ford","model":"mustang","model_year":"2022","msrp":null,"price":41393,"results_page_number":1,"sponsored":false,"sponsored_type":"standard","stock_type":"used","trim":"gt","vertical_position":2}'>
+        <span class="js-estimated-monthly-payment-formatted-value-with-abr"></span>
+        <span class="js-estimated-monthly-payment-info-icon ">
+          <spark-svg name="info-circle"></spark-svg>
+        </span>
+      </a>
+    </span>
+    <div data-reveal-method="inline" class="sds-tooltip__window js-tooltip-content" role="tooltip" id="tooltip-est-monthly-payment-2">
+      <p>
+        <span class="js-estimated-monthly-payment-description"></span>
+      </p>
+      <div class="sds-icon sds-icon--contain custom-close-tooltip" data-target="tooltip-est-monthly-payment-2">
+          <spark-svg name="close"></spark-svg>
+      </div>
+    </div>
+  </div>
+</span>
+
+          <div tabindex="0" class="vehicle-badging" data-toggle="expanda-modal" data-target="#sds-modal" data-contents="{&quot;cpo_badge&quot;:true,&quot;price_badge&quot;:{&quot;price_badge&quot;:&quot;extremely competitively&quot;,&quot;price_badge_description&quot;:&quot;This car presents a great buying opportunity, priced at $3,595 under market. Our analysis compares this car's price, features, and condition with similar 2022 Mustangs.&quot;,&quot;price_badge_savings_icon_text&quot;:&quot; | $3,595 under&quot;,&quot;price_badge_text&quot;:&quot;Great&quot;,&quot;price_badge_text_lowercase&quot;:&quot;great&quot;,&quot;price_savings_text&quot;:&quot; | $3,595 under&quot;,&quot;svg_tag&quot;:&quot;&lt;svg class=\&quot;sds-text-field__icon\&quot; height=\&quot;16\&quot; width=\&quot;16\&quot;&gt;&lt;use xlink:href=\&quot;/svg/spritemap-45f421b6ebaae75d4813e9a2ac89dbe3.svg?vsn=d#arrow-up-thick\&quot;&gt;&lt;/use&gt;&lt;/svg&gt;&quot;},&quot;href_to_vdp&quot;:{&quot;href_to_vdp&quot;:&quot;/vehicledetail/cacf3c9b-e16b-41f3-80de-f7c0d8e30344/?bodystyle=coupe&amp;cpo_indicator=true&amp;customer_id=102393&amp;intent_id=badges-explainer&amp;listing_id=cacf3c9b-e16b-41f3-80de-f7c0d8e30344&amp;make=ford&amp;model=mustang&amp;model_year=2022&amp;msrp=&amp;price=41393&amp;sponsored=false&amp;sponsored_type=standard&amp;stock_type=used&amp;trim=gt&quot;}}" data-click-intent-id="badges-explainer" data-override-payload='{"bodystyle":"coupe","cpo_indicator":true,"customer_id":"102393","horizontal_position":null,"listing_id":"cacf3c9b-e16b-41f3-80de-f7c0d8e30344","make":"ford","model":"mustang","model_year":"2022","msrp":null,"price":"41393","results_page_number":1,"sponsored":false,"sponsored_type":"standard","stock_type":"used","trim":"gt","vertical_position":2,"web_page_type_from":"shopping/search-results"}' trid="3WhpRsPZn4KHXkdAGLNNbp" trc>
+      <div class="sds-badge sds-badge--icon sds-badge--great js-price-badging" aria-label="price_badge" data-linkname="price-badge-great">
+    <div class="sds-badge__icon">
+      <spark-svg name="arrow-up" class="sds-text-field__icon"></spark-svg>
+    </div>
+    <span class="sds-badge__label">Great Deal<span class="sds-badge--price-savings"> | $3,595 under</span></span>
+  </div>
+  <div class="sds-badge sds-badge--cpo">
+    <span class="sds-badge__label">CPO Warrantied</span>
+  </div>
+
+  </div>
+
+
+        <div class="vehicle-links external-links">
+            <div class="vehicle-deeplink">
+    <a aria-describedby="new-tab-link" aria-label="Get the AutoCheck Report, External link" class="sds-link--ext" data-override-payload='{"page_url":"https://www.autocheck.com/vehiclehistory/?vin=1FA6P8CF2N5109399&amp;siteID=7071","sponsored":false,"sponsored_type":"standard","web_page_type_to":"autocheck-paid"}' data-linkname="autocheck-paid" data-vehicle-history-intent-id="srp-vehicle-history-report" data-activity-rule-type="custom" data-component="vehicle-history" data-event-list="event96" href="/external/vehiclehistory/?redirect=https%3A%2F%2Fwww.autocheck.com%2Fvehiclehistory%2F%3Fvin%3D1FA6P8CF2N5109399%26siteID%3D7071" linkname="autocheck-paid" rel="noopener nofollow" target="_blank">Get the AutoCheck Report<spark-svg name="arrow-up-right" class="sds-text-field__icon"></spark-svg></a>
+  </div>
+
+
+          
+        </div>
+
+        
+          
+
+          <div class="vehicle-dealer not-rated">
+  <div class="dealer-name">
+    <strong>Shults Ford Lincoln of Wexford</strong>
+  </div>
+
+  
+    <div class="sds-rating--not-rated ">
+  <spark-tooltip>
+    <span slot="trigger">Not rated</span>
+    <span>
+      Dealerships need five reviews in the past 24 months before we can display a rating.
+    </span>
+  </spark-tooltip>
+  <div class="sds-rating__wrapper">
+    <span class="sds-rating__item">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+<span class="sds-rating__item">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+<span class="sds-rating__item">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+<span class="sds-rating__item">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+<span class="sds-rating__item">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+
+  </div>
+    <span class="sds-rating__link sds-button-link">(53 reviews)</span>
+
+</div>
+
+  
+
+  
+    <div data-qa="miles-from-user" class="miles-from ">
+      11 mi. from 15024
+    </div>
+  
+</div>
+
+        
+
+        
+      </div>
+
+--- NEW DIV ---
+
+<div class="vehicle-details">
+        <div class="save-vehicle">
+          <div class="hover-icon favorite">
+  <button id="vehicle-heart-3" class="heart" data-activity-rule-type="custom" data-component="save-vehicle-add" data-index="3" data-linkname="save-vehicle-sign-up" data-listing-id="3a0ec318-afdc-407c-9aa2-4a812a9231c4" data-hook-heart-id="vehicle-heart-3" phx-click="save_listing" phx-hook="RecordSaveListingAction" phx-target="93" phx-value-is_vdp="false" phx-value-listing_id="3a0ec318-afdc-407c-9aa2-4a812a9231c4" onclick="event.preventDefault()" trid="jUya9zno8mAxVvj4yVIcNS" trc>
+      <spark-svg name="heart-empty" class="sds-text-field__icon heart-empty"></spark-svg>
+      <spark-svg name="heart-filled" class="sds-text-field__icon active-state heart-filled"></spark-svg>
+    <span class="text">Save</span>
+  </button>
+</div>
+
+        </div>
+        <p class="stock-type">Used</p>
+        <a class="vehicle-card-link js-gallery-click-link" data-linkname="vehicle-listing" data-activity-rule-type="page-over-page" href="/vehicledetail/3a0ec318-afdc-407c-9aa2-4a812a9231c4/" rel="nofollow" target="">
+    <h2 class="title">2020 Ford Mustang GT</h2>
+</a>
+
+          <div class="mileage">4,063 mi.</div>
+
+        <div class="price-section price-section-vehicle-card">
+
+
+      <span class="primary-price">$38,951</span>
+
+
+</div>
+
+        
+
+
+
+<span class="estimated-monthly-payments-tooltip js-tooltip-container ">
+  <div id="emp-tooltip-3" class="list-item-tooltip-container" phx-hook="MonthlyPaymentsCalculator" data-hook-base-price="38951" data-hook-index="3" data-hook-listing-id="3a0ec318-afdc-407c-9aa2-4a812a9231c4" data-hook-init-data='{"creditRates":{"average":{"forty_eight":14.5,"seventy_two":14.5,"sixty":14.5,"thirty_six":14.5},"excellent":{"forty_eight":7.0,"seventy_two":7.0,"sixty":7.0,"thirty_six":7.0},"fair":{"forty_eight":19.5,"seventy_two":19.5,"sixty":19.5,"thirty_six":19.5},"good":{"forty_eight":8.5,"seventy_two":8.5,"sixty":8.5,"thirty_six":8.5}},"defaults":{"apr":"5.99","creditTier":"excellent","downPaymentPercentage":0.1,"lengthOfLoan":72},"isModalEnabled":false,"modalId":"srp-payment-calculator-modal"}' data-hook-page="srp">
+    <span class="sds-tooltip">
+      <a class="sds-link" tabindex="0" data-override-payload='{"bodystyle":"coupe","cpo_indicator":false,"customer_id":"191133","listing_id":"3a0ec318-afdc-407c-9aa2-4a812a9231c4","make":"ford","model":"mustang","model_year":"2020","msrp":null,"price":38951,"results_page_number":1,"sponsored":false,"sponsored_type":"standard","stock_type":"used","trim":"gt","vertical_position":3}'>
+        <span class="js-estimated-monthly-payment-formatted-value-with-abr"></span>
+        <span class="js-estimated-monthly-payment-info-icon ">
+          <spark-svg name="info-circle"></spark-svg>
+        </span>
+      </a>
+    </span>
+    <div data-reveal-method="inline" class="sds-tooltip__window js-tooltip-content" role="tooltip" id="tooltip-est-monthly-payment-3">
+      <p>
+        <span class="js-estimated-monthly-payment-description"></span>
+      </p>
+      <div class="sds-icon sds-icon--contain custom-close-tooltip" data-target="tooltip-est-monthly-payment-3">
+          <spark-svg name="close"></spark-svg>
+      </div>
+    </div>
+  </div>
+</span>
+
+          <div tabindex="0" class="vehicle-badging" data-toggle="expanda-modal" data-target="#sds-modal" data-contents="{&quot;price_badge&quot;:{&quot;price_badge&quot;:&quot;competitively&quot;,&quot;price_badge_description&quot;:&quot;This car presents a good buying opportunity. Our analysis compares this car's price, features, and condition with similar 2020 Mustangs.&quot;,&quot;price_badge_savings_icon_text&quot;:&quot;&quot;,&quot;price_badge_text&quot;:&quot;Good&quot;,&quot;price_badge_text_lowercase&quot;:&quot;good&quot;,&quot;price_savings_text&quot;:&quot;&quot;,&quot;svg_tag&quot;:&quot;&lt;svg class=\&quot;sds-text-field__icon\&quot; height=\&quot;16\&quot; width=\&quot;16\&quot;&gt;&lt;use xlink:href=\&quot;/svg/spritemap-45f421b6ebaae75d4813e9a2ac89dbe3.svg?vsn=d#arrow-up-right-thick\&quot;&gt;&lt;/use&gt;&lt;/svg&gt;&quot;},&quot;href_to_vdp&quot;:{&quot;href_to_vdp&quot;:&quot;/vehicledetail/3a0ec318-afdc-407c-9aa2-4a812a9231c4/?bodystyle=coupe&amp;cpo_indicator=false&amp;customer_id=191133&amp;intent_id=badges-explainer&amp;listing_id=3a0ec318-afdc-407c-9aa2-4a812a9231c4&amp;make=ford&amp;model=mustang&amp;model_year=2020&amp;msrp=&amp;price=38951&amp;sponsored=false&amp;sponsored_type=standard&amp;stock_type=used&amp;trim=gt&quot;}}" data-click-intent-id="badges-explainer" data-override-payload='{"bodystyle":"coupe","cpo_indicator":false,"customer_id":"191133","horizontal_position":null,"listing_id":"3a0ec318-afdc-407c-9aa2-4a812a9231c4","make":"ford","model":"mustang","model_year":"2020","msrp":null,"price":"38951","results_page_number":1,"sponsored":false,"sponsored_type":"standard","stock_type":"used","trim":"gt","vertical_position":3,"web_page_type_from":"shopping/search-results"}' trid="3WhpRsPZn4KHXkdAGLNNbp" trc>
+      <div class="sds-badge sds-badge--icon sds-badge--good js-price-badging" aria-label="price_badge" data-linkname="price-badge-good">
+    <div class="sds-badge__icon">
+      <spark-svg name="arrow-up-right" class="sds-text-field__icon"></spark-svg>
+    </div>
+    <span class="sds-badge__label">Good Deal<span class="sds-badge--price-savings"></span></span>
+  </div>
+
+  </div>
+
+
+        <div class="vehicle-links external-links">
+            <div class="vehicle-deeplink">
+    <a aria-describedby="new-tab-link" aria-label="Free CARFAX 1-Owner Report, External link" class="sds-link--ext" data-override-payload='{"page_url":"https://www.carfax.com/VehicleHistory/ar20/32E2qJXnFRMN6rG_ylSgJ0WCXIflyW4DQyUdV3NMyEM9xdNnBl778vflpeGp1bIn370aeFxCFlZkB7bPafU38-M58Px82VYZjak","sponsored":false,"sponsored_type":"standard","web_page_type_to":"carfax-free-single-owner"}' data-linkname="carfax-free-single-owner" data-vehicle-history-intent-id="srp-vehicle-history-report" data-activity-rule-type="custom" data-component="vehicle-history" data-event-list="event96" href="/external/vehiclehistory/?redirect=https%3A%2F%2Fwww.carfax.com%2FVehicleHistory%2Far20%2F32E2qJXnFRMN6rG_ylSgJ0WCXIflyW4DQyUdV3NMyEM9xdNnBl778vflpeGp1bIn370aeFxCFlZkB7bPafU38-M58Px82VYZjak" linkname="carfax-free-single-owner" rel="noopener nofollow" target="_blank">Free CARFAX 1-Owner Report<spark-svg name="arrow-up-right" class="sds-text-field__icon"></spark-svg></a>
+  </div>
+
+
+          
+        </div>
+
+        
+          
+
+          <div class="vehicle-dealer">
+  <div class="dealer-name">
+    <strong>Leopardi Auto Sales</strong>
+  </div>
+
+  
+      <div class="sds-rating  ">
+    
+      <span class="sds-rating__count">1.9</span>
+    
+    <div class="sds-rating__wrapper">
+      <span class="sds-rating__item sds-icon--filled">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+<span class="sds-rating__item sds-icon--filled">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+<span class="sds-rating__item">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+<span class="sds-rating__item">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+<span class="sds-rating__item">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+
+    </div>
+      <span class="sds-rating__link sds-button-link">(20 reviews)</span>
+
+  </div>
+
+  
+
+  
+    <div data-qa="miles-from-user" class="miles-from ">
+      16 mi. from 15024
+    </div>
+  
+</div>
+
+        
+
+        
+      </div>
+
+--- NEW DIV ---
+
+<div class="vehicle-details">
+        <div class="save-vehicle">
+          <div class="hover-icon favorite">
+  <button id="vehicle-heart-4" class="heart" data-activity-rule-type="custom" data-component="save-vehicle-add" data-index="4" data-linkname="save-vehicle-sign-up" data-listing-id="6755868d-5cfc-4d96-a20c-deec38c98bbc" data-hook-heart-id="vehicle-heart-4" phx-click="save_listing" phx-hook="RecordSaveListingAction" phx-target="94" phx-value-is_vdp="false" phx-value-listing_id="6755868d-5cfc-4d96-a20c-deec38c98bbc" onclick="event.preventDefault()" trid="jUya9zno8mAxVvj4yVIcNS" trc>
+      <spark-svg name="heart-empty" class="sds-text-field__icon heart-empty"></spark-svg>
+      <spark-svg name="heart-filled" class="sds-text-field__icon active-state heart-filled"></spark-svg>
+    <span class="text">Save</span>
+  </button>
+</div>
+
+        </div>
+        <p class="stock-type">Used</p>
+        <a class="vehicle-card-link js-gallery-click-link" data-linkname="vehicle-listing" data-activity-rule-type="page-over-page" href="/vehicledetail/6755868d-5cfc-4d96-a20c-deec38c98bbc/" rel="nofollow" target="">
+    <h2 class="title">2005 Ford Mustang GT</h2>
+</a>
+
+          <div class="mileage">120,167 mi.</div>
+
+        <div class="price-section price-section-vehicle-card">
+
+
+      <span class="primary-price">$12,997</span>
+
+        <span class="secondary-price price-drop">$600 price drop</span>
+
+
+</div>
+
+        
+
+
+
+<span class="estimated-monthly-payments-tooltip js-tooltip-container ">
+  <div id="emp-tooltip-4" class="list-item-tooltip-container" phx-hook="MonthlyPaymentsCalculator" data-hook-base-price="12997" data-hook-index="4" data-hook-listing-id="6755868d-5cfc-4d96-a20c-deec38c98bbc" data-hook-init-data='{"creditRates":{"average":{"forty_eight":14.5,"seventy_two":14.5,"sixty":14.5,"thirty_six":14.5},"excellent":{"forty_eight":7.0,"seventy_two":7.0,"sixty":7.0,"thirty_six":7.0},"fair":{"forty_eight":19.5,"seventy_two":19.5,"sixty":19.5,"thirty_six":19.5},"good":{"forty_eight":8.5,"seventy_two":8.5,"sixty":8.5,"thirty_six":8.5}},"defaults":{"apr":"5.99","creditTier":"excellent","downPaymentPercentage":0.1,"lengthOfLoan":72},"isModalEnabled":false,"modalId":"srp-payment-calculator-modal"}' data-hook-page="srp">
+    <span class="sds-tooltip">
+      <a class="sds-link" tabindex="0" data-override-payload='{"bodystyle":"convertible","cpo_indicator":false,"customer_id":"6947","listing_id":"6755868d-5cfc-4d96-a20c-deec38c98bbc","make":"ford","model":"mustang","model_year":"2005","msrp":null,"price":12997,"results_page_number":1,"sponsored":false,"sponsored_type":"standard","stock_type":"used","trim":"gt","vertical_position":4}'>
+        <span class="js-estimated-monthly-payment-formatted-value-with-abr"></span>
+        <span class="js-estimated-monthly-payment-info-icon ">
+          <spark-svg name="info-circle"></spark-svg>
+        </span>
+      </a>
+    </span>
+    <div data-reveal-method="inline" class="sds-tooltip__window js-tooltip-content" role="tooltip" id="tooltip-est-monthly-payment-4">
+      <p>
+        <span class="js-estimated-monthly-payment-description"></span>
+      </p>
+      <div class="sds-icon sds-icon--contain custom-close-tooltip" data-target="tooltip-est-monthly-payment-4">
+          <spark-svg name="close"></spark-svg>
+      </div>
+    </div>
+  </div>
+</span>
+
+          <div tabindex="0" class="vehicle-badging" data-toggle="expanda-modal" data-target="#sds-modal" data-contents="{&quot;price_badge&quot;:{&quot;price_badge&quot;:&quot;extremely competitively&quot;,&quot;price_badge_description&quot;:&quot;This car presents a great buying opportunity, priced at $1,015 under market. Our analysis compares this car's price, features, and condition with similar 2005 Mustangs.&quot;,&quot;price_badge_savings_icon_text&quot;:&quot; | $1,015 under&quot;,&quot;price_badge_text&quot;:&quot;Great&quot;,&quot;price_badge_text_lowercase&quot;:&quot;great&quot;,&quot;price_savings_text&quot;:&quot; | $1,015 under&quot;,&quot;svg_tag&quot;:&quot;&lt;svg class=\&quot;sds-text-field__icon\&quot; height=\&quot;16\&quot; width=\&quot;16\&quot;&gt;&lt;use xlink:href=\&quot;/svg/spritemap-45f421b6ebaae75d4813e9a2ac89dbe3.svg?vsn=d#arrow-up-thick\&quot;&gt;&lt;/use&gt;&lt;/svg&gt;&quot;},&quot;href_to_vdp&quot;:{&quot;href_to_vdp&quot;:&quot;/vehicledetail/6755868d-5cfc-4d96-a20c-deec38c98bbc/?bodystyle=convertible&amp;cpo_indicator=false&amp;customer_id=6947&amp;intent_id=badges-explainer&amp;listing_id=6755868d-5cfc-4d96-a20c-deec38c98bbc&amp;make=ford&amp;model=mustang&amp;model_year=2005&amp;msrp=&amp;price=12997&amp;sponsored=false&amp;sponsored_type=standard&amp;stock_type=used&amp;trim=gt&quot;}}" data-click-intent-id="badges-explainer" data-override-payload='{"bodystyle":"convertible","cpo_indicator":false,"customer_id":"6947","horizontal_position":null,"listing_id":"6755868d-5cfc-4d96-a20c-deec38c98bbc","make":"ford","model":"mustang","model_year":"2005","msrp":null,"price":"12997","results_page_number":1,"sponsored":false,"sponsored_type":"standard","stock_type":"used","trim":"gt","vertical_position":4,"web_page_type_from":"shopping/search-results"}' trid="3WhpRsPZn4KHXkdAGLNNbp" trc>
+      <div class="sds-badge sds-badge--icon sds-badge--great js-price-badging" aria-label="price_badge" data-linkname="price-badge-great">
+    <div class="sds-badge__icon">
+      <spark-svg name="arrow-up" class="sds-text-field__icon"></spark-svg>
+    </div>
+    <span class="sds-badge__label">Great Deal<span class="sds-badge--price-savings"> | $1,015 under</span></span>
+  </div>
+
+  </div>
+
+
+        <div class="vehicle-links external-links">
+            <div class="vehicle-deeplink">
+    <a aria-describedby="new-tab-link" aria-label="Free CARFAX Report, External link" class="sds-link--ext" data-override-payload='{"page_url":"https://www.carfax.com/VehicleHistory/ar20/F2c7M9CV3XLl_75rHQHa1Qy46yRdhQHxX1POGw2-VfRmc9CRaEx_ED1ioXUsJmq9nVUQpYcsUKKapl_eVXy1O70-EAOQJaoWFnw","sponsored":false,"sponsored_type":"standard","web_page_type_to":"carfax-free"}' data-linkname="carfax-free" data-vehicle-history-intent-id="srp-vehicle-history-report" data-activity-rule-type="custom" data-component="vehicle-history" data-event-list="event96" href="/external/vehiclehistory/?redirect=https%3A%2F%2Fwww.carfax.com%2FVehicleHistory%2Far20%2FF2c7M9CV3XLl_75rHQHa1Qy46yRdhQHxX1POGw2-VfRmc9CRaEx_ED1ioXUsJmq9nVUQpYcsUKKapl_eVXy1O70-EAOQJaoWFnw" linkname="carfax-free" rel="noopener nofollow" target="_blank">Free CARFAX Report<spark-svg name="arrow-up-right" class="sds-text-field__icon"></spark-svg></a>
+  </div>
+
+
+          
+        </div>
+
+        
+          
+
+          <div class="vehicle-dealer">
+  <div class="dealer-name">
+    <strong>Toyota of Greensburg</strong>
+  </div>
+
+  
+      <div class="sds-rating  ">
+    
+      <span class="sds-rating__count">4.8</span>
+    
+    <div class="sds-rating__wrapper">
+      <span class="sds-rating__item sds-icon--filled">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+<span class="sds-rating__item sds-icon--filled">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+<span class="sds-rating__item sds-icon--filled">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+<span class="sds-rating__item sds-icon--filled">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+<span class="sds-rating__item sds-icon--filled">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+
+    </div>
+      <span class="sds-rating__link sds-button-link">(772 reviews)</span>
+
+  </div>
+
+  
+
+  
+    <div data-qa="miles-from-user" class="miles-from ">
+      28 mi. from 15024
+    </div>
+  
+</div>
+
+        
+
+        
+      </div>
+
+--- NEW DIV ---
+
+<div class="vehicle-details">
+        <div class="save-vehicle">
+          <div class="hover-icon favorite">
+  <button id="vehicle-heart-5" class="heart" data-activity-rule-type="custom" data-component="save-vehicle-add" data-index="5" data-linkname="save-vehicle-sign-up" data-listing-id="92f09e16-a3fb-4174-a719-562a9e85f2c0" data-hook-heart-id="vehicle-heart-5" phx-click="save_listing" phx-hook="RecordSaveListingAction" phx-target="95" phx-value-is_vdp="false" phx-value-listing_id="92f09e16-a3fb-4174-a719-562a9e85f2c0" onclick="event.preventDefault()" trid="jUya9zno8mAxVvj4yVIcNS" trc>
+      <spark-svg name="heart-empty" class="sds-text-field__icon heart-empty"></spark-svg>
+      <spark-svg name="heart-filled" class="sds-text-field__icon active-state heart-filled"></spark-svg>
+    <span class="text">Save</span>
+  </button>
+</div>
+
+        </div>
+        <p class="stock-type">Used</p>
+        <a class="vehicle-card-link js-gallery-click-link" data-linkname="vehicle-listing" data-activity-rule-type="page-over-page" href="/vehicledetail/92f09e16-a3fb-4174-a719-562a9e85f2c0/" rel="nofollow" target="">
+    <h2 class="title">1997 Ford Mustang GT</h2>
+</a>
+
+          <div class="mileage">67,868 mi.</div>
+
+        <div class="price-section price-section-vehicle-card">
+
+
+      <span class="primary-price">$14,995</span>
+
+
+</div>
+
+        
+
+
+
+<span class="estimated-monthly-payments-tooltip js-tooltip-container ">
+  <div id="emp-tooltip-5" class="list-item-tooltip-container" phx-hook="MonthlyPaymentsCalculator" data-hook-base-price="14995" data-hook-index="5" data-hook-listing-id="92f09e16-a3fb-4174-a719-562a9e85f2c0" data-hook-init-data='{"creditRates":{"average":{"forty_eight":14.5,"seventy_two":14.5,"sixty":14.5,"thirty_six":14.5},"excellent":{"forty_eight":7.0,"seventy_two":7.0,"sixty":7.0,"thirty_six":7.0},"fair":{"forty_eight":19.5,"seventy_two":19.5,"sixty":19.5,"thirty_six":19.5},"good":{"forty_eight":8.5,"seventy_two":8.5,"sixty":8.5,"thirty_six":8.5}},"defaults":{"apr":"5.99","creditTier":"excellent","downPaymentPercentage":0.1,"lengthOfLoan":72},"isModalEnabled":false,"modalId":"srp-payment-calculator-modal"}' data-hook-page="srp">
+    <span class="sds-tooltip">
+      <a class="sds-link" tabindex="0" data-override-payload='{"bodystyle":"coupe","cpo_indicator":false,"customer_id":"202437","listing_id":"92f09e16-a3fb-4174-a719-562a9e85f2c0","make":"ford","model":"mustang","model_year":"1997","msrp":"0","price":14995,"results_page_number":1,"sponsored":false,"sponsored_type":"standard","stock_type":"used","trim":"gt","vertical_position":5}'>
+        <span class="js-estimated-monthly-payment-formatted-value-with-abr"></span>
+        <span class="js-estimated-monthly-payment-info-icon ">
+          <spark-svg name="info-circle"></spark-svg>
+        </span>
+      </a>
+    </span>
+    <div data-reveal-method="inline" class="sds-tooltip__window js-tooltip-content" role="tooltip" id="tooltip-est-monthly-payment-5">
+      <p>
+        <span class="js-estimated-monthly-payment-description"></span>
+      </p>
+      <div class="sds-icon sds-icon--contain custom-close-tooltip" data-target="tooltip-est-monthly-payment-5">
+          <spark-svg name="close"></spark-svg>
+      </div>
+    </div>
+  </div>
+</span>
+
+          <div tabindex="0" class="vehicle-badging" data-toggle="expanda-modal" data-target="#sds-modal" data-contents="{&quot;price_badge&quot;:{&quot;price_badge&quot;:&quot;similarly&quot;,&quot;price_badge_description&quot;:&quot;This car is fairly priced. Our analysis compares this car's price, features, and condition with similar 1997 Mustangs.&quot;,&quot;price_badge_savings_icon_text&quot;:&quot;&quot;,&quot;price_badge_text&quot;:&quot;Fair&quot;,&quot;price_badge_text_lowercase&quot;:&quot;fair&quot;,&quot;price_savings_text&quot;:&quot;&quot;,&quot;svg_tag&quot;:&quot;&lt;svg class=\&quot;sds-text-field__icon\&quot; height=\&quot;16\&quot; width=\&quot;16\&quot;&gt;&lt;use xlink:href=\&quot;/svg/spritemap-45f421b6ebaae75d4813e9a2ac89dbe3.svg?vsn=d#arrow-right-thick\&quot;&gt;&lt;/use&gt;&lt;/svg&gt;&quot;},&quot;virtual_appointments_badge&quot;:true,&quot;href_to_vdp&quot;:{&quot;href_to_vdp&quot;:&quot;/vehicledetail/92f09e16-a3fb-4174-a719-562a9e85f2c0/?bodystyle=coupe&amp;cpo_indicator=false&amp;customer_id=202437&amp;intent_id=badges-explainer&amp;listing_id=92f09e16-a3fb-4174-a719-562a9e85f2c0&amp;make=ford&amp;model=mustang&amp;model_year=1997&amp;msrp=0&amp;price=14995&amp;sponsored=false&amp;sponsored_type=standard&amp;stock_type=used&amp;trim=gt&quot;}}" data-click-intent-id="badges-explainer" data-override-payload='{"bodystyle":"coupe","cpo_indicator":false,"customer_id":"202437","horizontal_position":null,"listing_id":"92f09e16-a3fb-4174-a719-562a9e85f2c0","make":"ford","model":"mustang","model_year":"1997","msrp":"0","price":"14995","results_page_number":1,"sponsored":false,"sponsored_type":"standard","stock_type":"used","trim":"gt","vertical_position":5,"web_page_type_from":"shopping/search-results"}' trid="3WhpRsPZn4KHXkdAGLNNbp" trc>
+      <div class="sds-badge sds-badge--icon sds-badge--fair js-price-badging" aria-label="price_badge" data-linkname="price-badge-fair">
+    <div class="sds-badge__icon">
+      <spark-svg name="arrow-right" class="sds-text-field__icon"></spark-svg>
+    </div>
+    <span class="sds-badge__label">Fair Deal<span class="sds-badge--price-savings"></span></span>
+  </div>
+
+  </div>
+
+
+        <div class="vehicle-links external-links">
+            <div class="vehicle-deeplink">
+    <a aria-describedby="new-tab-link" aria-label="Free CARFAX Report, External link" class="sds-link--ext" data-override-payload='{"page_url":"https://www.carfax.com/VehicleHistory/ar20/yCHt779_vqGg8Vd8rv-we-PTp3m1__1F6RenfnPtXz3NHFtRsEBAmb4nhuTY_yWZUic2b-Cr6KTqQmT8cbR4ZuM74dQkRmSqiUw","sponsored":false,"sponsored_type":"standard","web_page_type_to":"carfax-free"}' data-linkname="carfax-free" data-vehicle-history-intent-id="srp-vehicle-history-report" data-activity-rule-type="custom" data-component="vehicle-history" data-event-list="event96" href="/external/vehiclehistory/?redirect=https%3A%2F%2Fwww.carfax.com%2FVehicleHistory%2Far20%2FyCHt779_vqGg8Vd8rv-we-PTp3m1__1F6RenfnPtXz3NHFtRsEBAmb4nhuTY_yWZUic2b-Cr6KTqQmT8cbR4ZuM74dQkRmSqiUw" linkname="carfax-free" rel="noopener nofollow" target="_blank">Free CARFAX Report<spark-svg name="arrow-up-right" class="sds-text-field__icon"></spark-svg></a>
+  </div>
+
+
+          
+        </div>
+
+        
+          
+
+          <div class="vehicle-dealer not-rated">
+  <div class="dealer-name">
+    <strong>John Warne Motors</strong>
+  </div>
+
+  
+    <div class="sds-rating--not-rated ">
+  <spark-tooltip>
+    <span slot="trigger">Not rated</span>
+    <span>
+      Dealerships need five reviews in the past 24 months before we can display a rating.
+    </span>
+  </spark-tooltip>
+  <div class="sds-rating__wrapper">
+    <span class="sds-rating__item">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+<span class="sds-rating__item">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+<span class="sds-rating__item">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+<span class="sds-rating__item">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+<span class="sds-rating__item">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+
+  </div>
+    <span class="sds-rating__link sds-button-link">(21 reviews)</span>
+
+</div>
+
+  
+
+  
+    <div data-qa="miles-from-user" class="miles-from ">
+      29 mi. from 15024
+    </div>
+  
+</div>
+
+        
+
+        
+      </div>
+
+--- NEW DIV ---
+
+<div class="vehicle-details">
+        <div class="save-vehicle">
+          <div class="hover-icon favorite">
+  <button id="vehicle-heart-6" class="heart" data-activity-rule-type="custom" data-component="save-vehicle-add" data-index="6" data-linkname="save-vehicle-sign-up" data-listing-id="5bd599ee-9e7d-4b27-bc8c-0b45a31bc52c" data-hook-heart-id="vehicle-heart-6" phx-click="save_listing" phx-hook="RecordSaveListingAction" phx-target="96" phx-value-is_vdp="false" phx-value-listing_id="5bd599ee-9e7d-4b27-bc8c-0b45a31bc52c" onclick="event.preventDefault()" trid="jUya9zno8mAxVvj4yVIcNS" trc>
+      <spark-svg name="heart-empty" class="sds-text-field__icon heart-empty"></spark-svg>
+      <spark-svg name="heart-filled" class="sds-text-field__icon active-state heart-filled"></spark-svg>
+    <span class="text">Save</span>
+  </button>
+</div>
+
+        </div>
+        <p class="stock-type">Used</p>
+        <a class="vehicle-card-link js-gallery-click-link" data-linkname="vehicle-listing" data-activity-rule-type="page-over-page" href="/vehicledetail/5bd599ee-9e7d-4b27-bc8c-0b45a31bc52c/" rel="nofollow" target="">
+    <h2 class="title">2019 Ford Mustang GT</h2>
+</a>
+
+          <div class="mileage">12,783 mi.</div>
+
+        <div class="price-section price-section-vehicle-card">
+
+
+      <span class="primary-price">$37,500</span>
+
+
+</div>
+
+        
+
+
+
+<span class="estimated-monthly-payments-tooltip js-tooltip-container ">
+  <div id="emp-tooltip-6" class="list-item-tooltip-container" phx-hook="MonthlyPaymentsCalculator" data-hook-base-price="37500" data-hook-index="6" data-hook-listing-id="5bd599ee-9e7d-4b27-bc8c-0b45a31bc52c" data-hook-init-data='{"creditRates":{"average":{"forty_eight":14.5,"seventy_two":14.5,"sixty":14.5,"thirty_six":14.5},"excellent":{"forty_eight":7.0,"seventy_two":7.0,"sixty":7.0,"thirty_six":7.0},"fair":{"forty_eight":19.5,"seventy_two":19.5,"sixty":19.5,"thirty_six":19.5},"good":{"forty_eight":8.5,"seventy_two":8.5,"sixty":8.5,"thirty_six":8.5}},"defaults":{"apr":"5.99","creditTier":"excellent","downPaymentPercentage":0.1,"lengthOfLoan":72},"isModalEnabled":false,"modalId":"srp-payment-calculator-modal"}' data-hook-page="srp">
+    <span class="sds-tooltip">
+      <a class="sds-link" tabindex="0" data-override-payload='{"bodystyle":"coupe","cpo_indicator":false,"customer_id":"181807","listing_id":"5bd599ee-9e7d-4b27-bc8c-0b45a31bc52c","make":"ford","model":"mustang","model_year":"2019","msrp":null,"price":37500,"results_page_number":1,"sponsored":false,"sponsored_type":"standard","stock_type":"used","trim":"gt","vertical_position":6}'>
+        <span class="js-estimated-monthly-payment-formatted-value-with-abr"></span>
+        <span class="js-estimated-monthly-payment-info-icon ">
+          <spark-svg name="info-circle"></spark-svg>
+        </span>
+      </a>
+    </span>
+    <div data-reveal-method="inline" class="sds-tooltip__window js-tooltip-content" role="tooltip" id="tooltip-est-monthly-payment-6">
+      <p>
+        <span class="js-estimated-monthly-payment-description"></span>
+      </p>
+      <div class="sds-icon sds-icon--contain custom-close-tooltip" data-target="tooltip-est-monthly-payment-6">
+          <spark-svg name="close"></spark-svg>
+      </div>
+    </div>
+  </div>
+</span>
+
+          <div tabindex="0" class="vehicle-badging" data-toggle="expanda-modal" data-target="#sds-modal" data-contents="{&quot;price_badge&quot;:{&quot;price_badge&quot;:&quot;competitively&quot;,&quot;price_badge_description&quot;:&quot;This car presents a good buying opportunity. Our analysis compares this car's price, features, and condition with similar 2019 Mustangs.&quot;,&quot;price_badge_savings_icon_text&quot;:&quot;&quot;,&quot;price_badge_text&quot;:&quot;Good&quot;,&quot;price_badge_text_lowercase&quot;:&quot;good&quot;,&quot;price_savings_text&quot;:&quot;&quot;,&quot;svg_tag&quot;:&quot;&lt;svg class=\&quot;sds-text-field__icon\&quot; height=\&quot;16\&quot; width=\&quot;16\&quot;&gt;&lt;use xlink:href=\&quot;/svg/spritemap-45f421b6ebaae75d4813e9a2ac89dbe3.svg?vsn=d#arrow-up-right-thick\&quot;&gt;&lt;/use&gt;&lt;/svg&gt;&quot;},&quot;href_to_vdp&quot;:{&quot;href_to_vdp&quot;:&quot;/vehicledetail/5bd599ee-9e7d-4b27-bc8c-0b45a31bc52c/?bodystyle=coupe&amp;cpo_indicator=false&amp;customer_id=181807&amp;intent_id=badges-explainer&amp;listing_id=5bd599ee-9e7d-4b27-bc8c-0b45a31bc52c&amp;make=ford&amp;model=mustang&amp;model_year=2019&amp;msrp=&amp;price=37500&amp;sponsored=false&amp;sponsored_type=standard&amp;stock_type=used&amp;trim=gt&quot;}}" data-click-intent-id="badges-explainer" data-override-payload='{"bodystyle":"coupe","cpo_indicator":false,"customer_id":"181807","horizontal_position":null,"listing_id":"5bd599ee-9e7d-4b27-bc8c-0b45a31bc52c","make":"ford","model":"mustang","model_year":"2019","msrp":null,"price":"37500","results_page_number":1,"sponsored":false,"sponsored_type":"standard","stock_type":"used","trim":"gt","vertical_position":6,"web_page_type_from":"shopping/search-results"}' trid="3WhpRsPZn4KHXkdAGLNNbp" trc>
+      <div class="sds-badge sds-badge--icon sds-badge--good js-price-badging" aria-label="price_badge" data-linkname="price-badge-good">
+    <div class="sds-badge__icon">
+      <spark-svg name="arrow-up-right" class="sds-text-field__icon"></spark-svg>
+    </div>
+    <span class="sds-badge__label">Good Deal<span class="sds-badge--price-savings"></span></span>
+  </div>
+
+  </div>
+
+
+        <div class="vehicle-links external-links">
+            <div class="vehicle-deeplink">
+    <a aria-describedby="new-tab-link" aria-label="Free CARFAX Report, External link" class="sds-link--ext" data-override-payload='{"page_url":"https://www.carfax.com/VehicleHistory/ar20/wmTvL2n0h18LLPrcOPlY6AV6XIwjkvRWEWwjuXbAeb4Sv2pKMBcCdBRKVEkMJaIz1G5mMkl90etiXZUiCu0bznSRPMqShQOL_oM","sponsored":false,"sponsored_type":"standard","web_page_type_to":"carfax-free"}' data-linkname="carfax-free" data-vehicle-history-intent-id="srp-vehicle-history-report" data-activity-rule-type="custom" data-component="vehicle-history" data-event-list="event96" href="/external/vehiclehistory/?redirect=https%3A%2F%2Fwww.carfax.com%2FVehicleHistory%2Far20%2FwmTvL2n0h18LLPrcOPlY6AV6XIwjkvRWEWwjuXbAeb4Sv2pKMBcCdBRKVEkMJaIz1G5mMkl90etiXZUiCu0bznSRPMqShQOL_oM" linkname="carfax-free" rel="noopener nofollow" target="_blank">Free CARFAX Report<spark-svg name="arrow-up-right" class="sds-text-field__icon"></spark-svg></a>
+  </div>
+
+
+          
+        </div>
+
+        
+          
+
+          <div class="vehicle-dealer not-rated">
+  <div class="dealer-name">
+    <strong>Ben Bissett Chevrolet</strong>
+  </div>
+
+  
+    <div class="sds-rating--not-rated ">
+  <spark-tooltip>
+    <span slot="trigger">Not rated</span>
+    <span>
+      Dealerships need five reviews in the past 24 months before we can display a rating.
+    </span>
+  </spark-tooltip>
+  <div class="sds-rating__wrapper">
+    <span class="sds-rating__item">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+<span class="sds-rating__item">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+<span class="sds-rating__item">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+<span class="sds-rating__item">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+<span class="sds-rating__item">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+
+  </div>
+    <span class="sds-rating__link sds-button-link">(19 reviews)</span>
+
+</div>
+
+  
+
+  
+    <div data-qa="miles-from-user" class="miles-from ">
+      49 mi. from 15024
+    </div>
+  
+</div>
+
+        
+
+        
+      </div>
+
+--- NEW DIV ---
+
+<div class="vehicle-details">
+        <div class="save-vehicle">
+          <div class="hover-icon favorite">
+  <button id="vehicle-heart-7" class="heart" data-activity-rule-type="custom" data-component="save-vehicle-add" data-index="7" data-linkname="save-vehicle-sign-up" data-listing-id="a458e27f-90d7-44e1-aced-32831771d7e0" data-hook-heart-id="vehicle-heart-7" phx-click="save_listing" phx-hook="RecordSaveListingAction" phx-target="97" phx-value-is_vdp="false" phx-value-listing_id="a458e27f-90d7-44e1-aced-32831771d7e0" onclick="event.preventDefault()" trid="jUya9zno8mAxVvj4yVIcNS" trc>
+      <spark-svg name="heart-empty" class="sds-text-field__icon heart-empty"></spark-svg>
+      <spark-svg name="heart-filled" class="sds-text-field__icon active-state heart-filled"></spark-svg>
+    <span class="text">Save</span>
+  </button>
+</div>
+
+        </div>
+        <p class="stock-type">Used</p>
+        <a class="vehicle-card-link js-gallery-click-link" data-linkname="vehicle-listing" data-activity-rule-type="page-over-page" href="/vehicledetail/a458e27f-90d7-44e1-aced-32831771d7e0/" rel="nofollow" target="">
+    <h2 class="title">2007 Ford Mustang GT</h2>
+</a>
+
+          <div class="mileage">54,302 mi.</div>
+
+        <div class="price-section price-section-vehicle-card">
+
+
+      <span class="primary-price">$17,995</span>
+
+        <span class="secondary-price price-drop">$1,000 price drop</span>
+
+
+</div>
+
+        
+
+
+
+<span class="estimated-monthly-payments-tooltip js-tooltip-container ">
+  <div id="emp-tooltip-7" class="list-item-tooltip-container" phx-hook="MonthlyPaymentsCalculator" data-hook-base-price="17995" data-hook-index="7" data-hook-listing-id="a458e27f-90d7-44e1-aced-32831771d7e0" data-hook-init-data='{"creditRates":{"average":{"forty_eight":14.5,"seventy_two":14.5,"sixty":14.5,"thirty_six":14.5},"excellent":{"forty_eight":7.0,"seventy_two":7.0,"sixty":7.0,"thirty_six":7.0},"fair":{"forty_eight":19.5,"seventy_two":19.5,"sixty":19.5,"thirty_six":19.5},"good":{"forty_eight":8.5,"seventy_two":8.5,"sixty":8.5,"thirty_six":8.5}},"defaults":{"apr":"5.99","creditTier":"excellent","downPaymentPercentage":0.1,"lengthOfLoan":72},"isModalEnabled":false,"modalId":"srp-payment-calculator-modal"}' data-hook-page="srp">
+    <span class="sds-tooltip">
+      <a class="sds-link" tabindex="0" data-override-payload='{"bodystyle":"coupe","cpo_indicator":false,"customer_id":"202099","listing_id":"a458e27f-90d7-44e1-aced-32831771d7e0","make":"ford","model":"mustang","model_year":"2007","msrp":null,"price":17995,"results_page_number":1,"sponsored":false,"sponsored_type":"standard","stock_type":"used","trim":"gt","vertical_position":7}'>
+        <span class="js-estimated-monthly-payment-formatted-value-with-abr"></span>
+        <span class="js-estimated-monthly-payment-info-icon ">
+          <spark-svg name="info-circle"></spark-svg>
+        </span>
+      </a>
+    </span>
+    <div data-reveal-method="inline" class="sds-tooltip__window js-tooltip-content" role="tooltip" id="tooltip-est-monthly-payment-7">
+      <p>
+        <span class="js-estimated-monthly-payment-description"></span>
+      </p>
+      <div class="sds-icon sds-icon--contain custom-close-tooltip" data-target="tooltip-est-monthly-payment-7">
+          <spark-svg name="close"></spark-svg>
+      </div>
+    </div>
+  </div>
+</span>
+
+          <div tabindex="0" class="vehicle-badging" data-toggle="expanda-modal" data-target="#sds-modal" data-contents="{&quot;price_badge&quot;:{&quot;price_badge&quot;:&quot;similarly&quot;,&quot;price_badge_description&quot;:&quot;This car is fairly priced. Our analysis compares this car's price, features, and condition with similar 2007 Mustangs.&quot;,&quot;price_badge_savings_icon_text&quot;:&quot;&quot;,&quot;price_badge_text&quot;:&quot;Fair&quot;,&quot;price_badge_text_lowercase&quot;:&quot;fair&quot;,&quot;price_savings_text&quot;:&quot;&quot;,&quot;svg_tag&quot;:&quot;&lt;svg class=\&quot;sds-text-field__icon\&quot; height=\&quot;16\&quot; width=\&quot;16\&quot;&gt;&lt;use xlink:href=\&quot;/svg/spritemap-45f421b6ebaae75d4813e9a2ac89dbe3.svg?vsn=d#arrow-right-thick\&quot;&gt;&lt;/use&gt;&lt;/svg&gt;&quot;},&quot;href_to_vdp&quot;:{&quot;href_to_vdp&quot;:&quot;/vehicledetail/a458e27f-90d7-44e1-aced-32831771d7e0/?bodystyle=coupe&amp;cpo_indicator=false&amp;customer_id=202099&amp;intent_id=badges-explainer&amp;listing_id=a458e27f-90d7-44e1-aced-32831771d7e0&amp;make=ford&amp;model=mustang&amp;model_year=2007&amp;msrp=&amp;price=17995&amp;sponsored=false&amp;sponsored_type=standard&amp;stock_type=used&amp;trim=gt&quot;}}" data-click-intent-id="badges-explainer" data-override-payload='{"bodystyle":"coupe","cpo_indicator":false,"customer_id":"202099","horizontal_position":null,"listing_id":"a458e27f-90d7-44e1-aced-32831771d7e0","make":"ford","model":"mustang","model_year":"2007","msrp":null,"price":"17995","results_page_number":1,"sponsored":false,"sponsored_type":"standard","stock_type":"used","trim":"gt","vertical_position":7,"web_page_type_from":"shopping/search-results"}' trid="3WhpRsPZn4KHXkdAGLNNbp" trc>
+      <div class="sds-badge sds-badge--icon sds-badge--fair js-price-badging" aria-label="price_badge" data-linkname="price-badge-fair">
+    <div class="sds-badge__icon">
+      <spark-svg name="arrow-right" class="sds-text-field__icon"></spark-svg>
+    </div>
+    <span class="sds-badge__label">Fair Deal<span class="sds-badge--price-savings"></span></span>
+  </div>
+
+  </div>
+
+
+        <div class="vehicle-links external-links">
+            <div class="vehicle-deeplink">
+    <a aria-describedby="new-tab-link" aria-label="Free CARFAX Report, External link" class="sds-link--ext" data-override-payload='{"page_url":"https://www.carfax.com/VehicleHistory/ar20/e8DUMNwhV1gSc0pQRMiCdU4CbQlVBx43Izdqhpn-aYvtbX9Fp3vMDBvWrOinYgzfVHsAh24I-yDxoaR15-EQodZbf3hpSgpM4wA","sponsored":false,"sponsored_type":"standard","web_page_type_to":"carfax-free"}' data-linkname="carfax-free" data-vehicle-history-intent-id="srp-vehicle-history-report" data-activity-rule-type="custom" data-component="vehicle-history" data-event-list="event96" href="/external/vehiclehistory/?redirect=https%3A%2F%2Fwww.carfax.com%2FVehicleHistory%2Far20%2Fe8DUMNwhV1gSc0pQRMiCdU4CbQlVBx43Izdqhpn-aYvtbX9Fp3vMDBvWrOinYgzfVHsAh24I-yDxoaR15-EQodZbf3hpSgpM4wA" linkname="carfax-free" rel="noopener nofollow" target="_blank">Free CARFAX Report<spark-svg name="arrow-up-right" class="sds-text-field__icon"></spark-svg></a>
+  </div>
+
+
+          
+        </div>
+
+        
+          
+
+          <div class="vehicle-dealer not-rated">
+  <div class="dealer-name">
+    <strong>Wm. L. Aurandt Auto Sales</strong>
+  </div>
+
+  
+    <div class="sds-rating--not-rated ">
+  <spark-tooltip>
+    <span slot="trigger">Not rated</span>
+    <span>
+      Dealerships need five reviews in the past 24 months before we can display a rating.
+    </span>
+  </spark-tooltip>
+  <div class="sds-rating__wrapper">
+    <span class="sds-rating__item">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+<span class="sds-rating__item">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+<span class="sds-rating__item">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+<span class="sds-rating__item">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+<span class="sds-rating__item">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+
+  </div>
+    <span class="sds-rating__link sds-button-link">(17 reviews)</span>
+
+</div>
+
+  
+
+  
+    <div data-qa="miles-from-user" class="miles-from ">
+      52 mi. from 15024
+    </div>
+  
+</div>
+
+        
+
+        
+      </div>
+
+--- NEW DIV ---
+
+<div class="vehicle-details">
+        <div class="save-vehicle">
+          <div class="hover-icon favorite">
+  <button id="vehicle-heart-8" class="heart" data-activity-rule-type="custom" data-component="save-vehicle-add" data-index="8" data-linkname="save-vehicle-sign-up" data-listing-id="f0fd208f-8ac0-4f13-b2fc-231cd719216a" data-hook-heart-id="vehicle-heart-8" phx-click="save_listing" phx-hook="RecordSaveListingAction" phx-target="98" phx-value-is_vdp="false" phx-value-listing_id="f0fd208f-8ac0-4f13-b2fc-231cd719216a" onclick="event.preventDefault()" trid="jUya9zno8mAxVvj4yVIcNS" trc>
+      <spark-svg name="heart-empty" class="sds-text-field__icon heart-empty"></spark-svg>
+      <spark-svg name="heart-filled" class="sds-text-field__icon active-state heart-filled"></spark-svg>
+    <span class="text">Save</span>
+  </button>
+</div>
+
+        </div>
+        <p class="stock-type">Used</p>
+        <a class="vehicle-card-link js-gallery-click-link" data-linkname="vehicle-listing" data-activity-rule-type="page-over-page" href="/vehicledetail/f0fd208f-8ac0-4f13-b2fc-231cd719216a/" rel="nofollow" target="">
+    <h2 class="title">2020 Ford Mustang GT</h2>
+</a>
+
+          <div class="mileage">6,689 mi.</div>
+
+        <div class="price-section price-section-vehicle-card">
+
+
+      <span class="primary-price">$40,995</span>
+
+
+</div>
+
+        
+
+
+
+<span class="estimated-monthly-payments-tooltip js-tooltip-container ">
+  <div id="emp-tooltip-8" class="list-item-tooltip-container" phx-hook="MonthlyPaymentsCalculator" data-hook-base-price="40995" data-hook-index="8" data-hook-listing-id="f0fd208f-8ac0-4f13-b2fc-231cd719216a" data-hook-init-data='{"creditRates":{"average":{"forty_eight":14.5,"seventy_two":14.5,"sixty":14.5,"thirty_six":14.5},"excellent":{"forty_eight":7.0,"seventy_two":7.0,"sixty":7.0,"thirty_six":7.0},"fair":{"forty_eight":19.5,"seventy_two":19.5,"sixty":19.5,"thirty_six":19.5},"good":{"forty_eight":8.5,"seventy_two":8.5,"sixty":8.5,"thirty_six":8.5}},"defaults":{"apr":"5.99","creditTier":"excellent","downPaymentPercentage":0.1,"lengthOfLoan":72},"isModalEnabled":false,"modalId":"srp-payment-calculator-modal"}' data-hook-page="srp">
+    <span class="sds-tooltip">
+      <a class="sds-link" tabindex="0" data-override-payload='{"bodystyle":"coupe","cpo_indicator":false,"customer_id":"5365425","listing_id":"f0fd208f-8ac0-4f13-b2fc-231cd719216a","make":"ford","model":"mustang","model_year":"2020","msrp":null,"price":40995,"results_page_number":1,"sponsored":false,"sponsored_type":"standard","stock_type":"used","trim":"gt","vertical_position":8}'>
+        <span class="js-estimated-monthly-payment-formatted-value-with-abr"></span>
+        <span class="js-estimated-monthly-payment-info-icon ">
+          <spark-svg name="info-circle"></spark-svg>
+        </span>
+      </a>
+    </span>
+    <div data-reveal-method="inline" class="sds-tooltip__window js-tooltip-content" role="tooltip" id="tooltip-est-monthly-payment-8">
+      <p>
+        <span class="js-estimated-monthly-payment-description"></span>
+      </p>
+      <div class="sds-icon sds-icon--contain custom-close-tooltip" data-target="tooltip-est-monthly-payment-8">
+          <spark-svg name="close"></spark-svg>
+      </div>
+    </div>
+  </div>
+</span>
+
+          <div tabindex="0" class="vehicle-badging" data-toggle="expanda-modal" data-target="#sds-modal" data-contents="{&quot;price_badge&quot;:{&quot;price_badge&quot;:&quot;extremely competitively&quot;,&quot;price_badge_description&quot;:&quot;This car presents a great buying opportunity, priced at $4,012 under market. Our analysis compares this car's price, features, and condition with similar 2020 Mustangs.&quot;,&quot;price_badge_savings_icon_text&quot;:&quot; | $4,012 under&quot;,&quot;price_badge_text&quot;:&quot;Great&quot;,&quot;price_badge_text_lowercase&quot;:&quot;great&quot;,&quot;price_savings_text&quot;:&quot; | $4,012 under&quot;,&quot;svg_tag&quot;:&quot;&lt;svg class=\&quot;sds-text-field__icon\&quot; height=\&quot;16\&quot; width=\&quot;16\&quot;&gt;&lt;use xlink:href=\&quot;/svg/spritemap-45f421b6ebaae75d4813e9a2ac89dbe3.svg?vsn=d#arrow-up-thick\&quot;&gt;&lt;/use&gt;&lt;/svg&gt;&quot;},&quot;href_to_vdp&quot;:{&quot;href_to_vdp&quot;:&quot;/vehicledetail/f0fd208f-8ac0-4f13-b2fc-231cd719216a/?bodystyle=coupe&amp;cpo_indicator=false&amp;customer_id=5365425&amp;intent_id=badges-explainer&amp;listing_id=f0fd208f-8ac0-4f13-b2fc-231cd719216a&amp;make=ford&amp;model=mustang&amp;model_year=2020&amp;msrp=&amp;price=40995&amp;sponsored=false&amp;sponsored_type=standard&amp;stock_type=used&amp;trim=gt&quot;}}" data-click-intent-id="badges-explainer" data-override-payload='{"bodystyle":"coupe","cpo_indicator":false,"customer_id":"5365425","horizontal_position":null,"listing_id":"f0fd208f-8ac0-4f13-b2fc-231cd719216a","make":"ford","model":"mustang","model_year":"2020","msrp":null,"price":"40995","results_page_number":1,"sponsored":false,"sponsored_type":"standard","stock_type":"used","trim":"gt","vertical_position":8,"web_page_type_from":"shopping/search-results"}' trid="3WhpRsPZn4KHXkdAGLNNbp" trc>
+      <div class="sds-badge sds-badge--icon sds-badge--great js-price-badging" aria-label="price_badge" data-linkname="price-badge-great">
+    <div class="sds-badge__icon">
+      <spark-svg name="arrow-up" class="sds-text-field__icon"></spark-svg>
+    </div>
+    <span class="sds-badge__label">Great Deal<span class="sds-badge--price-savings"> | $4,012 under</span></span>
+  </div>
+
+  </div>
+
+
+        <div class="vehicle-links external-links">
+            <div class="vehicle-deeplink">
+    <a aria-describedby="new-tab-link" aria-label="Free CARFAX 1-Owner Report, External link" class="sds-link--ext" data-override-payload='{"page_url":"https://www.carfax.com/VehicleHistory/ar20/wJjv5_HYx-WOQOyKp8hu43KmlRiKKLVi5-popDJqsOckxusAxWp8hbwAzqqhkfRJ_Ax4DD0bqWlsppU1m8NSxeygtoCz9XjQbww","sponsored":false,"sponsored_type":"standard","web_page_type_to":"carfax-free-single-owner"}' data-linkname="carfax-free-single-owner" data-vehicle-history-intent-id="srp-vehicle-history-report" data-activity-rule-type="custom" data-component="vehicle-history" data-event-list="event96" href="/external/vehiclehistory/?redirect=https%3A%2F%2Fwww.carfax.com%2FVehicleHistory%2Far20%2FwJjv5_HYx-WOQOyKp8hu43KmlRiKKLVi5-popDJqsOckxusAxWp8hbwAzqqhkfRJ_Ax4DD0bqWlsppU1m8NSxeygtoCz9XjQbww" linkname="carfax-free-single-owner" rel="noopener nofollow" target="_blank">Free CARFAX 1-Owner Report<spark-svg name="arrow-up-right" class="sds-text-field__icon"></spark-svg></a>
+  </div>
+
+
+          
+        </div>
+
+        
+          
+
+          <div class="vehicle-dealer">
+  <div class="dealer-name">
+    <strong>Boardman Mitsubishi</strong>
+  </div>
+
+  
+      <div class="sds-rating  ">
+    
+      <span class="sds-rating__count">4.3</span>
+    
+    <div class="sds-rating__wrapper">
+      <span class="sds-rating__item sds-icon--filled">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+<span class="sds-rating__item sds-icon--filled">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+<span class="sds-rating__item sds-icon--filled">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+<span class="sds-rating__item sds-icon--filled">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+<span class="sds-rating__item sds-icon--half">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <defs>
+      <lineargradient id="linear" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#532380"></stop>
+        <stop offset="50%" stop-color="#532380"></stop>
+        <stop offset="50%" stop-color="transparent"></stop>
+        <stop offset="100%" stop-color="transparent"></stop>
+      </lineargradient>
+    </defs>
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+
+    </div>
+      <span class="sds-rating__link sds-button-link">(35 reviews)</span>
+
+  </div>
+
+  
+
+  
+    <div data-qa="miles-from-user" class="miles-from ">
+      54 mi. from 15024
+    </div>
+  
+</div>
+
+        
+
+        
+      </div>
+
+--- NEW DIV ---
+
+<div class="vehicle-details">
+        <div class="save-vehicle">
+          <div class="hover-icon favorite">
+  <button id="vehicle-heart-9" class="heart" data-activity-rule-type="custom" data-component="save-vehicle-add" data-index="9" data-linkname="save-vehicle-sign-up" data-listing-id="7ceffaf7-54b5-4d1b-a156-72b8226a3afa" data-hook-heart-id="vehicle-heart-9" phx-click="save_listing" phx-hook="RecordSaveListingAction" phx-target="99" phx-value-is_vdp="false" phx-value-listing_id="7ceffaf7-54b5-4d1b-a156-72b8226a3afa" onclick="event.preventDefault()" trid="jUya9zno8mAxVvj4yVIcNS" trc>
+      <spark-svg name="heart-empty" class="sds-text-field__icon heart-empty"></spark-svg>
+      <spark-svg name="heart-filled" class="sds-text-field__icon active-state heart-filled"></spark-svg>
+    <span class="text">Save</span>
+  </button>
+</div>
+
+        </div>
+        <p class="stock-type">Used</p>
+        <a class="vehicle-card-link js-gallery-click-link" data-linkname="vehicle-listing" data-activity-rule-type="page-over-page" href="/vehicledetail/7ceffaf7-54b5-4d1b-a156-72b8226a3afa/" rel="nofollow" target="">
+    <h2 class="title">2019 Ford Mustang GT</h2>
+</a>
+
+          <div class="mileage">10,501 mi.</div>
+
+        <div class="price-section price-section-vehicle-card">
+
+
+      <span class="primary-price">$36,595</span>
+
+
+</div>
+
+        
+
+
+
+<span class="estimated-monthly-payments-tooltip js-tooltip-container ">
+  <div id="emp-tooltip-9" class="list-item-tooltip-container" phx-hook="MonthlyPaymentsCalculator" data-hook-base-price="36595" data-hook-index="9" data-hook-listing-id="7ceffaf7-54b5-4d1b-a156-72b8226a3afa" data-hook-init-data='{"creditRates":{"average":{"forty_eight":14.5,"seventy_two":14.5,"sixty":14.5,"thirty_six":14.5},"excellent":{"forty_eight":7.0,"seventy_two":7.0,"sixty":7.0,"thirty_six":7.0},"fair":{"forty_eight":19.5,"seventy_two":19.5,"sixty":19.5,"thirty_six":19.5},"good":{"forty_eight":8.5,"seventy_two":8.5,"sixty":8.5,"thirty_six":8.5}},"defaults":{"apr":"5.99","creditTier":"excellent","downPaymentPercentage":0.1,"lengthOfLoan":72},"isModalEnabled":false,"modalId":"srp-payment-calculator-modal"}' data-hook-page="srp">
+    <span class="sds-tooltip">
+      <a class="sds-link" tabindex="0" data-override-payload='{"bodystyle":"coupe","cpo_indicator":false,"customer_id":"5365425","listing_id":"7ceffaf7-54b5-4d1b-a156-72b8226a3afa","make":"ford","model":"mustang","model_year":"2019","msrp":null,"price":36595,"results_page_number":1,"sponsored":false,"sponsored_type":"standard","stock_type":"used","trim":"gt","vertical_position":9}'>
+        <span class="js-estimated-monthly-payment-formatted-value-with-abr"></span>
+        <span class="js-estimated-monthly-payment-info-icon ">
+          <spark-svg name="info-circle"></spark-svg>
+        </span>
+      </a>
+    </span>
+    <div data-reveal-method="inline" class="sds-tooltip__window js-tooltip-content" role="tooltip" id="tooltip-est-monthly-payment-9">
+      <p>
+        <span class="js-estimated-monthly-payment-description"></span>
+      </p>
+      <div class="sds-icon sds-icon--contain custom-close-tooltip" data-target="tooltip-est-monthly-payment-9">
+          <spark-svg name="close"></spark-svg>
+      </div>
+    </div>
+  </div>
+</span>
+
+          <div tabindex="0" class="vehicle-badging" data-toggle="expanda-modal" data-target="#sds-modal" data-contents="{&quot;price_badge&quot;:{&quot;price_badge&quot;:&quot;extremely competitively&quot;,&quot;price_badge_description&quot;:&quot;This car presents a great buying opportunity, priced at $1,095 under market. Our analysis compares this car's price, features, and condition with similar 2019 Mustangs.&quot;,&quot;price_badge_savings_icon_text&quot;:&quot; | $1,095 under&quot;,&quot;price_badge_text&quot;:&quot;Great&quot;,&quot;price_badge_text_lowercase&quot;:&quot;great&quot;,&quot;price_savings_text&quot;:&quot; | $1,095 under&quot;,&quot;svg_tag&quot;:&quot;&lt;svg class=\&quot;sds-text-field__icon\&quot; height=\&quot;16\&quot; width=\&quot;16\&quot;&gt;&lt;use xlink:href=\&quot;/svg/spritemap-45f421b6ebaae75d4813e9a2ac89dbe3.svg?vsn=d#arrow-up-thick\&quot;&gt;&lt;/use&gt;&lt;/svg&gt;&quot;},&quot;href_to_vdp&quot;:{&quot;href_to_vdp&quot;:&quot;/vehicledetail/7ceffaf7-54b5-4d1b-a156-72b8226a3afa/?bodystyle=coupe&amp;cpo_indicator=false&amp;customer_id=5365425&amp;intent_id=badges-explainer&amp;listing_id=7ceffaf7-54b5-4d1b-a156-72b8226a3afa&amp;make=ford&amp;model=mustang&amp;model_year=2019&amp;msrp=&amp;price=36595&amp;sponsored=false&amp;sponsored_type=standard&amp;stock_type=used&amp;trim=gt&quot;}}" data-click-intent-id="badges-explainer" data-override-payload='{"bodystyle":"coupe","cpo_indicator":false,"customer_id":"5365425","horizontal_position":null,"listing_id":"7ceffaf7-54b5-4d1b-a156-72b8226a3afa","make":"ford","model":"mustang","model_year":"2019","msrp":null,"price":"36595","results_page_number":1,"sponsored":false,"sponsored_type":"standard","stock_type":"used","trim":"gt","vertical_position":9,"web_page_type_from":"shopping/search-results"}' trid="3WhpRsPZn4KHXkdAGLNNbp" trc>
+      <div class="sds-badge sds-badge--icon sds-badge--great js-price-badging" aria-label="price_badge" data-linkname="price-badge-great">
+    <div class="sds-badge__icon">
+      <spark-svg name="arrow-up" class="sds-text-field__icon"></spark-svg>
+    </div>
+    <span class="sds-badge__label">Great Deal<span class="sds-badge--price-savings"> | $1,095 under</span></span>
+  </div>
+
+  </div>
+
+
+        <div class="vehicle-links external-links">
+            <div class="vehicle-deeplink">
+    <a aria-describedby="new-tab-link" aria-label="Free CARFAX Report, External link" class="sds-link--ext" data-override-payload='{"page_url":"https://www.carfax.com/VehicleHistory/ar20/z8JV6L6GhKHQidLbzSjUCS-kJI5IRQiAPOQuybs7UooDJ2v5U4pR1_5n1W5UuKHzBbzY8P8Jxx8I4qqL-54mVMBv5hv5XqKkkJI","sponsored":false,"sponsored_type":"standard","web_page_type_to":"carfax-free"}' data-linkname="carfax-free" data-vehicle-history-intent-id="srp-vehicle-history-report" data-activity-rule-type="custom" data-component="vehicle-history" data-event-list="event96" href="/external/vehiclehistory/?redirect=https%3A%2F%2Fwww.carfax.com%2FVehicleHistory%2Far20%2Fz8JV6L6GhKHQidLbzSjUCS-kJI5IRQiAPOQuybs7UooDJ2v5U4pR1_5n1W5UuKHzBbzY8P8Jxx8I4qqL-54mVMBv5hv5XqKkkJI" linkname="carfax-free" rel="noopener nofollow" target="_blank">Free CARFAX Report<spark-svg name="arrow-up-right" class="sds-text-field__icon"></spark-svg></a>
+  </div>
+
+
+          
+        </div>
+
+        
+          
+
+          <div class="vehicle-dealer">
+  <div class="dealer-name">
+    <strong>Boardman Mitsubishi</strong>
+  </div>
+
+  
+      <div class="sds-rating  ">
+    
+      <span class="sds-rating__count">4.3</span>
+    
+    <div class="sds-rating__wrapper">
+      <span class="sds-rating__item sds-icon--filled">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+<span class="sds-rating__item sds-icon--filled">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+<span class="sds-rating__item sds-icon--filled">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+<span class="sds-rating__item sds-icon--filled">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+<span class="sds-rating__item sds-icon--half">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <defs>
+      <lineargradient id="linear" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#532380"></stop>
+        <stop offset="50%" stop-color="#532380"></stop>
+        <stop offset="50%" stop-color="transparent"></stop>
+        <stop offset="100%" stop-color="transparent"></stop>
+      </lineargradient>
+    </defs>
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+
+    </div>
+      <span class="sds-rating__link sds-button-link">(35 reviews)</span>
+
+  </div>
+
+  
+
+  
+    <div data-qa="miles-from-user" class="miles-from ">
+      54 mi. from 15024
+    </div>
+  
+</div>
+
+        
+
+        
+      </div>
+
+--- NEW DIV ---
+
+<div class="vehicle-details">
+        <div class="save-vehicle">
+          <div class="hover-icon favorite">
+  <button id="vehicle-heart-10" class="heart" data-activity-rule-type="custom" data-component="save-vehicle-add" data-index="10" data-linkname="save-vehicle-sign-up" data-listing-id="0c9ffcb0-a292-4e31-a5c5-671c4c72c316" data-hook-heart-id="vehicle-heart-10" phx-click="save_listing" phx-hook="RecordSaveListingAction" phx-target="100" phx-value-is_vdp="false" phx-value-listing_id="0c9ffcb0-a292-4e31-a5c5-671c4c72c316" onclick="event.preventDefault()" trid="jUya9zno8mAxVvj4yVIcNS" trc>
+      <spark-svg name="heart-empty" class="sds-text-field__icon heart-empty"></spark-svg>
+      <spark-svg name="heart-filled" class="sds-text-field__icon active-state heart-filled"></spark-svg>
+    <span class="text">Save</span>
+  </button>
+</div>
+
+        </div>
+        <p class="stock-type">Used</p>
+        <a class="vehicle-card-link js-gallery-click-link" data-linkname="vehicle-listing" data-activity-rule-type="page-over-page" href="/vehicledetail/0c9ffcb0-a292-4e31-a5c5-671c4c72c316/" rel="nofollow" target="">
+    <h2 class="title">1994 Ford Mustang GT</h2>
+</a>
+
+          <div class="mileage">44,488 mi.</div>
+
+        <div class="price-section price-section-vehicle-card">
+
+
+      <span class="primary-price">$16,989</span>
+
+
+</div>
+
+        
+
+
+
+<span class="estimated-monthly-payments-tooltip js-tooltip-container ">
+  <div id="emp-tooltip-10" class="list-item-tooltip-container" phx-hook="MonthlyPaymentsCalculator" data-hook-base-price="16989" data-hook-index="10" data-hook-listing-id="0c9ffcb0-a292-4e31-a5c5-671c4c72c316" data-hook-init-data='{"creditRates":{"average":{"forty_eight":14.5,"seventy_two":14.5,"sixty":14.5,"thirty_six":14.5},"excellent":{"forty_eight":7.0,"seventy_two":7.0,"sixty":7.0,"thirty_six":7.0},"fair":{"forty_eight":19.5,"seventy_two":19.5,"sixty":19.5,"thirty_six":19.5},"good":{"forty_eight":8.5,"seventy_two":8.5,"sixty":8.5,"thirty_six":8.5}},"defaults":{"apr":"5.99","creditTier":"excellent","downPaymentPercentage":0.1,"lengthOfLoan":72},"isModalEnabled":false,"modalId":"srp-payment-calculator-modal"}' data-hook-page="srp">
+    <span class="sds-tooltip">
+      <a class="sds-link" tabindex="0" data-override-payload='{"bodystyle":"convertible","cpo_indicator":false,"customer_id":"208308","listing_id":"0c9ffcb0-a292-4e31-a5c5-671c4c72c316","make":"ford","model":"mustang","model_year":"1994","msrp":null,"price":16989,"results_page_number":1,"sponsored":false,"sponsored_type":"standard","stock_type":"used","trim":"gt","vertical_position":10}'>
+        <span class="js-estimated-monthly-payment-formatted-value-with-abr"></span>
+        <span class="js-estimated-monthly-payment-info-icon ">
+          <spark-svg name="info-circle"></spark-svg>
+        </span>
+      </a>
+    </span>
+    <div data-reveal-method="inline" class="sds-tooltip__window js-tooltip-content" role="tooltip" id="tooltip-est-monthly-payment-10">
+      <p>
+        <span class="js-estimated-monthly-payment-description"></span>
+      </p>
+      <div class="sds-icon sds-icon--contain custom-close-tooltip" data-target="tooltip-est-monthly-payment-10">
+          <spark-svg name="close"></spark-svg>
+      </div>
+    </div>
+  </div>
+</span>
+
+          <div tabindex="0" class="vehicle-badging" data-toggle="expanda-modal" data-target="#sds-modal" data-contents="{&quot;home_delivery_badge&quot;:true,&quot;price_badge&quot;:{&quot;price_badge&quot;:&quot;extremely competitively&quot;,&quot;price_badge_description&quot;:&quot;This car presents a great buying opportunity, priced at $505 under market. Our analysis compares this car's price, features, and condition with similar 1994 Mustangs.&quot;,&quot;price_badge_savings_icon_text&quot;:&quot; | $505 under&quot;,&quot;price_badge_text&quot;:&quot;Great&quot;,&quot;price_badge_text_lowercase&quot;:&quot;great&quot;,&quot;price_savings_text&quot;:&quot; | $505 under&quot;,&quot;svg_tag&quot;:&quot;&lt;svg class=\&quot;sds-text-field__icon\&quot; height=\&quot;16\&quot; width=\&quot;16\&quot;&gt;&lt;use xlink:href=\&quot;/svg/spritemap-45f421b6ebaae75d4813e9a2ac89dbe3.svg?vsn=d#arrow-up-thick\&quot;&gt;&lt;/use&gt;&lt;/svg&gt;&quot;},&quot;virtual_appointments_badge&quot;:true,&quot;href_to_vdp&quot;:{&quot;href_to_vdp&quot;:&quot;/vehicledetail/0c9ffcb0-a292-4e31-a5c5-671c4c72c316/?bodystyle=convertible&amp;cpo_indicator=false&amp;customer_id=208308&amp;intent_id=badges-explainer&amp;listing_id=0c9ffcb0-a292-4e31-a5c5-671c4c72c316&amp;make=ford&amp;model=mustang&amp;model_year=1994&amp;msrp=&amp;price=16989&amp;sponsored=false&amp;sponsored_type=standard&amp;stock_type=used&amp;trim=gt&quot;}}" data-click-intent-id="badges-explainer" data-override-payload='{"bodystyle":"convertible","cpo_indicator":false,"customer_id":"208308","horizontal_position":null,"listing_id":"0c9ffcb0-a292-4e31-a5c5-671c4c72c316","make":"ford","model":"mustang","model_year":"1994","msrp":null,"price":"16989","results_page_number":1,"sponsored":false,"sponsored_type":"standard","stock_type":"used","trim":"gt","vertical_position":10,"web_page_type_from":"shopping/search-results"}' trid="3WhpRsPZn4KHXkdAGLNNbp" trc>
+      <div class="sds-badge sds-badge--icon sds-badge--great js-price-badging" aria-label="price_badge" data-linkname="price-badge-great">
+    <div class="sds-badge__icon">
+      <spark-svg name="arrow-up" class="sds-text-field__icon"></spark-svg>
+    </div>
+    <span class="sds-badge__label">Great Deal<span class="sds-badge--price-savings"> | $505 under</span></span>
+  </div>
+
+  </div>
+
+
+        <div class="vehicle-links external-links">
+            <div class="vehicle-deeplink">
+    <a aria-describedby="new-tab-link" aria-label="Free CARFAX Report, External link" class="sds-link--ext" data-override-payload='{"page_url":"https://www.carfax.com/VehicleHistory/ar20/sohNpgjXnl6wUeg4EDPkT1KpqLaI0_9njY3mcOO3pvr-drlbhiqFCp1TkXW3TIA6wnLuTIUeP_teBCS6y7uZBnyidnpc-fCl","sponsored":false,"sponsored_type":"standard","web_page_type_to":"carfax-free"}' data-linkname="carfax-free" data-vehicle-history-intent-id="srp-vehicle-history-report" data-activity-rule-type="custom" data-component="vehicle-history" data-event-list="event96" href="/external/vehiclehistory/?redirect=https%3A%2F%2Fwww.carfax.com%2FVehicleHistory%2Far20%2FsohNpgjXnl6wUeg4EDPkT1KpqLaI0_9njY3mcOO3pvr-drlbhiqFCp1TkXW3TIA6wnLuTIUeP_teBCS6y7uZBnyidnpc-fCl" linkname="carfax-free" rel="noopener nofollow" target="_blank">Free CARFAX Report<spark-svg name="arrow-up-right" class="sds-text-field__icon"></spark-svg></a>
+  </div>
+
+
+          
+        </div>
+
+        
+          
+
+          <div class="vehicle-dealer">
+  <div class="dealer-name">
+    <strong>HAUS AUTO GROUP</strong>
+  </div>
+
+  
+      <div class="sds-rating  ">
+    
+      <span class="sds-rating__count">4.5</span>
+    
+    <div class="sds-rating__wrapper">
+      <span class="sds-rating__item sds-icon--filled">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+<span class="sds-rating__item sds-icon--filled">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+<span class="sds-rating__item sds-icon--filled">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+<span class="sds-rating__item sds-icon--filled">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+<span class="sds-rating__item sds-icon--half">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <defs>
+      <lineargradient id="linear" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#532380"></stop>
+        <stop offset="50%" stop-color="#532380"></stop>
+        <stop offset="50%" stop-color="transparent"></stop>
+        <stop offset="100%" stop-color="transparent"></stop>
+      </lineargradient>
+    </defs>
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+
+    </div>
+      <span class="sds-rating__link sds-button-link">(500 reviews)</span>
+
+  </div>
+
+  
+
+  
+    <div data-qa="miles-from-user" class="miles-from ">
+      56 mi. from 15024
+    </div>
+  
+</div>
+
+        
+
+        
+      </div>
+
+--- NEW DIV ---
+
+<div class="vehicle-details">
+        <div class="save-vehicle">
+          <div class="hover-icon favorite">
+  <button id="vehicle-heart-11" class="heart" data-activity-rule-type="custom" data-component="save-vehicle-add" data-index="11" data-linkname="save-vehicle-sign-up" data-listing-id="81d682e8-02a7-4428-869f-7d08b369956a" data-hook-heart-id="vehicle-heart-11" phx-click="save_listing" phx-hook="RecordSaveListingAction" phx-target="101" phx-value-is_vdp="false" phx-value-listing_id="81d682e8-02a7-4428-869f-7d08b369956a" onclick="event.preventDefault()" trid="jUya9zno8mAxVvj4yVIcNS" trc>
+      <spark-svg name="heart-empty" class="sds-text-field__icon heart-empty"></spark-svg>
+      <spark-svg name="heart-filled" class="sds-text-field__icon active-state heart-filled"></spark-svg>
+    <span class="text">Save</span>
+  </button>
+</div>
+
+        </div>
+        <p class="stock-type">Used</p>
+        <a class="vehicle-card-link js-gallery-click-link" data-linkname="vehicle-listing" data-activity-rule-type="page-over-page" href="/vehicledetail/81d682e8-02a7-4428-869f-7d08b369956a/" rel="nofollow" target="">
+    <h2 class="title">2017 Ford Mustang GT</h2>
+</a>
+
+          <div class="mileage">36,270 mi.</div>
+
+        <div class="price-section price-section-vehicle-card">
+
+
+      <span class="primary-price">$29,880</span>
+
+        <span class="secondary-price price-drop">$820 price drop</span>
+
+
+</div>
+
+        
+
+
+
+<span class="estimated-monthly-payments-tooltip js-tooltip-container ">
+  <div id="emp-tooltip-11" class="list-item-tooltip-container" phx-hook="MonthlyPaymentsCalculator" data-hook-base-price="29880" data-hook-index="11" data-hook-listing-id="81d682e8-02a7-4428-869f-7d08b369956a" data-hook-init-data='{"creditRates":{"average":{"forty_eight":14.5,"seventy_two":14.5,"sixty":14.5,"thirty_six":14.5},"excellent":{"forty_eight":7.0,"seventy_two":7.0,"sixty":7.0,"thirty_six":7.0},"fair":{"forty_eight":19.5,"seventy_two":19.5,"sixty":19.5,"thirty_six":19.5},"good":{"forty_eight":8.5,"seventy_two":8.5,"sixty":8.5,"thirty_six":8.5}},"defaults":{"apr":"5.99","creditTier":"excellent","downPaymentPercentage":0.1,"lengthOfLoan":72},"isModalEnabled":false,"modalId":"srp-payment-calculator-modal"}' data-hook-page="srp">
+    <span class="sds-tooltip">
+      <a class="sds-link" tabindex="0" data-override-payload='{"bodystyle":"coupe","cpo_indicator":false,"customer_id":"6042636","listing_id":"81d682e8-02a7-4428-869f-7d08b369956a","make":"ford","model":"mustang","model_year":"2017","msrp":"33933","price":29880,"results_page_number":1,"sponsored":false,"sponsored_type":"standard","stock_type":"used","trim":"gt","vertical_position":11}'>
+        <span class="js-estimated-monthly-payment-formatted-value-with-abr"></span>
+        <span class="js-estimated-monthly-payment-info-icon ">
+          <spark-svg name="info-circle"></spark-svg>
+        </span>
+      </a>
+    </span>
+    <div data-reveal-method="inline" class="sds-tooltip__window js-tooltip-content" role="tooltip" id="tooltip-est-monthly-payment-11">
+      <p>
+        <span class="js-estimated-monthly-payment-description"></span>
+      </p>
+      <div class="sds-icon sds-icon--contain custom-close-tooltip" data-target="tooltip-est-monthly-payment-11">
+          <spark-svg name="close"></spark-svg>
+      </div>
+    </div>
+  </div>
+</span>
+
+          <div tabindex="0" class="vehicle-badging" data-toggle="expanda-modal" data-target="#sds-modal" data-contents="{&quot;home_delivery_badge&quot;:true,&quot;price_badge&quot;:{&quot;price_badge&quot;:&quot;competitively&quot;,&quot;price_badge_description&quot;:&quot;This car presents a good buying opportunity. Our analysis compares this car's price, features, and condition with similar 2017 Mustangs.&quot;,&quot;price_badge_savings_icon_text&quot;:&quot;&quot;,&quot;price_badge_text&quot;:&quot;Good&quot;,&quot;price_badge_text_lowercase&quot;:&quot;good&quot;,&quot;price_savings_text&quot;:&quot;&quot;,&quot;svg_tag&quot;:&quot;&lt;svg class=\&quot;sds-text-field__icon\&quot; height=\&quot;16\&quot; width=\&quot;16\&quot;&gt;&lt;use xlink:href=\&quot;/svg/spritemap-45f421b6ebaae75d4813e9a2ac89dbe3.svg?vsn=d#arrow-up-right-thick\&quot;&gt;&lt;/use&gt;&lt;/svg&gt;&quot;},&quot;virtual_appointments_badge&quot;:true,&quot;href_to_vdp&quot;:{&quot;href_to_vdp&quot;:&quot;/vehicledetail/81d682e8-02a7-4428-869f-7d08b369956a/?bodystyle=coupe&amp;cpo_indicator=false&amp;customer_id=6042636&amp;intent_id=badges-explainer&amp;listing_id=81d682e8-02a7-4428-869f-7d08b369956a&amp;make=ford&amp;model=mustang&amp;model_year=2017&amp;msrp=33933&amp;price=29880&amp;sponsored=false&amp;sponsored_type=standard&amp;stock_type=used&amp;trim=gt&quot;}}" data-click-intent-id="badges-explainer" data-override-payload='{"bodystyle":"coupe","cpo_indicator":false,"customer_id":"6042636","horizontal_position":null,"listing_id":"81d682e8-02a7-4428-869f-7d08b369956a","make":"ford","model":"mustang","model_year":"2017","msrp":"33933","price":"29880","results_page_number":1,"sponsored":false,"sponsored_type":"standard","stock_type":"used","trim":"gt","vertical_position":11,"web_page_type_from":"shopping/search-results"}' trid="3WhpRsPZn4KHXkdAGLNNbp" trc>
+      <div class="sds-badge sds-badge--icon sds-badge--good js-price-badging" aria-label="price_badge" data-linkname="price-badge-good">
+    <div class="sds-badge__icon">
+      <spark-svg name="arrow-up-right" class="sds-text-field__icon"></spark-svg>
+    </div>
+    <span class="sds-badge__label">Good Deal<span class="sds-badge--price-savings"></span></span>
+  </div>
+
+  </div>
+
+
+        <div class="vehicle-links external-links">
+            <div class="vehicle-deeplink">
+    <a aria-describedby="new-tab-link" aria-label="Get the AutoCheck Report, External link" class="sds-link--ext" data-override-payload='{"page_url":"https://www.autocheck.com/vehiclehistory/?vin=1FA6P8CF3H5335455&amp;siteID=7071","sponsored":false,"sponsored_type":"standard","web_page_type_to":"autocheck-paid"}' data-linkname="autocheck-paid" data-vehicle-history-intent-id="srp-vehicle-history-report" data-activity-rule-type="custom" data-component="vehicle-history" data-event-list="event96" href="/external/vehiclehistory/?redirect=https%3A%2F%2Fwww.autocheck.com%2Fvehiclehistory%2F%3Fvin%3D1FA6P8CF3H5335455%26siteID%3D7071" linkname="autocheck-paid" rel="noopener nofollow" target="_blank">Get the AutoCheck Report<spark-svg name="arrow-up-right" class="sds-text-field__icon"></spark-svg></a>
+  </div>
+
+
+          
+        </div>
+
+        
+          
+
+          <div class="vehicle-dealer">
+  <div class="dealer-name">
+    <strong>Huebner Subaru</strong>
+  </div>
+
+  
+      <div class="sds-rating  ">
+    
+      <span class="sds-rating__count">4.8</span>
+    
+    <div class="sds-rating__wrapper">
+      <span class="sds-rating__item sds-icon--filled">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+<span class="sds-rating__item sds-icon--filled">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+<span class="sds-rating__item sds-icon--filled">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+<span class="sds-rating__item sds-icon--filled">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+<span class="sds-rating__item sds-icon--filled">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+
+    </div>
+      <span class="sds-rating__link sds-button-link">(1,184 reviews)</span>
+
+  </div>
+
+  
+
+  
+    <div data-qa="miles-from-user" class="miles-from ">
+      66 mi. from 15024
+    </div>
+  
+</div>
+
+        
+
+        
+      </div>
+
+--- NEW DIV ---
+
+<div class="vehicle-details">
+        <div class="save-vehicle">
+          <div class="hover-icon favorite">
+  <button id="vehicle-heart-12" class="heart" data-activity-rule-type="custom" data-component="save-vehicle-add" data-index="12" data-linkname="save-vehicle-sign-up" data-listing-id="b3130349-846e-4877-be0c-5b5325111ddf" data-hook-heart-id="vehicle-heart-12" phx-click="save_listing" phx-hook="RecordSaveListingAction" phx-target="102" phx-value-is_vdp="false" phx-value-listing_id="b3130349-846e-4877-be0c-5b5325111ddf" onclick="event.preventDefault()" trid="jUya9zno8mAxVvj4yVIcNS" trc>
+      <spark-svg name="heart-empty" class="sds-text-field__icon heart-empty"></spark-svg>
+      <spark-svg name="heart-filled" class="sds-text-field__icon active-state heart-filled"></spark-svg>
+    <span class="text">Save</span>
+  </button>
+</div>
+
+        </div>
+        <p class="stock-type">Used</p>
+        <a class="vehicle-card-link js-gallery-click-link" data-linkname="vehicle-listing" data-activity-rule-type="page-over-page" href="/vehicledetail/b3130349-846e-4877-be0c-5b5325111ddf/" rel="nofollow" target="">
+    <h2 class="title">2007 Ford Mustang GT</h2>
+</a>
+
+          <div class="mileage">71,391 mi.</div>
+
+        <div class="price-section price-section-vehicle-card">
+
+
+      <span class="primary-price">$18,999</span>
+
+
+</div>
+
+        
+
+
+
+<span class="estimated-monthly-payments-tooltip js-tooltip-container ">
+  <div id="emp-tooltip-12" class="list-item-tooltip-container" phx-hook="MonthlyPaymentsCalculator" data-hook-base-price="18999" data-hook-index="12" data-hook-listing-id="b3130349-846e-4877-be0c-5b5325111ddf" data-hook-init-data='{"creditRates":{"average":{"forty_eight":14.5,"seventy_two":14.5,"sixty":14.5,"thirty_six":14.5},"excellent":{"forty_eight":7.0,"seventy_two":7.0,"sixty":7.0,"thirty_six":7.0},"fair":{"forty_eight":19.5,"seventy_two":19.5,"sixty":19.5,"thirty_six":19.5},"good":{"forty_eight":8.5,"seventy_two":8.5,"sixty":8.5,"thirty_six":8.5}},"defaults":{"apr":"5.99","creditTier":"excellent","downPaymentPercentage":0.1,"lengthOfLoan":72},"isModalEnabled":false,"modalId":"srp-payment-calculator-modal"}' data-hook-page="srp">
+    <span class="sds-tooltip">
+      <a class="sds-link" tabindex="0" data-override-payload='{"bodystyle":"coupe","cpo_indicator":false,"customer_id":"","listing_id":"b3130349-846e-4877-be0c-5b5325111ddf","make":"ford","model":"mustang","model_year":"2007","msrp":null,"price":18999,"results_page_number":1,"sponsored":false,"sponsored_type":"standard","stock_type":"used","trim":"gt","vertical_position":12}'>
+        <span class="js-estimated-monthly-payment-formatted-value-with-abr"></span>
+        <span class="js-estimated-monthly-payment-info-icon ">
+          <spark-svg name="info-circle"></spark-svg>
+        </span>
+      </a>
+    </span>
+    <div data-reveal-method="inline" class="sds-tooltip__window js-tooltip-content" role="tooltip" id="tooltip-est-monthly-payment-12">
+      <p>
+        <span class="js-estimated-monthly-payment-description"></span>
+      </p>
+      <div class="sds-icon sds-icon--contain custom-close-tooltip" data-target="tooltip-est-monthly-payment-12">
+          <spark-svg name="close"></spark-svg>
+      </div>
+    </div>
+  </div>
+</span>
+
+          <div tabindex="0" class="vehicle-badging" data-toggle="expanda-modal" data-target="#sds-modal" data-contents="{&quot;price_badge&quot;:{&quot;price_badge&quot;:&quot;extremely competitively&quot;,&quot;price_badge_description&quot;:&quot;This car presents a great buying opportunity, priced at $1,483 under market. Our analysis compares this car's price, features, and condition with similar 2007 Mustangs.&quot;,&quot;price_badge_savings_icon_text&quot;:&quot; | $1,483 under&quot;,&quot;price_badge_text&quot;:&quot;Great&quot;,&quot;price_badge_text_lowercase&quot;:&quot;great&quot;,&quot;price_savings_text&quot;:&quot; | $1,483 under&quot;,&quot;svg_tag&quot;:&quot;&lt;svg class=\&quot;sds-text-field__icon\&quot; height=\&quot;16\&quot; width=\&quot;16\&quot;&gt;&lt;use xlink:href=\&quot;/svg/spritemap-45f421b6ebaae75d4813e9a2ac89dbe3.svg?vsn=d#arrow-up-thick\&quot;&gt;&lt;/use&gt;&lt;/svg&gt;&quot;},&quot;href_to_vdp&quot;:{&quot;href_to_vdp&quot;:&quot;/vehicledetail/b3130349-846e-4877-be0c-5b5325111ddf/?bodystyle=coupe&amp;cpo_indicator=false&amp;customer_id=&amp;intent_id=badges-explainer&amp;listing_id=b3130349-846e-4877-be0c-5b5325111ddf&amp;make=ford&amp;model=mustang&amp;model_year=2007&amp;msrp=&amp;price=18999&amp;sponsored=false&amp;sponsored_type=standard&amp;stock_type=used&amp;trim=gt&quot;}}" data-click-intent-id="badges-explainer" data-override-payload='{"bodystyle":"coupe","cpo_indicator":false,"customer_id":null,"horizontal_position":null,"listing_id":"b3130349-846e-4877-be0c-5b5325111ddf","make":"ford","model":"mustang","model_year":"2007","msrp":null,"price":"18999","results_page_number":1,"sponsored":false,"sponsored_type":"standard","stock_type":"used","trim":"gt","vertical_position":12,"web_page_type_from":"shopping/search-results"}' trid="3WhpRsPZn4KHXkdAGLNNbp" trc>
+      <div class="sds-badge sds-badge--icon sds-badge--great js-price-badging" aria-label="price_badge" data-linkname="price-badge-great">
+    <div class="sds-badge__icon">
+      <spark-svg name="arrow-up" class="sds-text-field__icon"></spark-svg>
+    </div>
+    <span class="sds-badge__label">Great Deal<span class="sds-badge--price-savings"> | $1,483 under</span></span>
+  </div>
+
+  </div>
+
+
+        <div class="vehicle-links external-links">
+            <div class="vehicle-deeplink">
+    <a aria-describedby="new-tab-link" aria-label="Get the AutoCheck Report, External link" class="sds-link--ext" data-override-payload='{"page_url":"https://www.autocheck.com/vehiclehistory/?vin=1ZVHT82H775296771&amp;siteID=7071","sponsored":false,"sponsored_type":"standard","web_page_type_to":"autocheck-paid"}' data-linkname="autocheck-paid" data-vehicle-history-intent-id="srp-vehicle-history-report" data-activity-rule-type="custom" data-component="vehicle-history" data-event-list="event96" href="/external/vehiclehistory/?redirect=https%3A%2F%2Fwww.autocheck.com%2Fvehiclehistory%2F%3Fvin%3D1ZVHT82H775296771%26siteID%3D7071" linkname="autocheck-paid" rel="noopener nofollow" target="_blank">Get the AutoCheck Report<spark-svg name="arrow-up-right" class="sds-text-field__icon"></spark-svg></a>
+  </div>
+
+
+          
+        </div>
+
+        
+
+        
+          <div class="vehicle-seller">
+  <div class="seller-name">
+    <strong>Stanley</strong>
+  </div>
+  <div data-qa="private-seller" class="private-seller">Private seller</div>
+  <div data-qa="miles-from-user" class="miles-from ">
+    79 mi. from 15024
+  </div>
+</div>
+
+        
+      </div>
+
+--- NEW DIV ---
+
+<div class="vehicle-details">
+        <div class="save-vehicle">
+          <div class="hover-icon favorite">
+  <button id="vehicle-heart-13" class="heart" data-activity-rule-type="custom" data-component="save-vehicle-add" data-index="13" data-linkname="save-vehicle-sign-up" data-listing-id="f8080136-d08a-4445-b3dd-2f52837afcb6" data-hook-heart-id="vehicle-heart-13" phx-click="save_listing" phx-hook="RecordSaveListingAction" phx-target="103" phx-value-is_vdp="false" phx-value-listing_id="f8080136-d08a-4445-b3dd-2f52837afcb6" onclick="event.preventDefault()" trid="jUya9zno8mAxVvj4yVIcNS" trc>
+      <spark-svg name="heart-empty" class="sds-text-field__icon heart-empty"></spark-svg>
+      <spark-svg name="heart-filled" class="sds-text-field__icon active-state heart-filled"></spark-svg>
+    <span class="text">Save</span>
+  </button>
+</div>
+
+        </div>
+        <p class="stock-type">Used</p>
+        <a class="vehicle-card-link js-gallery-click-link" data-linkname="vehicle-listing" data-activity-rule-type="page-over-page" href="/vehicledetail/f8080136-d08a-4445-b3dd-2f52837afcb6/" rel="nofollow" target="">
+    <h2 class="title">2006 Ford Mustang GT</h2>
+</a>
+
+          <div class="mileage">91,758 mi.</div>
+
+        <div class="price-section price-section-vehicle-card">
+
+
+      <span class="primary-price">$15,995</span>
+
+        <span class="secondary-price price-drop">$1,000 price drop</span>
+
+
+</div>
+
+        
+
+
+
+<span class="estimated-monthly-payments-tooltip js-tooltip-container ">
+  <div id="emp-tooltip-13" class="list-item-tooltip-container" phx-hook="MonthlyPaymentsCalculator" data-hook-base-price="15995" data-hook-index="13" data-hook-listing-id="f8080136-d08a-4445-b3dd-2f52837afcb6" data-hook-init-data='{"creditRates":{"average":{"forty_eight":14.5,"seventy_two":14.5,"sixty":14.5,"thirty_six":14.5},"excellent":{"forty_eight":7.0,"seventy_two":7.0,"sixty":7.0,"thirty_six":7.0},"fair":{"forty_eight":19.5,"seventy_two":19.5,"sixty":19.5,"thirty_six":19.5},"good":{"forty_eight":8.5,"seventy_two":8.5,"sixty":8.5,"thirty_six":8.5}},"defaults":{"apr":"5.99","creditTier":"excellent","downPaymentPercentage":0.1,"lengthOfLoan":72},"isModalEnabled":false,"modalId":"srp-payment-calculator-modal"}' data-hook-page="srp">
+    <span class="sds-tooltip">
+      <a class="sds-link" tabindex="0" data-override-payload='{"bodystyle":"coupe","cpo_indicator":false,"customer_id":"2492630","listing_id":"f8080136-d08a-4445-b3dd-2f52837afcb6","make":"ford","model":"mustang","model_year":"2006","msrp":null,"price":15995,"results_page_number":1,"sponsored":false,"sponsored_type":"standard","stock_type":"used","trim":"gt","vertical_position":13}'>
+        <span class="js-estimated-monthly-payment-formatted-value-with-abr"></span>
+        <span class="js-estimated-monthly-payment-info-icon ">
+          <spark-svg name="info-circle"></spark-svg>
+        </span>
+      </a>
+    </span>
+    <div data-reveal-method="inline" class="sds-tooltip__window js-tooltip-content" role="tooltip" id="tooltip-est-monthly-payment-13">
+      <p>
+        <span class="js-estimated-monthly-payment-description"></span>
+      </p>
+      <div class="sds-icon sds-icon--contain custom-close-tooltip" data-target="tooltip-est-monthly-payment-13">
+          <spark-svg name="close"></spark-svg>
+      </div>
+    </div>
+  </div>
+</span>
+
+          <div tabindex="0" class="vehicle-badging" data-toggle="expanda-modal" data-target="#sds-modal" data-contents="{&quot;price_badge&quot;:{&quot;price_badge&quot;:&quot;competitively&quot;,&quot;price_badge_description&quot;:&quot;This car presents a good buying opportunity. Our analysis compares this car's price, features, and condition with similar 2006 Mustangs.&quot;,&quot;price_badge_savings_icon_text&quot;:&quot;&quot;,&quot;price_badge_text&quot;:&quot;Good&quot;,&quot;price_badge_text_lowercase&quot;:&quot;good&quot;,&quot;price_savings_text&quot;:&quot;&quot;,&quot;svg_tag&quot;:&quot;&lt;svg class=\&quot;sds-text-field__icon\&quot; height=\&quot;16\&quot; width=\&quot;16\&quot;&gt;&lt;use xlink:href=\&quot;/svg/spritemap-45f421b6ebaae75d4813e9a2ac89dbe3.svg?vsn=d#arrow-up-right-thick\&quot;&gt;&lt;/use&gt;&lt;/svg&gt;&quot;},&quot;href_to_vdp&quot;:{&quot;href_to_vdp&quot;:&quot;/vehicledetail/f8080136-d08a-4445-b3dd-2f52837afcb6/?bodystyle=coupe&amp;cpo_indicator=false&amp;customer_id=2492630&amp;intent_id=badges-explainer&amp;listing_id=f8080136-d08a-4445-b3dd-2f52837afcb6&amp;make=ford&amp;model=mustang&amp;model_year=2006&amp;msrp=&amp;price=15995&amp;sponsored=false&amp;sponsored_type=standard&amp;stock_type=used&amp;trim=gt&quot;}}" data-click-intent-id="badges-explainer" data-override-payload='{"bodystyle":"coupe","cpo_indicator":false,"customer_id":"2492630","horizontal_position":null,"listing_id":"f8080136-d08a-4445-b3dd-2f52837afcb6","make":"ford","model":"mustang","model_year":"2006","msrp":null,"price":"15995","results_page_number":1,"sponsored":false,"sponsored_type":"standard","stock_type":"used","trim":"gt","vertical_position":13,"web_page_type_from":"shopping/search-results"}' trid="3WhpRsPZn4KHXkdAGLNNbp" trc>
+      <div class="sds-badge sds-badge--icon sds-badge--good js-price-badging" aria-label="price_badge" data-linkname="price-badge-good">
+    <div class="sds-badge__icon">
+      <spark-svg name="arrow-up-right" class="sds-text-field__icon"></spark-svg>
+    </div>
+    <span class="sds-badge__label">Good Deal<span class="sds-badge--price-savings"></span></span>
+  </div>
+
+  </div>
+
+
+        <div class="vehicle-links external-links">
+            <div class="vehicle-deeplink">
+    <a aria-describedby="new-tab-link" aria-label="Free CARFAX Report, External link" class="sds-link--ext" data-override-payload='{"page_url":"https://www.carfax.com/VehicleHistory/ar20/u9p4Gf5z1RqewJ6_0bHyUDP544Oawat5rtd7h00Gj0WwZVuzTWx2vMIy3KZRRcPorijBcj-4zDljVwkAi7Zk3Pu5ehl1yb6Z8pk","sponsored":false,"sponsored_type":"standard","web_page_type_to":"carfax-free"}' data-linkname="carfax-free" data-vehicle-history-intent-id="srp-vehicle-history-report" data-activity-rule-type="custom" data-component="vehicle-history" data-event-list="event96" href="/external/vehiclehistory/?redirect=https%3A%2F%2Fwww.carfax.com%2FVehicleHistory%2Far20%2Fu9p4Gf5z1RqewJ6_0bHyUDP544Oawat5rtd7h00Gj0WwZVuzTWx2vMIy3KZRRcPorijBcj-4zDljVwkAi7Zk3Pu5ehl1yb6Z8pk" linkname="carfax-free" rel="noopener nofollow" target="_blank">Free CARFAX Report<spark-svg name="arrow-up-right" class="sds-text-field__icon"></spark-svg></a>
+  </div>
+
+
+          
+        </div>
+
+        
+          
+
+          <div class="vehicle-dealer">
+  <div class="dealer-name">
+    <strong>Ohio Auto Warehouse</strong>
+  </div>
+
+  
+      <div class="sds-rating  ">
+    
+      <span class="sds-rating__count">4.5</span>
+    
+    <div class="sds-rating__wrapper">
+      <span class="sds-rating__item sds-icon--filled">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+<span class="sds-rating__item sds-icon--filled">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+<span class="sds-rating__item sds-icon--filled">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+<span class="sds-rating__item sds-icon--filled">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+<span class="sds-rating__item sds-icon--half">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <defs>
+      <lineargradient id="linear" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#532380"></stop>
+        <stop offset="50%" stop-color="#532380"></stop>
+        <stop offset="50%" stop-color="transparent"></stop>
+        <stop offset="100%" stop-color="transparent"></stop>
+      </lineargradient>
+    </defs>
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+
+    </div>
+      <span class="sds-rating__link sds-button-link">(199 reviews)</span>
+
+  </div>
+
+  
+
+  
+    <div data-qa="miles-from-user" class="miles-from ">
+      80 mi. from 15024
+    </div>
+  
+</div>
+
+        
+
+        
+      </div>
+
+--- NEW DIV ---
+
+<div class="vehicle-details">
+        <div class="save-vehicle">
+          <div class="hover-icon favorite">
+  <button id="vehicle-heart-14" class="heart" data-activity-rule-type="custom" data-component="save-vehicle-add" data-index="14" data-linkname="save-vehicle-sign-up" data-listing-id="cbf85716-bd1f-47ce-ae36-4347a56c7e25" data-hook-heart-id="vehicle-heart-14" phx-click="save_listing" phx-hook="RecordSaveListingAction" phx-target="104" phx-value-is_vdp="false" phx-value-listing_id="cbf85716-bd1f-47ce-ae36-4347a56c7e25" onclick="event.preventDefault()" trid="jUya9zno8mAxVvj4yVIcNS" trc>
+      <spark-svg name="heart-empty" class="sds-text-field__icon heart-empty"></spark-svg>
+      <spark-svg name="heart-filled" class="sds-text-field__icon active-state heart-filled"></spark-svg>
+    <span class="text">Save</span>
+  </button>
+</div>
+
+        </div>
+        <p class="stock-type">Ford Certified</p>
+        <a class="vehicle-card-link js-gallery-click-link" data-linkname="vehicle-listing" data-activity-rule-type="page-over-page" href="/vehicledetail/cbf85716-bd1f-47ce-ae36-4347a56c7e25/" rel="nofollow" target="">
+    <h2 class="title">2019 Ford Mustang GT</h2>
+</a>
+
+          <div class="mileage">16,925 mi.</div>
+
+        <div class="price-section price-section-vehicle-card">
+
+
+      <span class="primary-price">$39,998</span>
+
+
+</div>
+
+        
+
+
+
+<span class="estimated-monthly-payments-tooltip js-tooltip-container ">
+  <div id="emp-tooltip-14" class="list-item-tooltip-container" phx-hook="MonthlyPaymentsCalculator" data-hook-base-price="39998" data-hook-index="14" data-hook-listing-id="cbf85716-bd1f-47ce-ae36-4347a56c7e25" data-hook-init-data='{"creditRates":{"average":{"forty_eight":14.5,"seventy_two":14.5,"sixty":14.5,"thirty_six":14.5},"excellent":{"forty_eight":7.0,"seventy_two":7.0,"sixty":7.0,"thirty_six":7.0},"fair":{"forty_eight":19.5,"seventy_two":19.5,"sixty":19.5,"thirty_six":19.5},"good":{"forty_eight":8.5,"seventy_two":8.5,"sixty":8.5,"thirty_six":8.5}},"defaults":{"apr":"5.99","creditTier":"excellent","downPaymentPercentage":0.1,"lengthOfLoan":72},"isModalEnabled":false,"modalId":"srp-payment-calculator-modal"}' data-hook-page="srp">
+    <span class="sds-tooltip">
+      <a class="sds-link" tabindex="0" data-override-payload='{"bodystyle":"coupe","cpo_indicator":true,"customer_id":"14435","listing_id":"cbf85716-bd1f-47ce-ae36-4347a56c7e25","make":"ford","model":"mustang","model_year":"2019","msrp":null,"price":39998,"results_page_number":1,"sponsored":false,"sponsored_type":"standard","stock_type":"used","trim":"gt","vertical_position":14}'>
+        <span class="js-estimated-monthly-payment-formatted-value-with-abr"></span>
+        <span class="js-estimated-monthly-payment-info-icon ">
+          <spark-svg name="info-circle"></spark-svg>
+        </span>
+      </a>
+    </span>
+    <div data-reveal-method="inline" class="sds-tooltip__window js-tooltip-content" role="tooltip" id="tooltip-est-monthly-payment-14">
+      <p>
+        <span class="js-estimated-monthly-payment-description"></span>
+      </p>
+      <div class="sds-icon sds-icon--contain custom-close-tooltip" data-target="tooltip-est-monthly-payment-14">
+          <spark-svg name="close"></spark-svg>
+      </div>
+    </div>
+  </div>
+</span>
+
+          <div tabindex="0" class="vehicle-badging" data-toggle="expanda-modal" data-target="#sds-modal" data-contents="{&quot;cpo_badge&quot;:true,&quot;home_delivery_badge&quot;:true,&quot;price_badge&quot;:{&quot;price_badge&quot;:&quot;extremely competitively&quot;,&quot;price_badge_description&quot;:&quot;This car presents a great buying opportunity, priced at $2,646 under market. Our analysis compares this car's price, features, and condition with similar 2019 Mustangs.&quot;,&quot;price_badge_savings_icon_text&quot;:&quot; | $2,646 under&quot;,&quot;price_badge_text&quot;:&quot;Great&quot;,&quot;price_badge_text_lowercase&quot;:&quot;great&quot;,&quot;price_savings_text&quot;:&quot; | $2,646 under&quot;,&quot;svg_tag&quot;:&quot;&lt;svg class=\&quot;sds-text-field__icon\&quot; height=\&quot;16\&quot; width=\&quot;16\&quot;&gt;&lt;use xlink:href=\&quot;/svg/spritemap-45f421b6ebaae75d4813e9a2ac89dbe3.svg?vsn=d#arrow-up-thick\&quot;&gt;&lt;/use&gt;&lt;/svg&gt;&quot;},&quot;virtual_appointments_badge&quot;:true,&quot;href_to_vdp&quot;:{&quot;href_to_vdp&quot;:&quot;/vehicledetail/cbf85716-bd1f-47ce-ae36-4347a56c7e25/?bodystyle=coupe&amp;cpo_indicator=true&amp;customer_id=14435&amp;intent_id=badges-explainer&amp;listing_id=cbf85716-bd1f-47ce-ae36-4347a56c7e25&amp;make=ford&amp;model=mustang&amp;model_year=2019&amp;msrp=&amp;price=39998&amp;sponsored=false&amp;sponsored_type=standard&amp;stock_type=used&amp;trim=gt&quot;}}" data-click-intent-id="badges-explainer" data-override-payload='{"bodystyle":"coupe","cpo_indicator":true,"customer_id":"14435","horizontal_position":null,"listing_id":"cbf85716-bd1f-47ce-ae36-4347a56c7e25","make":"ford","model":"mustang","model_year":"2019","msrp":null,"price":"39998","results_page_number":1,"sponsored":false,"sponsored_type":"standard","stock_type":"used","trim":"gt","vertical_position":14,"web_page_type_from":"shopping/search-results"}' trid="3WhpRsPZn4KHXkdAGLNNbp" trc>
+      <div class="sds-badge sds-badge--icon sds-badge--great js-price-badging" aria-label="price_badge" data-linkname="price-badge-great">
+    <div class="sds-badge__icon">
+      <spark-svg name="arrow-up" class="sds-text-field__icon"></spark-svg>
+    </div>
+    <span class="sds-badge__label">Great Deal<span class="sds-badge--price-savings"> | $2,646 under</span></span>
+  </div>
+  <div class="sds-badge sds-badge--cpo">
+    <span class="sds-badge__label">CPO Warrantied</span>
+  </div>
+
+  </div>
+
+
+        <div class="vehicle-links external-links">
+            <div class="vehicle-deeplink">
+    <a aria-describedby="new-tab-link" aria-label="Free CARFAX Report, External link" class="sds-link--ext" data-override-payload='{"page_url":"https://www.carfax.com/VehicleHistory/ar20/h1UL4ZZvvQvrOJeGS9geEPfvoVdOAykMLw-p6XN0xqyQtd__ggqOnm8n_QE0tm8biDUtMAsH-EgzK1RSOp1Jb1-Y-DOxQ9rEFl8","sponsored":false,"sponsored_type":"standard","web_page_type_to":"carfax-free"}' data-linkname="carfax-free" data-vehicle-history-intent-id="srp-vehicle-history-report" data-activity-rule-type="custom" data-component="vehicle-history" data-event-list="event96" href="/external/vehiclehistory/?redirect=https%3A%2F%2Fwww.carfax.com%2FVehicleHistory%2Far20%2Fh1UL4ZZvvQvrOJeGS9geEPfvoVdOAykMLw-p6XN0xqyQtd__ggqOnm8n_QE0tm8biDUtMAsH-EgzK1RSOp1Jb1-Y-DOxQ9rEFl8" linkname="carfax-free" rel="noopener nofollow" target="_blank">Free CARFAX Report<spark-svg name="arrow-up-right" class="sds-text-field__icon"></spark-svg></a>
+  </div>
+
+
+          
+        </div>
+
+        
+          
+
+          <div class="vehicle-dealer">
+  <div class="dealer-name">
+    <strong>AutoNation Ford North Canton</strong>
+  </div>
+
+  
+      <div class="sds-rating  ">
+    
+      <span class="sds-rating__count">4.7</span>
+    
+    <div class="sds-rating__wrapper">
+      <span class="sds-rating__item sds-icon--filled">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+<span class="sds-rating__item sds-icon--filled">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+<span class="sds-rating__item sds-icon--filled">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+<span class="sds-rating__item sds-icon--filled">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+<span class="sds-rating__item sds-icon--half">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <defs>
+      <lineargradient id="linear" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#532380"></stop>
+        <stop offset="50%" stop-color="#532380"></stop>
+        <stop offset="50%" stop-color="transparent"></stop>
+        <stop offset="100%" stop-color="transparent"></stop>
+      </lineargradient>
+    </defs>
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+
+    </div>
+      <span class="sds-rating__link sds-button-link">(1,154 reviews)</span>
+
+  </div>
+
+  
+
+  
+    <div data-qa="miles-from-user" class="miles-from ">
+      86 mi. from 15024
+    </div>
+  
+</div>
+
+        
+
+        
+      </div>
+
+--- NEW DIV ---
+
+<div class="vehicle-details">
+        <div class="save-vehicle">
+          <div class="hover-icon favorite">
+  <button id="vehicle-heart-15" class="heart" data-activity-rule-type="custom" data-component="save-vehicle-add" data-index="15" data-linkname="save-vehicle-sign-up" data-listing-id="16c62d88-88fe-44bd-b975-1160523686e0" data-hook-heart-id="vehicle-heart-15" phx-click="save_listing" phx-hook="RecordSaveListingAction" phx-target="105" phx-value-is_vdp="false" phx-value-listing_id="16c62d88-88fe-44bd-b975-1160523686e0" onclick="event.preventDefault()" trid="jUya9zno8mAxVvj4yVIcNS" trc>
+      <spark-svg name="heart-empty" class="sds-text-field__icon heart-empty"></spark-svg>
+      <spark-svg name="heart-filled" class="sds-text-field__icon active-state heart-filled"></spark-svg>
+    <span class="text">Save</span>
+  </button>
+</div>
+
+        </div>
+        <p class="stock-type">Ford Certified</p>
+        <a class="vehicle-card-link js-gallery-click-link" data-linkname="vehicle-listing" data-activity-rule-type="page-over-page" href="/vehicledetail/16c62d88-88fe-44bd-b975-1160523686e0/" rel="nofollow" target="">
+    <h2 class="title">2022 Ford Mustang GT</h2>
+</a>
+
+          <div class="mileage">841 mi.</div>
+
+        <div class="price-section price-section-vehicle-card">
+
+
+      <span class="primary-price">$39,959</span>
+
+        <span class="secondary-price price-drop">$980 price drop</span>
+
+
+</div>
+
+        
+
+
+
+<span class="estimated-monthly-payments-tooltip js-tooltip-container ">
+  <div id="emp-tooltip-15" class="list-item-tooltip-container" phx-hook="MonthlyPaymentsCalculator" data-hook-base-price="39959" data-hook-index="15" data-hook-listing-id="16c62d88-88fe-44bd-b975-1160523686e0" data-hook-init-data='{"creditRates":{"average":{"forty_eight":14.5,"seventy_two":14.5,"sixty":14.5,"thirty_six":14.5},"excellent":{"forty_eight":7.0,"seventy_two":7.0,"sixty":7.0,"thirty_six":7.0},"fair":{"forty_eight":19.5,"seventy_two":19.5,"sixty":19.5,"thirty_six":19.5},"good":{"forty_eight":8.5,"seventy_two":8.5,"sixty":8.5,"thirty_six":8.5}},"defaults":{"apr":"5.99","creditTier":"excellent","downPaymentPercentage":0.1,"lengthOfLoan":72},"isModalEnabled":false,"modalId":"srp-payment-calculator-modal"}' data-hook-page="srp">
+    <span class="sds-tooltip">
+      <a class="sds-link" tabindex="0" data-override-payload='{"bodystyle":"coupe","cpo_indicator":true,"customer_id":"14262","listing_id":"16c62d88-88fe-44bd-b975-1160523686e0","make":"ford","model":"mustang","model_year":"2022","msrp":null,"price":39959,"results_page_number":1,"sponsored":false,"sponsored_type":"standard","stock_type":"used","trim":"gt","vertical_position":15}'>
+        <span class="js-estimated-monthly-payment-formatted-value-with-abr"></span>
+        <span class="js-estimated-monthly-payment-info-icon ">
+          <spark-svg name="info-circle"></spark-svg>
+        </span>
+      </a>
+    </span>
+    <div data-reveal-method="inline" class="sds-tooltip__window js-tooltip-content" role="tooltip" id="tooltip-est-monthly-payment-15">
+      <p>
+        <span class="js-estimated-monthly-payment-description"></span>
+      </p>
+      <div class="sds-icon sds-icon--contain custom-close-tooltip" data-target="tooltip-est-monthly-payment-15">
+          <spark-svg name="close"></spark-svg>
+      </div>
+    </div>
+  </div>
+</span>
+
+          <div tabindex="0" class="vehicle-badging" data-toggle="expanda-modal" data-target="#sds-modal" data-contents="{&quot;cpo_badge&quot;:true,&quot;home_delivery_badge&quot;:true,&quot;price_badge&quot;:{&quot;price_badge&quot;:&quot;competitively&quot;,&quot;price_badge_description&quot;:&quot;This car presents a good buying opportunity. Our analysis compares this car's price, features, and condition with similar 2022 Mustangs.&quot;,&quot;price_badge_savings_icon_text&quot;:&quot;&quot;,&quot;price_badge_text&quot;:&quot;Good&quot;,&quot;price_badge_text_lowercase&quot;:&quot;good&quot;,&quot;price_savings_text&quot;:&quot;&quot;,&quot;svg_tag&quot;:&quot;&lt;svg class=\&quot;sds-text-field__icon\&quot; height=\&quot;16\&quot; width=\&quot;16\&quot;&gt;&lt;use xlink:href=\&quot;/svg/spritemap-45f421b6ebaae75d4813e9a2ac89dbe3.svg?vsn=d#arrow-up-right-thick\&quot;&gt;&lt;/use&gt;&lt;/svg&gt;&quot;},&quot;virtual_appointments_badge&quot;:true,&quot;href_to_vdp&quot;:{&quot;href_to_vdp&quot;:&quot;/vehicledetail/16c62d88-88fe-44bd-b975-1160523686e0/?bodystyle=coupe&amp;cpo_indicator=true&amp;customer_id=14262&amp;intent_id=badges-explainer&amp;listing_id=16c62d88-88fe-44bd-b975-1160523686e0&amp;make=ford&amp;model=mustang&amp;model_year=2022&amp;msrp=&amp;price=39959&amp;sponsored=false&amp;sponsored_type=standard&amp;stock_type=used&amp;trim=gt&quot;}}" data-click-intent-id="badges-explainer" data-override-payload='{"bodystyle":"coupe","cpo_indicator":true,"customer_id":"14262","horizontal_position":null,"listing_id":"16c62d88-88fe-44bd-b975-1160523686e0","make":"ford","model":"mustang","model_year":"2022","msrp":null,"price":"39959","results_page_number":1,"sponsored":false,"sponsored_type":"standard","stock_type":"used","trim":"gt","vertical_position":15,"web_page_type_from":"shopping/search-results"}' trid="3WhpRsPZn4KHXkdAGLNNbp" trc>
+      <div class="sds-badge sds-badge--icon sds-badge--good js-price-badging" aria-label="price_badge" data-linkname="price-badge-good">
+    <div class="sds-badge__icon">
+      <spark-svg name="arrow-up-right" class="sds-text-field__icon"></spark-svg>
+    </div>
+    <span class="sds-badge__label">Good Deal<span class="sds-badge--price-savings"></span></span>
+  </div>
+  <div class="sds-badge sds-badge--cpo">
+    <span class="sds-badge__label">CPO Warrantied</span>
+  </div>
+
+  </div>
+
+
+        <div class="vehicle-links external-links">
+            <div class="vehicle-deeplink">
+    <a aria-describedby="new-tab-link" aria-label="Free CARFAX 1-Owner Report, External link" class="sds-link--ext" data-override-payload='{"page_url":"https://www.carfax.com/VehicleHistory/ar20/njrFpsgvoOPGqqh2l1waCTC5TAMt3bz-wzSZ1mIRYockdv-buzNWp2D0Ep8xL0ODIaiNZXMOeG8WSW33vibyVmc9b2Y7DNZNzGE","sponsored":false,"sponsored_type":"standard","web_page_type_to":"carfax-free-single-owner"}' data-linkname="carfax-free-single-owner" data-vehicle-history-intent-id="srp-vehicle-history-report" data-activity-rule-type="custom" data-component="vehicle-history" data-event-list="event96" href="/external/vehiclehistory/?redirect=https%3A%2F%2Fwww.carfax.com%2FVehicleHistory%2Far20%2FnjrFpsgvoOPGqqh2l1waCTC5TAMt3bz-wzSZ1mIRYockdv-buzNWp2D0Ep8xL0ODIaiNZXMOeG8WSW33vibyVmc9b2Y7DNZNzGE" linkname="carfax-free-single-owner" rel="noopener nofollow" target="_blank">Free CARFAX 1-Owner Report<spark-svg name="arrow-up-right" class="sds-text-field__icon"></spark-svg></a>
+  </div>
+
+
+          
+        </div>
+
+        
+          
+
+          <div class="vehicle-dealer">
+  <div class="dealer-name">
+    <strong>Park Ford</strong>
+  </div>
+
+  
+      <div class="sds-rating  ">
+    
+      <span class="sds-rating__count">4.7</span>
+    
+    <div class="sds-rating__wrapper">
+      <span class="sds-rating__item sds-icon--filled">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+<span class="sds-rating__item sds-icon--filled">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+<span class="sds-rating__item sds-icon--filled">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+<span class="sds-rating__item sds-icon--filled">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+<span class="sds-rating__item sds-icon--half">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <defs>
+      <lineargradient id="linear" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#532380"></stop>
+        <stop offset="50%" stop-color="#532380"></stop>
+        <stop offset="50%" stop-color="transparent"></stop>
+        <stop offset="100%" stop-color="transparent"></stop>
+      </lineargradient>
+    </defs>
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+
+    </div>
+      <span class="sds-rating__link sds-button-link">(502 reviews)</span>
+
+  </div>
+
+  
+
+  
+    <div data-qa="miles-from-user" class="miles-from ">
+      92 mi. from 15024
+    </div>
+  
+</div>
+
+        
+
+        
+      </div>
+
+--- NEW DIV ---
+
+<div class="vehicle-details">
+        <div class="save-vehicle">
+          <div class="hover-icon favorite">
+  <button id="vehicle-heart-16" class="heart" data-activity-rule-type="custom" data-component="save-vehicle-add" data-index="16" data-linkname="save-vehicle-sign-up" data-listing-id="7b3abc47-96ce-4b8e-9023-9c2ba62daa13" data-hook-heart-id="vehicle-heart-16" phx-click="save_listing" phx-hook="RecordSaveListingAction" phx-target="106" phx-value-is_vdp="false" phx-value-listing_id="7b3abc47-96ce-4b8e-9023-9c2ba62daa13" onclick="event.preventDefault()" trid="jUya9zno8mAxVvj4yVIcNS" trc>
+      <spark-svg name="heart-empty" class="sds-text-field__icon heart-empty"></spark-svg>
+      <spark-svg name="heart-filled" class="sds-text-field__icon active-state heart-filled"></spark-svg>
+    <span class="text">Save</span>
+  </button>
+</div>
+
+        </div>
+        <p class="stock-type">Used</p>
+        <a class="vehicle-card-link js-gallery-click-link" data-linkname="vehicle-listing" data-activity-rule-type="page-over-page" href="/vehicledetail/7b3abc47-96ce-4b8e-9023-9c2ba62daa13/" rel="nofollow" target="">
+    <h2 class="title">1992 Ford Mustang GT</h2>
+</a>
+
+          <div class="mileage">13,008 mi.</div>
+
+        <div class="price-section price-section-vehicle-card">
+
+
+      <span class="primary-price">$32,995</span>
+
+
+</div>
+
+        
+
+
+
+<span class="estimated-monthly-payments-tooltip js-tooltip-container ">
+  <div id="emp-tooltip-16" class="list-item-tooltip-container" phx-hook="MonthlyPaymentsCalculator" data-hook-base-price="32995" data-hook-index="16" data-hook-listing-id="7b3abc47-96ce-4b8e-9023-9c2ba62daa13" data-hook-init-data='{"creditRates":{"average":{"forty_eight":14.5,"seventy_two":14.5,"sixty":14.5,"thirty_six":14.5},"excellent":{"forty_eight":7.0,"seventy_two":7.0,"sixty":7.0,"thirty_six":7.0},"fair":{"forty_eight":19.5,"seventy_two":19.5,"sixty":19.5,"thirty_six":19.5},"good":{"forty_eight":8.5,"seventy_two":8.5,"sixty":8.5,"thirty_six":8.5}},"defaults":{"apr":"5.99","creditTier":"excellent","downPaymentPercentage":0.1,"lengthOfLoan":72},"isModalEnabled":false,"modalId":"srp-payment-calculator-modal"}' data-hook-page="srp">
+    <span class="sds-tooltip">
+      <a class="sds-link" tabindex="0" data-override-payload='{"bodystyle":"convertible","cpo_indicator":false,"customer_id":"107245","listing_id":"7b3abc47-96ce-4b8e-9023-9c2ba62daa13","make":"ford","model":"mustang","model_year":"1992","msrp":null,"price":32995,"results_page_number":1,"sponsored":false,"sponsored_type":"standard","stock_type":"used","trim":"gt","vertical_position":16}'>
+        <span class="js-estimated-monthly-payment-formatted-value-with-abr"></span>
+        <span class="js-estimated-monthly-payment-info-icon ">
+          <spark-svg name="info-circle"></spark-svg>
+        </span>
+      </a>
+    </span>
+    <div data-reveal-method="inline" class="sds-tooltip__window js-tooltip-content" role="tooltip" id="tooltip-est-monthly-payment-16">
+      <p>
+        <span class="js-estimated-monthly-payment-description"></span>
+      </p>
+      <div class="sds-icon sds-icon--contain custom-close-tooltip" data-target="tooltip-est-monthly-payment-16">
+          <spark-svg name="close"></spark-svg>
+      </div>
+    </div>
+  </div>
+</span>
+
+          <div tabindex="0" class="vehicle-badging" data-toggle="expanda-modal" data-target="#sds-modal" data-contents="{&quot;price_badge&quot;:{&quot;price_badge&quot;:&quot;similarly&quot;,&quot;price_badge_description&quot;:&quot;This car is fairly priced. Our analysis compares this car's price, features, and condition with similar 1992 Mustangs.&quot;,&quot;price_badge_savings_icon_text&quot;:&quot;&quot;,&quot;price_badge_text&quot;:&quot;Fair&quot;,&quot;price_badge_text_lowercase&quot;:&quot;fair&quot;,&quot;price_savings_text&quot;:&quot;&quot;,&quot;svg_tag&quot;:&quot;&lt;svg class=\&quot;sds-text-field__icon\&quot; height=\&quot;16\&quot; width=\&quot;16\&quot;&gt;&lt;use xlink:href=\&quot;/svg/spritemap-45f421b6ebaae75d4813e9a2ac89dbe3.svg?vsn=d#arrow-right-thick\&quot;&gt;&lt;/use&gt;&lt;/svg&gt;&quot;},&quot;href_to_vdp&quot;:{&quot;href_to_vdp&quot;:&quot;/vehicledetail/7b3abc47-96ce-4b8e-9023-9c2ba62daa13/?bodystyle=convertible&amp;cpo_indicator=false&amp;customer_id=107245&amp;intent_id=badges-explainer&amp;listing_id=7b3abc47-96ce-4b8e-9023-9c2ba62daa13&amp;make=ford&amp;model=mustang&amp;model_year=1992&amp;msrp=&amp;price=32995&amp;sponsored=false&amp;sponsored_type=standard&amp;stock_type=used&amp;trim=gt&quot;}}" data-click-intent-id="badges-explainer" data-override-payload='{"bodystyle":"convertible","cpo_indicator":false,"customer_id":"107245","horizontal_position":null,"listing_id":"7b3abc47-96ce-4b8e-9023-9c2ba62daa13","make":"ford","model":"mustang","model_year":"1992","msrp":null,"price":"32995","results_page_number":1,"sponsored":false,"sponsored_type":"standard","stock_type":"used","trim":"gt","vertical_position":16,"web_page_type_from":"shopping/search-results"}' trid="3WhpRsPZn4KHXkdAGLNNbp" trc>
+      <div class="sds-badge sds-badge--icon sds-badge--fair js-price-badging" aria-label="price_badge" data-linkname="price-badge-fair">
+    <div class="sds-badge__icon">
+      <spark-svg name="arrow-right" class="sds-text-field__icon"></spark-svg>
+    </div>
+    <span class="sds-badge__label">Fair Deal<span class="sds-badge--price-savings"></span></span>
+  </div>
+
+  </div>
+
+
+        <div class="vehicle-links external-links">
+            <div class="vehicle-deeplink">
+    <a aria-describedby="new-tab-link" aria-label="Free AutoCheck Report, External link" class="sds-link--ext" data-override-payload='{"page_url":"/vehiclehistory/7b3abc47-96ce-4b8e-9023-9c2ba62daa13/autocheck/","sponsored":false,"sponsored_type":"standard","web_page_type_to":"autocheck-free"}' data-linkname="autocheck-free" data-vehicle-history-intent-id="srp-vehicle-history-report" data-activity-rule-type="custom" data-component="vehicle-history" data-event-list="event96" href="/vehiclehistory/7b3abc47-96ce-4b8e-9023-9c2ba62daa13/autocheck/" linkname="autocheck-free" rel="noopener nofollow" target="_blank">Free AutoCheck Report<spark-svg name="arrow-up-right" class="sds-text-field__icon"></spark-svg></a>
+  </div>
+
+
+          
+        </div>
+
+        
+          
+
+          <div class="vehicle-dealer">
+  <div class="dealer-name">
+    <strong>Don Sitts Auto Sales</strong>
+  </div>
+
+  
+      <div class="sds-rating  ">
+    
+      <span class="sds-rating__count">4.6</span>
+    
+    <div class="sds-rating__wrapper">
+      <span class="sds-rating__item sds-icon--filled">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+<span class="sds-rating__item sds-icon--filled">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+<span class="sds-rating__item sds-icon--filled">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+<span class="sds-rating__item sds-icon--filled">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+<span class="sds-rating__item sds-icon--half">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <defs>
+      <lineargradient id="linear" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#532380"></stop>
+        <stop offset="50%" stop-color="#532380"></stop>
+        <stop offset="50%" stop-color="transparent"></stop>
+        <stop offset="100%" stop-color="transparent"></stop>
+      </lineargradient>
+    </defs>
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+
+    </div>
+      <span class="sds-rating__link sds-button-link">(159 reviews)</span>
+
+  </div>
+
+  
+
+  
+    <div data-qa="miles-from-user" class="miles-from ">
+      94 mi. from 15024
+    </div>
+  
+</div>
+
+        
+
+        
+      </div>
+
+--- NEW DIV ---
+
+<div class="vehicle-details">
+        <div class="save-vehicle">
+          <div class="hover-icon favorite">
+  <button id="vehicle-heart-17" class="heart" data-activity-rule-type="custom" data-component="save-vehicle-add" data-index="17" data-linkname="save-vehicle-sign-up" data-listing-id="76cb8b7a-385f-49af-aef7-161a088472bc" data-hook-heart-id="vehicle-heart-17" phx-click="save_listing" phx-hook="RecordSaveListingAction" phx-target="107" phx-value-is_vdp="false" phx-value-listing_id="76cb8b7a-385f-49af-aef7-161a088472bc" onclick="event.preventDefault()" trid="jUya9zno8mAxVvj4yVIcNS" trc>
+      <spark-svg name="heart-empty" class="sds-text-field__icon heart-empty"></spark-svg>
+      <spark-svg name="heart-filled" class="sds-text-field__icon active-state heart-filled"></spark-svg>
+    <span class="text">Save</span>
+  </button>
+</div>
+
+        </div>
+        <p class="stock-type">Used</p>
+        <a class="vehicle-card-link js-gallery-click-link" data-linkname="vehicle-listing" data-activity-rule-type="page-over-page" href="/vehicledetail/76cb8b7a-385f-49af-aef7-161a088472bc/" rel="nofollow" target="">
+    <h2 class="title">2016 Ford Mustang GT</h2>
+</a>
+
+          <div class="mileage">54,570 mi.</div>
+
+        <div class="price-section price-section-vehicle-card">
+
+
+      <span class="primary-price">$29,188</span>
+
+        <span class="secondary-price price-drop">$467 price drop</span>
+
+
+</div>
+
+        
+
+
+
+<span class="estimated-monthly-payments-tooltip js-tooltip-container ">
+  <div id="emp-tooltip-17" class="list-item-tooltip-container" phx-hook="MonthlyPaymentsCalculator" data-hook-base-price="29188" data-hook-index="17" data-hook-listing-id="76cb8b7a-385f-49af-aef7-161a088472bc" data-hook-init-data='{"creditRates":{"average":{"forty_eight":14.5,"seventy_two":14.5,"sixty":14.5,"thirty_six":14.5},"excellent":{"forty_eight":7.0,"seventy_two":7.0,"sixty":7.0,"thirty_six":7.0},"fair":{"forty_eight":19.5,"seventy_two":19.5,"sixty":19.5,"thirty_six":19.5},"good":{"forty_eight":8.5,"seventy_two":8.5,"sixty":8.5,"thirty_six":8.5}},"defaults":{"apr":"5.99","creditTier":"excellent","downPaymentPercentage":0.1,"lengthOfLoan":72},"isModalEnabled":false,"modalId":"srp-payment-calculator-modal"}' data-hook-page="srp">
+    <span class="sds-tooltip">
+      <a class="sds-link" tabindex="0" data-override-payload='{"bodystyle":"coupe","cpo_indicator":false,"customer_id":"14280","listing_id":"76cb8b7a-385f-49af-aef7-161a088472bc","make":"ford","model":"mustang","model_year":"2016","msrp":null,"price":29188,"results_page_number":1,"sponsored":false,"sponsored_type":"standard","stock_type":"used","trim":"gt","vertical_position":17}'>
+        <span class="js-estimated-monthly-payment-formatted-value-with-abr"></span>
+        <span class="js-estimated-monthly-payment-info-icon ">
+          <spark-svg name="info-circle"></spark-svg>
+        </span>
+      </a>
+    </span>
+    <div data-reveal-method="inline" class="sds-tooltip__window js-tooltip-content" role="tooltip" id="tooltip-est-monthly-payment-17">
+      <p>
+        <span class="js-estimated-monthly-payment-description"></span>
+      </p>
+      <div class="sds-icon sds-icon--contain custom-close-tooltip" data-target="tooltip-est-monthly-payment-17">
+          <spark-svg name="close"></spark-svg>
+      </div>
+    </div>
+  </div>
+</span>
+
+          <div tabindex="0" class="vehicle-badging" data-toggle="expanda-modal" data-target="#sds-modal" data-contents="{&quot;home_delivery_badge&quot;:true,&quot;price_badge&quot;:{&quot;price_badge&quot;:&quot;competitively&quot;,&quot;price_badge_description&quot;:&quot;This car presents a good buying opportunity. Our analysis compares this car's price, features, and condition with similar 2016 Mustangs.&quot;,&quot;price_badge_savings_icon_text&quot;:&quot;&quot;,&quot;price_badge_text&quot;:&quot;Good&quot;,&quot;price_badge_text_lowercase&quot;:&quot;good&quot;,&quot;price_savings_text&quot;:&quot;&quot;,&quot;svg_tag&quot;:&quot;&lt;svg class=\&quot;sds-text-field__icon\&quot; height=\&quot;16\&quot; width=\&quot;16\&quot;&gt;&lt;use xlink:href=\&quot;/svg/spritemap-45f421b6ebaae75d4813e9a2ac89dbe3.svg?vsn=d#arrow-up-right-thick\&quot;&gt;&lt;/use&gt;&lt;/svg&gt;&quot;},&quot;virtual_appointments_badge&quot;:true,&quot;href_to_vdp&quot;:{&quot;href_to_vdp&quot;:&quot;/vehicledetail/76cb8b7a-385f-49af-aef7-161a088472bc/?bodystyle=coupe&amp;cpo_indicator=false&amp;customer_id=14280&amp;intent_id=badges-explainer&amp;listing_id=76cb8b7a-385f-49af-aef7-161a088472bc&amp;make=ford&amp;model=mustang&amp;model_year=2016&amp;msrp=&amp;price=29188&amp;sponsored=false&amp;sponsored_type=standard&amp;stock_type=used&amp;trim=gt&quot;}}" data-click-intent-id="badges-explainer" data-override-payload='{"bodystyle":"coupe","cpo_indicator":false,"customer_id":"14280","horizontal_position":null,"listing_id":"76cb8b7a-385f-49af-aef7-161a088472bc","make":"ford","model":"mustang","model_year":"2016","msrp":null,"price":"29188","results_page_number":1,"sponsored":false,"sponsored_type":"standard","stock_type":"used","trim":"gt","vertical_position":17,"web_page_type_from":"shopping/search-results"}' trid="3WhpRsPZn4KHXkdAGLNNbp" trc>
+      <div class="sds-badge sds-badge--icon sds-badge--good js-price-badging" aria-label="price_badge" data-linkname="price-badge-good">
+    <div class="sds-badge__icon">
+      <spark-svg name="arrow-up-right" class="sds-text-field__icon"></spark-svg>
+    </div>
+    <span class="sds-badge__label">Good Deal<span class="sds-badge--price-savings"></span></span>
+  </div>
+
+  </div>
+
+
+        <div class="vehicle-links external-links">
+            <div class="vehicle-deeplink">
+    <a aria-describedby="new-tab-link" aria-label="Free CARFAX Report, External link" class="sds-link--ext" data-override-payload='{"page_url":"https://www.carfax.com/VehicleHistory/ar20/GjVSM1SX2BrmR34M7_TJSwLgZsYQeRx3Se6hi8wvQeoBV9PldVS2jF1J6q3T8pcA_hFUNWKjWC8SboB7yYNeN0L4GC4JZXDSEcU","sponsored":false,"sponsored_type":"standard","web_page_type_to":"carfax-free"}' data-linkname="carfax-free" data-vehicle-history-intent-id="srp-vehicle-history-report" data-activity-rule-type="custom" data-component="vehicle-history" data-event-list="event96" href="/external/vehiclehistory/?redirect=https%3A%2F%2Fwww.carfax.com%2FVehicleHistory%2Far20%2FGjVSM1SX2BrmR34M7_TJSwLgZsYQeRx3Se6hi8wvQeoBV9PldVS2jF1J6q3T8pcA_hFUNWKjWC8SboB7yYNeN0L4GC4JZXDSEcU" linkname="carfax-free" rel="noopener nofollow" target="_blank">Free CARFAX Report<spark-svg name="arrow-up-right" class="sds-text-field__icon"></spark-svg></a>
+  </div>
+
+
+          
+        </div>
+
+        
+          
+
+          <div class="vehicle-dealer">
+  <div class="dealer-name">
+    <strong>Great Lakes Honda</strong>
+  </div>
+
+  
+      <div class="sds-rating  ">
+    
+      <span class="sds-rating__count">3.0</span>
+    
+    <div class="sds-rating__wrapper">
+      <span class="sds-rating__item sds-icon--filled">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+<span class="sds-rating__item sds-icon--filled">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+<span class="sds-rating__item sds-icon--filled">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+<span class="sds-rating__item">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+<span class="sds-rating__item">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+
+    </div>
+      <span class="sds-rating__link sds-button-link">(451 reviews)</span>
+
+  </div>
+
+  
+
+  
+    <div data-qa="miles-from-user" class="miles-from ">
+      94 mi. from 15024
+    </div>
+  
+</div>
+
+        
+
+        
+      </div>
+
+--- NEW DIV ---
+
+<div class="vehicle-details">
+        <div class="save-vehicle">
+          <div class="hover-icon favorite">
+  <button id="vehicle-heart-18" class="heart" data-activity-rule-type="custom" data-component="save-vehicle-add" data-index="18" data-linkname="save-vehicle-sign-up" data-listing-id="e443894e-d58c-45dd-944a-002e3e2968f3" data-hook-heart-id="vehicle-heart-18" phx-click="save_listing" phx-hook="RecordSaveListingAction" phx-target="108" phx-value-is_vdp="false" phx-value-listing_id="e443894e-d58c-45dd-944a-002e3e2968f3" onclick="event.preventDefault()" trid="jUya9zno8mAxVvj4yVIcNS" trc>
+      <spark-svg name="heart-empty" class="sds-text-field__icon heart-empty"></spark-svg>
+      <spark-svg name="heart-filled" class="sds-text-field__icon active-state heart-filled"></spark-svg>
+    <span class="text">Save</span>
+  </button>
+</div>
+
+        </div>
+        <p class="stock-type">Used</p>
+        <a class="vehicle-card-link js-gallery-click-link" data-linkname="vehicle-listing" data-activity-rule-type="page-over-page" href="/vehicledetail/e443894e-d58c-45dd-944a-002e3e2968f3/" rel="nofollow" target="">
+    <h2 class="title">2016 Ford Mustang GT</h2>
+</a>
+
+          <div class="mileage">25,915 mi.</div>
+
+        <div class="price-section price-section-vehicle-card">
+
+
+      <span class="primary-price">$31,990</span>
+
+        <span class="secondary-price price-drop">$1,005 price drop</span>
+
+
+</div>
+
+        
+
+
+
+<span class="estimated-monthly-payments-tooltip js-tooltip-container ">
+  <div id="emp-tooltip-18" class="list-item-tooltip-container" phx-hook="MonthlyPaymentsCalculator" data-hook-base-price="31990" data-hook-index="18" data-hook-listing-id="e443894e-d58c-45dd-944a-002e3e2968f3" data-hook-init-data='{"creditRates":{"average":{"forty_eight":14.5,"seventy_two":14.5,"sixty":14.5,"thirty_six":14.5},"excellent":{"forty_eight":7.0,"seventy_two":7.0,"sixty":7.0,"thirty_six":7.0},"fair":{"forty_eight":19.5,"seventy_two":19.5,"sixty":19.5,"thirty_six":19.5},"good":{"forty_eight":8.5,"seventy_two":8.5,"sixty":8.5,"thirty_six":8.5}},"defaults":{"apr":"5.99","creditTier":"excellent","downPaymentPercentage":0.1,"lengthOfLoan":72},"isModalEnabled":false,"modalId":"srp-payment-calculator-modal"}' data-hook-page="srp">
+    <span class="sds-tooltip">
+      <a class="sds-link" tabindex="0" data-override-payload='{"bodystyle":"coupe","cpo_indicator":false,"customer_id":"14220","listing_id":"e443894e-d58c-45dd-944a-002e3e2968f3","make":"ford","model":"mustang","model_year":"2016","msrp":null,"price":31990,"results_page_number":1,"sponsored":false,"sponsored_type":"standard","stock_type":"used","trim":"gt","vertical_position":18}'>
+        <span class="js-estimated-monthly-payment-formatted-value-with-abr"></span>
+        <span class="js-estimated-monthly-payment-info-icon ">
+          <spark-svg name="info-circle"></spark-svg>
+        </span>
+      </a>
+    </span>
+    <div data-reveal-method="inline" class="sds-tooltip__window js-tooltip-content" role="tooltip" id="tooltip-est-monthly-payment-18">
+      <p>
+        <span class="js-estimated-monthly-payment-description"></span>
+      </p>
+      <div class="sds-icon sds-icon--contain custom-close-tooltip" data-target="tooltip-est-monthly-payment-18">
+          <spark-svg name="close"></spark-svg>
+      </div>
+    </div>
+  </div>
+</span>
+
+          <div tabindex="0" class="vehicle-badging" data-toggle="expanda-modal" data-target="#sds-modal" data-contents="{&quot;home_delivery_badge&quot;:true,&quot;price_badge&quot;:{&quot;price_badge&quot;:&quot;similarly&quot;,&quot;price_badge_description&quot;:&quot;This car is fairly priced. Our analysis compares this car's price, features, and condition with similar 2016 Mustangs.&quot;,&quot;price_badge_savings_icon_text&quot;:&quot;&quot;,&quot;price_badge_text&quot;:&quot;Fair&quot;,&quot;price_badge_text_lowercase&quot;:&quot;fair&quot;,&quot;price_savings_text&quot;:&quot;&quot;,&quot;svg_tag&quot;:&quot;&lt;svg class=\&quot;sds-text-field__icon\&quot; height=\&quot;16\&quot; width=\&quot;16\&quot;&gt;&lt;use xlink:href=\&quot;/svg/spritemap-45f421b6ebaae75d4813e9a2ac89dbe3.svg?vsn=d#arrow-right-thick\&quot;&gt;&lt;/use&gt;&lt;/svg&gt;&quot;},&quot;href_to_vdp&quot;:{&quot;href_to_vdp&quot;:&quot;/vehicledetail/e443894e-d58c-45dd-944a-002e3e2968f3/?bodystyle=coupe&amp;cpo_indicator=false&amp;customer_id=14220&amp;intent_id=badges-explainer&amp;listing_id=e443894e-d58c-45dd-944a-002e3e2968f3&amp;make=ford&amp;model=mustang&amp;model_year=2016&amp;msrp=&amp;price=31990&amp;sponsored=false&amp;sponsored_type=standard&amp;stock_type=used&amp;trim=gt&quot;}}" data-click-intent-id="badges-explainer" data-override-payload='{"bodystyle":"coupe","cpo_indicator":false,"customer_id":"14220","horizontal_position":null,"listing_id":"e443894e-d58c-45dd-944a-002e3e2968f3","make":"ford","model":"mustang","model_year":"2016","msrp":null,"price":"31990","results_page_number":1,"sponsored":false,"sponsored_type":"standard","stock_type":"used","trim":"gt","vertical_position":18,"web_page_type_from":"shopping/search-results"}' trid="3WhpRsPZn4KHXkdAGLNNbp" trc>
+      <div class="sds-badge sds-badge--icon sds-badge--fair js-price-badging" aria-label="price_badge" data-linkname="price-badge-fair">
+    <div class="sds-badge__icon">
+      <spark-svg name="arrow-right" class="sds-text-field__icon"></spark-svg>
+    </div>
+    <span class="sds-badge__label">Fair Deal<span class="sds-badge--price-savings"></span></span>
+  </div>
+
+  </div>
+
+
+        <div class="vehicle-links external-links">
+            <div class="vehicle-deeplink">
+    <a aria-describedby="new-tab-link" aria-label="Free CARFAX Report, External link" class="sds-link--ext" data-override-payload='{"page_url":"https://www.carfax.com/VehicleHistory/ar20/XUTATmSeyp_IR0KLTGYNSmn-c8kOYcLWRmsG5DJEgnVVNhx8lwSfrrl00kspmv4W9lJW8bQW5gyn2QcghFqj1Jw8JtfAtJsEhlo","sponsored":false,"sponsored_type":"standard","web_page_type_to":"carfax-free"}' data-linkname="carfax-free" data-vehicle-history-intent-id="srp-vehicle-history-report" data-activity-rule-type="custom" data-component="vehicle-history" data-event-list="event96" href="/external/vehiclehistory/?redirect=https%3A%2F%2Fwww.carfax.com%2FVehicleHistory%2Far20%2FXUTATmSeyp_IR0KLTGYNSmn-c8kOYcLWRmsG5DJEgnVVNhx8lwSfrrl00kspmv4W9lJW8bQW5gyn2QcghFqj1Jw8JtfAtJsEhlo" linkname="carfax-free" rel="noopener nofollow" target="_blank">Free CARFAX Report<spark-svg name="arrow-up-right" class="sds-text-field__icon"></spark-svg></a>
+  </div>
+
+
+          
+        </div>
+
+        
+          
+
+          <div class="vehicle-dealer">
+  <div class="dealer-name">
+    <strong>Ron Marhofer Hyundai</strong>
+  </div>
+
+  
+      <div class="sds-rating  ">
+    
+      <span class="sds-rating__count">4.9</span>
+    
+    <div class="sds-rating__wrapper">
+      <span class="sds-rating__item sds-icon--filled">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+<span class="sds-rating__item sds-icon--filled">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+<span class="sds-rating__item sds-icon--filled">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+<span class="sds-rating__item sds-icon--filled">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+<span class="sds-rating__item sds-icon--filled">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+
+    </div>
+      <span class="sds-rating__link sds-button-link">(424 reviews)</span>
+
+  </div>
+
+  
+
+  
+    <div data-qa="miles-from-user" class="miles-from ">
+      94 mi. from 15024
+    </div>
+  
+</div>
+
+        
+
+        
+      </div>
+
+--- NEW DIV ---
+
+<div class="vehicle-details">
+        <div class="save-vehicle">
+          <div class="hover-icon favorite">
+  <button id="vehicle-heart-19" class="heart" data-activity-rule-type="custom" data-component="save-vehicle-add" data-index="19" data-linkname="save-vehicle-sign-up" data-listing-id="b7a02c4f-88f8-4094-800c-c884d701739b" data-hook-heart-id="vehicle-heart-19" phx-click="save_listing" phx-hook="RecordSaveListingAction" phx-target="109" phx-value-is_vdp="false" phx-value-listing_id="b7a02c4f-88f8-4094-800c-c884d701739b" onclick="event.preventDefault()" trid="jUya9zno8mAxVvj4yVIcNS" trc>
+      <spark-svg name="heart-empty" class="sds-text-field__icon heart-empty"></spark-svg>
+      <spark-svg name="heart-filled" class="sds-text-field__icon active-state heart-filled"></spark-svg>
+    <span class="text">Save</span>
+  </button>
+</div>
+
+        </div>
+        <p class="stock-type">Used</p>
+        <a class="vehicle-card-link js-gallery-click-link" data-linkname="vehicle-listing" data-activity-rule-type="page-over-page" href="/vehicledetail/b7a02c4f-88f8-4094-800c-c884d701739b/" rel="nofollow" target="">
+    <h2 class="title">2021 Ford Mustang GT</h2>
+</a>
+
+          <div class="mileage">9,474 mi.</div>
+
+        <div class="price-section price-section-vehicle-card">
+
+
+      <span class="primary-price">$46,499</span>
+
+
+</div>
+
+        
+
+
+
+<span class="estimated-monthly-payments-tooltip js-tooltip-container ">
+  <div id="emp-tooltip-19" class="list-item-tooltip-container" phx-hook="MonthlyPaymentsCalculator" data-hook-base-price="46499" data-hook-index="19" data-hook-listing-id="b7a02c4f-88f8-4094-800c-c884d701739b" data-hook-init-data='{"creditRates":{"average":{"forty_eight":14.5,"seventy_two":14.5,"sixty":14.5,"thirty_six":14.5},"excellent":{"forty_eight":7.0,"seventy_two":7.0,"sixty":7.0,"thirty_six":7.0},"fair":{"forty_eight":19.5,"seventy_two":19.5,"sixty":19.5,"thirty_six":19.5},"good":{"forty_eight":8.5,"seventy_two":8.5,"sixty":8.5,"thirty_six":8.5}},"defaults":{"apr":"5.99","creditTier":"excellent","downPaymentPercentage":0.1,"lengthOfLoan":72},"isModalEnabled":false,"modalId":"srp-payment-calculator-modal"}' data-hook-page="srp">
+    <span class="sds-tooltip">
+      <a class="sds-link" tabindex="0" data-override-payload='{"bodystyle":"coupe","cpo_indicator":false,"customer_id":"188886","listing_id":"b7a02c4f-88f8-4094-800c-c884d701739b","make":"ford","model":"mustang","model_year":"2021","msrp":null,"price":46499,"results_page_number":1,"sponsored":false,"sponsored_type":"standard","stock_type":"used","trim":"gt","vertical_position":19}'>
+        <span class="js-estimated-monthly-payment-formatted-value-with-abr"></span>
+        <span class="js-estimated-monthly-payment-info-icon ">
+          <spark-svg name="info-circle"></spark-svg>
+        </span>
+      </a>
+    </span>
+    <div data-reveal-method="inline" class="sds-tooltip__window js-tooltip-content" role="tooltip" id="tooltip-est-monthly-payment-19">
+      <p>
+        <span class="js-estimated-monthly-payment-description"></span>
+      </p>
+      <div class="sds-icon sds-icon--contain custom-close-tooltip" data-target="tooltip-est-monthly-payment-19">
+          <spark-svg name="close"></spark-svg>
+      </div>
+    </div>
+  </div>
+</span>
+
+          <div tabindex="0" class="vehicle-badging" data-toggle="expanda-modal" data-target="#sds-modal" data-contents="{&quot;home_delivery_badge&quot;:true,&quot;price_badge&quot;:{&quot;price_badge&quot;:&quot;extremely competitively&quot;,&quot;price_badge_description&quot;:&quot;This car presents a great buying opportunity, priced at $3,157 under market. Our analysis compares this car's price, features, and condition with similar 2021 Mustangs.&quot;,&quot;price_badge_savings_icon_text&quot;:&quot; | $3,157 under&quot;,&quot;price_badge_text&quot;:&quot;Great&quot;,&quot;price_badge_text_lowercase&quot;:&quot;great&quot;,&quot;price_savings_text&quot;:&quot; | $3,157 under&quot;,&quot;svg_tag&quot;:&quot;&lt;svg class=\&quot;sds-text-field__icon\&quot; height=\&quot;16\&quot; width=\&quot;16\&quot;&gt;&lt;use xlink:href=\&quot;/svg/spritemap-45f421b6ebaae75d4813e9a2ac89dbe3.svg?vsn=d#arrow-up-thick\&quot;&gt;&lt;/use&gt;&lt;/svg&gt;&quot;},&quot;virtual_appointments_badge&quot;:true,&quot;href_to_vdp&quot;:{&quot;href_to_vdp&quot;:&quot;/vehicledetail/b7a02c4f-88f8-4094-800c-c884d701739b/?bodystyle=coupe&amp;cpo_indicator=false&amp;customer_id=188886&amp;intent_id=badges-explainer&amp;listing_id=b7a02c4f-88f8-4094-800c-c884d701739b&amp;make=ford&amp;model=mustang&amp;model_year=2021&amp;msrp=&amp;price=46499&amp;sponsored=false&amp;sponsored_type=standard&amp;stock_type=used&amp;trim=gt&quot;}}" data-click-intent-id="badges-explainer" data-override-payload='{"bodystyle":"coupe","cpo_indicator":false,"customer_id":"188886","horizontal_position":null,"listing_id":"b7a02c4f-88f8-4094-800c-c884d701739b","make":"ford","model":"mustang","model_year":"2021","msrp":null,"price":"46499","results_page_number":1,"sponsored":false,"sponsored_type":"standard","stock_type":"used","trim":"gt","vertical_position":19,"web_page_type_from":"shopping/search-results"}' trid="3WhpRsPZn4KHXkdAGLNNbp" trc>
+      <div class="sds-badge sds-badge--icon sds-badge--great js-price-badging" aria-label="price_badge" data-linkname="price-badge-great">
+    <div class="sds-badge__icon">
+      <spark-svg name="arrow-up" class="sds-text-field__icon"></spark-svg>
+    </div>
+    <span class="sds-badge__label">Great Deal<span class="sds-badge--price-savings"> | $3,157 under</span></span>
+  </div>
+
+  </div>
+
+
+        <div class="vehicle-links external-links">
+            <div class="vehicle-deeplink">
+    <a aria-describedby="new-tab-link" aria-label="Free CARFAX Report, External link" class="sds-link--ext" data-override-payload='{"page_url":"https://www.carfax.com/VehicleHistory/ar20/dNgLX3P_ertjUw89GDyFt8J-OegFw2qnoV0PQEXdjMZ2p-kQzShyGBTMBbZT79TQYWU26hunSrQG2HZ6jVEmAPtxPhaPXwC2Gpk","sponsored":false,"sponsored_type":"standard","web_page_type_to":"carfax-free"}' data-linkname="carfax-free" data-vehicle-history-intent-id="srp-vehicle-history-report" data-activity-rule-type="custom" data-component="vehicle-history" data-event-list="event96" href="/external/vehiclehistory/?redirect=https%3A%2F%2Fwww.carfax.com%2FVehicleHistory%2Far20%2FdNgLX3P_ertjUw89GDyFt8J-OegFw2qnoV0PQEXdjMZ2p-kQzShyGBTMBbZT79TQYWU26hunSrQG2HZ6jVEmAPtxPhaPXwC2Gpk" linkname="carfax-free" rel="noopener nofollow" target="_blank">Free CARFAX Report<spark-svg name="arrow-up-right" class="sds-text-field__icon"></spark-svg></a>
+  </div>
+
+
+          
+        </div>
+
+        
+          
+
+          <div class="vehicle-dealer">
+  <div class="dealer-name">
+    <strong>Humes Chrysler Jeep Dodge RAM</strong>
+  </div>
+
+  
+      <div class="sds-rating  ">
+    
+      <span class="sds-rating__count">4.6</span>
+    
+    <div class="sds-rating__wrapper">
+      <span class="sds-rating__item sds-icon--filled">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+<span class="sds-rating__item sds-icon--filled">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+<span class="sds-rating__item sds-icon--filled">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+<span class="sds-rating__item sds-icon--filled">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+<span class="sds-rating__item sds-icon--half">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <defs>
+      <lineargradient id="linear" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#532380"></stop>
+        <stop offset="50%" stop-color="#532380"></stop>
+        <stop offset="50%" stop-color="transparent"></stop>
+        <stop offset="100%" stop-color="transparent"></stop>
+      </lineargradient>
+    </defs>
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+
+    </div>
+      <span class="sds-rating__link sds-button-link">(593 reviews)</span>
+
+  </div>
+
+  
+
+  
+    <div data-qa="miles-from-user" class="miles-from ">
+      96 mi. from 15024
+    </div>
+  
+</div>
+
+        
+
+        
+      </div>
+
+--- NEW DIV ---
+
+<div class="vehicle-details">
+        <div class="save-vehicle">
+          <div class="hover-icon favorite">
+  <button id="vehicle-heart-20" class="heart" data-activity-rule-type="custom" data-component="save-vehicle-add" data-index="20" data-linkname="save-vehicle-sign-up" data-listing-id="4d2302c5-c058-4789-a65c-943837d94659" data-hook-heart-id="vehicle-heart-20" phx-click="save_listing" phx-hook="RecordSaveListingAction" phx-target="110" phx-value-is_vdp="false" phx-value-listing_id="4d2302c5-c058-4789-a65c-943837d94659" onclick="event.preventDefault()" trid="jUya9zno8mAxVvj4yVIcNS" trc>
+      <spark-svg name="heart-empty" class="sds-text-field__icon heart-empty"></spark-svg>
+      <spark-svg name="heart-filled" class="sds-text-field__icon active-state heart-filled"></spark-svg>
+    <span class="text">Save</span>
+  </button>
+</div>
+
+        </div>
+        <p class="stock-type">Used</p>
+        <a class="vehicle-card-link js-gallery-click-link" data-linkname="vehicle-listing" data-activity-rule-type="page-over-page" href="/vehicledetail/4d2302c5-c058-4789-a65c-943837d94659/" rel="nofollow" target="">
+    <h2 class="title">2013 Ford Mustang GT</h2>
+</a>
+
+          <div class="mileage">100,240 mi.</div>
+
+        <div class="price-section price-section-vehicle-card">
+
+
+      <span class="primary-price">$22,395</span>
+
+
+</div>
+
+        
+
+
+
+<span class="estimated-monthly-payments-tooltip js-tooltip-container ">
+  <div id="emp-tooltip-20" class="list-item-tooltip-container" phx-hook="MonthlyPaymentsCalculator" data-hook-base-price="22395" data-hook-index="20" data-hook-listing-id="4d2302c5-c058-4789-a65c-943837d94659" data-hook-init-data='{"creditRates":{"average":{"forty_eight":14.5,"seventy_two":14.5,"sixty":14.5,"thirty_six":14.5},"excellent":{"forty_eight":7.0,"seventy_two":7.0,"sixty":7.0,"thirty_six":7.0},"fair":{"forty_eight":19.5,"seventy_two":19.5,"sixty":19.5,"thirty_six":19.5},"good":{"forty_eight":8.5,"seventy_two":8.5,"sixty":8.5,"thirty_six":8.5}},"defaults":{"apr":"5.99","creditTier":"excellent","downPaymentPercentage":0.1,"lengthOfLoan":72},"isModalEnabled":false,"modalId":"srp-payment-calculator-modal"}' data-hook-page="srp">
+    <span class="sds-tooltip">
+      <a class="sds-link" tabindex="0" data-override-payload='{"bodystyle":"convertible","cpo_indicator":false,"customer_id":"5383189","listing_id":"4d2302c5-c058-4789-a65c-943837d94659","make":"ford","model":"mustang","model_year":"2013","msrp":"22395","price":22395,"results_page_number":1,"sponsored":false,"sponsored_type":"standard","stock_type":"used","trim":"gt","vertical_position":20}'>
+        <span class="js-estimated-monthly-payment-formatted-value-with-abr"></span>
+        <span class="js-estimated-monthly-payment-info-icon ">
+          <spark-svg name="info-circle"></spark-svg>
+        </span>
+      </a>
+    </span>
+    <div data-reveal-method="inline" class="sds-tooltip__window js-tooltip-content" role="tooltip" id="tooltip-est-monthly-payment-20">
+      <p>
+        <span class="js-estimated-monthly-payment-description"></span>
+      </p>
+      <div class="sds-icon sds-icon--contain custom-close-tooltip" data-target="tooltip-est-monthly-payment-20">
+          <spark-svg name="close"></spark-svg>
+      </div>
+    </div>
+  </div>
+</span>
+
+          <div tabindex="0" class="vehicle-badging" data-toggle="expanda-modal" data-target="#sds-modal" data-contents="{&quot;home_delivery_badge&quot;:true,&quot;price_badge&quot;:{&quot;price_badge&quot;:&quot;competitively&quot;,&quot;price_badge_description&quot;:&quot;This car presents a good buying opportunity. Our analysis compares this car's price, features, and condition with similar 2013 Mustangs.&quot;,&quot;price_badge_savings_icon_text&quot;:&quot;&quot;,&quot;price_badge_text&quot;:&quot;Good&quot;,&quot;price_badge_text_lowercase&quot;:&quot;good&quot;,&quot;price_savings_text&quot;:&quot;&quot;,&quot;svg_tag&quot;:&quot;&lt;svg class=\&quot;sds-text-field__icon\&quot; height=\&quot;16\&quot; width=\&quot;16\&quot;&gt;&lt;use xlink:href=\&quot;/svg/spritemap-45f421b6ebaae75d4813e9a2ac89dbe3.svg?vsn=d#arrow-up-right-thick\&quot;&gt;&lt;/use&gt;&lt;/svg&gt;&quot;},&quot;virtual_appointments_badge&quot;:true,&quot;href_to_vdp&quot;:{&quot;href_to_vdp&quot;:&quot;/vehicledetail/4d2302c5-c058-4789-a65c-943837d94659/?bodystyle=convertible&amp;cpo_indicator=false&amp;customer_id=5383189&amp;intent_id=badges-explainer&amp;listing_id=4d2302c5-c058-4789-a65c-943837d94659&amp;make=ford&amp;model=mustang&amp;model_year=2013&amp;msrp=22395&amp;price=22395&amp;sponsored=false&amp;sponsored_type=standard&amp;stock_type=used&amp;trim=gt&quot;}}" data-click-intent-id="badges-explainer" data-override-payload='{"bodystyle":"convertible","cpo_indicator":false,"customer_id":"5383189","horizontal_position":null,"listing_id":"4d2302c5-c058-4789-a65c-943837d94659","make":"ford","model":"mustang","model_year":"2013","msrp":"22395","price":"22395","results_page_number":1,"sponsored":false,"sponsored_type":"standard","stock_type":"used","trim":"gt","vertical_position":20,"web_page_type_from":"shopping/search-results"}' trid="3WhpRsPZn4KHXkdAGLNNbp" trc>
+      <div class="sds-badge sds-badge--icon sds-badge--good js-price-badging" aria-label="price_badge" data-linkname="price-badge-good">
+    <div class="sds-badge__icon">
+      <spark-svg name="arrow-up-right" class="sds-text-field__icon"></spark-svg>
+    </div>
+    <span class="sds-badge__label">Good Deal<span class="sds-badge--price-savings"></span></span>
+  </div>
+
+  </div>
+
+
+        <div class="vehicle-links external-links">
+            <div class="vehicle-deeplink">
+    <a aria-describedby="new-tab-link" aria-label="Free CARFAX Report, External link" class="sds-link--ext" data-override-payload='{"page_url":"https://www.carfax.com/VehicleHistory/ar20/yek06HnFJZLUjSHZLhG0xGyss7PFwtsubGSV92mn_yZU7Sf4yItwzJt5ZybxPcJoR78tdXhMVCGEKKp2Mx75M7gcu7lXjG-hnJE","sponsored":false,"sponsored_type":"standard","web_page_type_to":"carfax-free"}' data-linkname="carfax-free" data-vehicle-history-intent-id="srp-vehicle-history-report" data-activity-rule-type="custom" data-component="vehicle-history" data-event-list="event96" href="/external/vehiclehistory/?redirect=https%3A%2F%2Fwww.carfax.com%2FVehicleHistory%2Far20%2Fyek06HnFJZLUjSHZLhG0xGyss7PFwtsubGSV92mn_yZU7Sf4yItwzJt5ZybxPcJoR78tdXhMVCGEKKp2Mx75M7gcu7lXjG-hnJE" linkname="carfax-free" rel="noopener nofollow" target="_blank">Free CARFAX Report<spark-svg name="arrow-up-right" class="sds-text-field__icon"></spark-svg></a>
+  </div>
+
+
+          
+        </div>
+
+        
+          
+
+          <div class="vehicle-dealer">
+  <div class="dealer-name">
+    <strong>Squared Auto</strong>
+  </div>
+
+  
+      <div class="sds-rating  ">
+    
+      <span class="sds-rating__count">3.3</span>
+    
+    <div class="sds-rating__wrapper">
+      <span class="sds-rating__item sds-icon--filled">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+<span class="sds-rating__item sds-icon--filled">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+<span class="sds-rating__item sds-icon--filled">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+<span class="sds-rating__item sds-icon--half">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <defs>
+      <lineargradient id="linear" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#532380"></stop>
+        <stop offset="50%" stop-color="#532380"></stop>
+        <stop offset="50%" stop-color="transparent"></stop>
+        <stop offset="100%" stop-color="transparent"></stop>
+      </lineargradient>
+    </defs>
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+<span class="sds-rating__item">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+
+    </div>
+      <span class="sds-rating__link sds-button-link">(16 reviews)</span>
+
+  </div>
+
+  
+
+  
+    <div data-qa="miles-from-user" class="miles-from ">
+      97 mi. from 15024
+    </div>
+  
+</div>
+
+        
+
+        
+      </div>
+
+--- NEW DIV ---
+
+<div class="vehicle-details">
+        <div class="save-vehicle">
+          <div class="hover-icon favorite">
+  <button id="vehicle-heart-21" class="heart" data-activity-rule-type="custom" data-component="save-vehicle-add" data-index="21" data-linkname="save-vehicle-sign-up" data-listing-id="03741f6a-42c7-489c-b54b-a6a5a6521b5c" data-hook-heart-id="vehicle-heart-21" phx-click="save_listing" phx-hook="RecordSaveListingAction" phx-target="111" phx-value-is_vdp="false" phx-value-listing_id="03741f6a-42c7-489c-b54b-a6a5a6521b5c" onclick="event.preventDefault()" trid="jUya9zno8mAxVvj4yVIcNS" trc>
+      <spark-svg name="heart-empty" class="sds-text-field__icon heart-empty"></spark-svg>
+      <spark-svg name="heart-filled" class="sds-text-field__icon active-state heart-filled"></spark-svg>
+    <span class="text">Save</span>
+  </button>
+</div>
+
+        </div>
+        <p class="stock-type">Used</p>
+        <a class="vehicle-card-link js-gallery-click-link" data-linkname="vehicle-listing" data-activity-rule-type="page-over-page" href="/vehicledetail/03741f6a-42c7-489c-b54b-a6a5a6521b5c/" rel="nofollow" target="">
+    <h2 class="title">2016 Ford Mustang GT</h2>
+</a>
+
+          <div class="mileage">29,785 mi.</div>
+
+        <div class="price-section price-section-vehicle-card">
+
+
+      <span class="primary-price">$32,500</span>
+
+
+</div>
+
+        
+
+
+
+<span class="estimated-monthly-payments-tooltip js-tooltip-container ">
+  <div id="emp-tooltip-21" class="list-item-tooltip-container" phx-hook="MonthlyPaymentsCalculator" data-hook-base-price="32500" data-hook-index="21" data-hook-listing-id="03741f6a-42c7-489c-b54b-a6a5a6521b5c" data-hook-init-data='{"creditRates":{"average":{"forty_eight":14.5,"seventy_two":14.5,"sixty":14.5,"thirty_six":14.5},"excellent":{"forty_eight":7.0,"seventy_two":7.0,"sixty":7.0,"thirty_six":7.0},"fair":{"forty_eight":19.5,"seventy_two":19.5,"sixty":19.5,"thirty_six":19.5},"good":{"forty_eight":8.5,"seventy_two":8.5,"sixty":8.5,"thirty_six":8.5}},"defaults":{"apr":"5.99","creditTier":"excellent","downPaymentPercentage":0.1,"lengthOfLoan":72},"isModalEnabled":false,"modalId":"srp-payment-calculator-modal"}' data-hook-page="srp">
+    <span class="sds-tooltip">
+      <a class="sds-link" tabindex="0" data-override-payload='{"bodystyle":"coupe","cpo_indicator":false,"customer_id":"2908","listing_id":"03741f6a-42c7-489c-b54b-a6a5a6521b5c","make":"ford","model":"mustang","model_year":"2016","msrp":null,"price":32500,"results_page_number":1,"sponsored":false,"sponsored_type":"standard","stock_type":"used","trim":"gt","vertical_position":21}'>
+        <span class="js-estimated-monthly-payment-formatted-value-with-abr"></span>
+        <span class="js-estimated-monthly-payment-info-icon ">
+          <spark-svg name="info-circle"></spark-svg>
+        </span>
+      </a>
+    </span>
+    <div data-reveal-method="inline" class="sds-tooltip__window js-tooltip-content" role="tooltip" id="tooltip-est-monthly-payment-21">
+      <p>
+        <span class="js-estimated-monthly-payment-description"></span>
+      </p>
+      <div class="sds-icon sds-icon--contain custom-close-tooltip" data-target="tooltip-est-monthly-payment-21">
+          <spark-svg name="close"></spark-svg>
+      </div>
+    </div>
+  </div>
+</span>
+
+          <div tabindex="0" class="vehicle-badging" data-toggle="expanda-modal" data-target="#sds-modal" data-contents="{&quot;home_delivery_badge&quot;:true,&quot;hot_car_badge&quot;:true,&quot;price_badge&quot;:{&quot;price_badge&quot;:&quot;similarly&quot;,&quot;price_badge_description&quot;:&quot;This car is fairly priced. Our analysis compares this car's price, features, and condition with similar 2016 Mustangs.&quot;,&quot;price_badge_savings_icon_text&quot;:&quot;&quot;,&quot;price_badge_text&quot;:&quot;Fair&quot;,&quot;price_badge_text_lowercase&quot;:&quot;fair&quot;,&quot;price_savings_text&quot;:&quot;&quot;,&quot;svg_tag&quot;:&quot;&lt;svg class=\&quot;sds-text-field__icon\&quot; height=\&quot;16\&quot; width=\&quot;16\&quot;&gt;&lt;use xlink:href=\&quot;/svg/spritemap-45f421b6ebaae75d4813e9a2ac89dbe3.svg?vsn=d#arrow-right-thick\&quot;&gt;&lt;/use&gt;&lt;/svg&gt;&quot;},&quot;virtual_appointments_badge&quot;:true,&quot;href_to_vdp&quot;:{&quot;href_to_vdp&quot;:&quot;/vehicledetail/03741f6a-42c7-489c-b54b-a6a5a6521b5c/?bodystyle=coupe&amp;cpo_indicator=false&amp;customer_id=2908&amp;intent_id=badges-explainer&amp;listing_id=03741f6a-42c7-489c-b54b-a6a5a6521b5c&amp;make=ford&amp;model=mustang&amp;model_year=2016&amp;msrp=&amp;price=32500&amp;sponsored=false&amp;sponsored_type=standard&amp;stock_type=used&amp;trim=gt&quot;}}" data-click-intent-id="badges-explainer" data-override-payload='{"bodystyle":"coupe","cpo_indicator":false,"customer_id":"2908","horizontal_position":null,"listing_id":"03741f6a-42c7-489c-b54b-a6a5a6521b5c","make":"ford","model":"mustang","model_year":"2016","msrp":null,"price":"32500","results_page_number":1,"sponsored":false,"sponsored_type":"standard","stock_type":"used","trim":"gt","vertical_position":21,"web_page_type_from":"shopping/search-results"}' trid="3WhpRsPZn4KHXkdAGLNNbp" trc>
+      <div class="sds-badge sds-badge--icon sds-badge--fair js-price-badging" aria-label="price_badge" data-linkname="price-badge-fair">
+    <div class="sds-badge__icon">
+      <spark-svg name="arrow-right" class="sds-text-field__icon"></spark-svg>
+    </div>
+    <span class="sds-badge__label">Fair Deal<span class="sds-badge--price-savings"></span></span>
+  </div>
+  <div class="sds-badge sds-badge--icon sds-badge--hot-car">
+    <div class="sds-badge__icon">
+      <spark-svg library="cars-duotone" name="flames" class="sds-text-field__icon flame-svg"></spark-svg>
+    </div>
+    <span class="sds-badge__label">Hot Car</span>
+  </div>
+
+  </div>
+
+
+        <div class="vehicle-links external-links">
+            <div class="vehicle-deeplink">
+    <a aria-describedby="new-tab-link" aria-label="Free CARFAX Report, External link" class="sds-link--ext" data-override-payload='{"page_url":"https://www.carfax.com/VehicleHistory/ar20/PuHs6j7MeDdDsDPBYntnTr5mWUnBDSSgdF7B5d7aIgQl8ErLidx1LRTHchnJDecMSUXiZ77K1zDSaLsPXo25nptIQmIEnneHd_g","sponsored":false,"sponsored_type":"standard","web_page_type_to":"carfax-free"}' data-linkname="carfax-free" data-vehicle-history-intent-id="srp-vehicle-history-report" data-activity-rule-type="custom" data-component="vehicle-history" data-event-list="event96" href="/external/vehiclehistory/?redirect=https%3A%2F%2Fwww.carfax.com%2FVehicleHistory%2Far20%2FPuHs6j7MeDdDsDPBYntnTr5mWUnBDSSgdF7B5d7aIgQl8ErLidx1LRTHchnJDecMSUXiZ77K1zDSaLsPXo25nptIQmIEnneHd_g" linkname="carfax-free" rel="noopener nofollow" target="_blank">Free CARFAX Report<spark-svg name="arrow-up-right" class="sds-text-field__icon"></spark-svg></a>
+  </div>
+
+
+          
+        </div>
+
+        
+          
+
+          <div class="vehicle-dealer">
+  <div class="dealer-name">
+    <strong>Fred Martin Superstore</strong>
+  </div>
+
+  
+      <div class="sds-rating  ">
+    
+      <span class="sds-rating__count">4.7</span>
+    
+    <div class="sds-rating__wrapper">
+      <span class="sds-rating__item sds-icon--filled">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+<span class="sds-rating__item sds-icon--filled">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+<span class="sds-rating__item sds-icon--filled">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+<span class="sds-rating__item sds-icon--filled">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+<span class="sds-rating__item sds-icon--half">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke="#000000" fill="none">
+    <defs>
+      <lineargradient id="linear" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#532380"></stop>
+        <stop offset="50%" stop-color="#532380"></stop>
+        <stop offset="50%" stop-color="transparent"></stop>
+        <stop offset="100%" stop-color="transparent"></stop>
+      </lineargradient>
+    </defs>
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+  </svg>
+</span>
+
+    </div>
+      <span class="sds-rating__link sds-button-link">(2,574 reviews)</span>
+
+  </div>
+
+  
+
+  
+    <div data-qa="miles-from-user" class="miles-from ">
+      98 mi. from 15024
+    </div>
+  
+</div>
+
+        
+
+        
+      </div>
