@@ -1,3 +1,9 @@
 # BLUESKY
 
-This is a README file.
+Description.
+
+# Installation
+
+To install in editable mode, run:
+- Pip install -e .
+Do not forget the "."
