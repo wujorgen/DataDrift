@@ -1,0 +1,14 @@
+name: BLUESKY
+channels:
+  - default
+  - conda-forge
+dependencies:
+  - scrapy
+  - numpy
+  - pandas
+  - plotly
+  - matplotlib
+
+  # linting
+  - black
+  - flake8
