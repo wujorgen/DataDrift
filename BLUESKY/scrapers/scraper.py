@@ -11,24 +11,10 @@ logging.getLogger("scrapy").propagate = False
 
 
 class CarSpider(scrapy.Spider):
-    # https://www.edmunds.com/inventory/srp.html?inventorytype=used&make=toyota&model=gr-supra&trim=30-premium
-    # https://www.edmunds.com/inventory/srp.html?inventorytype=used&make=bmw&model=3-series&trim=m340i
-    # https://www.edmunds.com/inventory/srp.html?inventorytype=used&make=ford&model=mustang&trim=gt
-    # https://www.edmunds.com/inventory/srp.html?inventorytype={TYPE}&make={MAKE}&model={MODEL}&trim={TRIM}
-
-    # override constructor with custom settings - use start urls arg?
-
-    # use callback function to collect the output of parse function
-    # parse is called once per url so currently this overwrites the output text file with another url
-    # see chatgpt - collect output
-    # use the number of start_urls to create or list to record the json objects in -> class atribute
-    # return this attribute to DB
 
     def __init__(self, name="CarSpider", start_urls=[], **kwargs):
         super().__init__(name, **kwargs)
         self.start_urls = start_urls
-        # self.rawtext = []
-        # self.payloads = []
 
     def parse(self, response):
         # txtfile = open("REEEEE.txt", "w") # for debugging
