@@ -1,17 +1,16 @@
 import json
+import logging
+
 import scrapy
 from scrapy import signals
 from scrapy.crawler import CrawlerProcess
-from scrapy.utils.project import get_project_settings
 from scrapy.signalmanager import dispatcher
-
-import logging
+from scrapy.utils.project import get_project_settings
 
 logging.getLogger("scrapy").propagate = False
 
 
 class CarSpider(scrapy.Spider):
-
     def __init__(self, name="CarSpider", start_urls=[], **kwargs):
         super().__init__(name, **kwargs)
         self.start_urls = start_urls

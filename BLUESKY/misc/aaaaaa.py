@@ -1,6 +1,5 @@
-from bs4 import BeautifulSoup
 import requests
-
+from bs4 import BeautifulSoup
 
 response = requests.get(
     "https://www.cars.com/shopping/results/?stock_type=all&zip=15024&maximum_distance=30&makes=ford&models=ford-mustang&trims=ford-mustang-gt&clean_title=true&no_accidents=true&personal_use=true"

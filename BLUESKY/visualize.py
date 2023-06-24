@@ -1,5 +1,6 @@
 import pandas as pd
 import plotly.graph_objects as go
+
 from BLUESKY.scrapers import scraper
 
 data = scraper.spider_results()

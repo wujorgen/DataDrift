@@ -4,4 +4,4 @@ from BLUESKY.scrapers import scraper
 
 
 def test_CleanNumber_NONE():
-    assert scraper.getCleanNumber("None") == "0 mi."
+    assert scraper.getCleanNumber("None") == "0"

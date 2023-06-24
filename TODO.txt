@@ -1,5 +1,7 @@
-the enviroment issues need to be figured out -> try exporting the conda enviroment on legion 5
-
-pull and store listing ids
-
 sensitivity analysis on price
+
+URL target generation
+
+pytest for linting and formatting
+
+mongodb integration
