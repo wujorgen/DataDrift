@@ -1,3 +1,4 @@
+'''DEFUNCT
 import json
 import logging
 
@@ -78,3 +79,4 @@ if __name__ == "__main__":
     for entry in output:
         print()
         print(entry)
+'''
