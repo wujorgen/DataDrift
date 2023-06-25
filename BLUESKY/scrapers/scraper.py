@@ -11,12 +11,14 @@ logging.getLogger("scrapy").propagate = False
 
 
 class CarSpider(scrapy.Spider):
-    def __init__(self, name="CarSpider", start_urls=[], **kwargs):
+    def __init__(self, name="CarSpider", start_urls=[], debug_mode = False, **kwargs):
         super().__init__(name, **kwargs)
         self.start_urls = start_urls
+        self.debug_mode = debug_mode
 
     def parse(self, response):
-        # txtfile = open("REEEEE.txt", "w") # for debugging
+        txtfile = open("REEEEE.txt", "w") # for debugging
+        print(response.css("h1::text").get())
         for item in response.css(
             "div.vehicle-details"
         ):  # iterates over scrapy selectors
@@ -32,14 +34,17 @@ class CarSpider(scrapy.Spider):
                 "a[data-override-payload]::attr(data-override-payload)"
             ).get()
             data_dict = json.loads(payload)
-            data_dict["mileage"] = self.getCleanNumber(str(item.css("div.mileage").get()))
-            data_dict["primary-price"] = self.getCleanNumber(
+            data_dict["mileage"] = self.get_clean_number(
+                str(item.css("div.mileage").get())
+            )
+            data_dict["primary-price"] = self.get_clean_number(
                 str(item.css("span.primary-price").get())
             )
 
             yield data_dict
 
-    def getCleanNumber(self, input: str) -> str:
+
+    def get_clean_number(self, input: str) -> str:
         if input == "None":
             return "0"
         else:
@@ -63,7 +68,7 @@ def get_spider_results(start_urls=None, allowed_domains=None) -> list:
     dispatcher.connect(crawler_results, signal=signals.item_scraped)
 
     process = CrawlerProcess(get_project_settings())
-    process.crawl(CarSpider, start_urls=start_urls, allowed_domains=allowed_domains)
+    process.crawl(CarSpider, start_urls=start_urls, allowed_domains=allowed_domains, debug_mode=True)
     process.start()  # the script will block here until the crawling is finished
     return results
 

@@ -1,6 +1,6 @@
 URL target generation
 
-redo scraper in beautifulsoup and/or selenium?
+redo scraper in beautifulsoup and/or selenium? YES PLZ FUCK YOU
 
 sensitivity analysis on price
 
