@@ -1,14 +1,17 @@
 name: BLUESKY
 channels:
   - default
+  - anaconda
   - conda-forge
 dependencies:
-  - scrapy
+  - python>=3.10
   - numpy
   - pandas
   - plotly
   - matplotlib
+  - beautifulsoup4
 
   # linting
   - black
   - flake8
+  - isort
