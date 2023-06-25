@@ -1,6 +1,8 @@
-sensitivity analysis on price
-
 URL target generation
+
+redo scraper in beautifulsoup and/or selenium?
+
+sensitivity analysis on price
 
 pytest for linting and formatting
 

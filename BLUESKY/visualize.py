@@ -3,7 +3,7 @@ import plotly.graph_objects as go
 
 from BLUESKY.scrapers import scraper
 
-data = scraper.spider_results()
+data = scraper.get_spider_results()
 
 columns = ["make", "model", "model_year", "trim", "mileage", "price"]
 

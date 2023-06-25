@@ -32,22 +32,21 @@ class CarSpider(scrapy.Spider):
                 "a[data-override-payload]::attr(data-override-payload)"
             ).get()
             data_dict = json.loads(payload)
-            data_dict["mileage"] = getCleanNumber(str(item.css("div.mileage").get()))
-            data_dict["primary-price"] = getCleanNumber(
+            data_dict["mileage"] = self.getCleanNumber(str(item.css("div.mileage").get()))
+            data_dict["primary-price"] = self.getCleanNumber(
                 str(item.css("span.primary-price").get())
             )
 
             yield data_dict
 
+    def getCleanNumber(self, input: str) -> str:
+        if input == "None":
+            return "0"
+        else:
+            return input[input.find('">') + 2 : input.find("</")]
 
-def getCleanNumber(input: str) -> str:
-    if input == "None":
-        return "0"
-    else:
-        return input[input.find('">') + 2 : input.find("</")]
 
-
-def spider_results(start_urls=None, allowed_domains=None) -> list:
+def get_spider_results(start_urls=None, allowed_domains=None) -> list:
     if start_urls == None:
         start_urls = [
             "https://www.cars.com/shopping/results/?stock_type=all&zip=15024&maximum_distance=500&makes=ford&models=ford-mustang&trims=ford-mustang-gt&clean_title=true&no_accidents=true&personal_use=true",
@@ -70,7 +69,7 @@ def spider_results(start_urls=None, allowed_domains=None) -> list:
 
 
 if __name__ == "__main__":
-    output = spider_results()
+    output = get_spider_results()
     for entry in output:
         print()
         print(entry)
