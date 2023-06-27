@@ -1,6 +1,6 @@
 name: BLUESKY
 channels:
-  - default
+  - defaults
   - anaconda
   - conda-forge
 dependencies:
@@ -10,6 +10,8 @@ dependencies:
   - plotly
   - matplotlib
   - beautifulsoup4
+  - requests
+  - pytest
 
   # linting
   - black

@@ -10,18 +10,18 @@ def gen_cars_com_urls(
     makes: list,
     models: list,
     trims: list or bool = False,
-    zipcodes: list or bool = False,
+    zarg: list or bool = False,
 ) -> list:
     """Generates urls for Cars.com.
-    
-        Args:
-            makes:
-            models:
-            trims (optional):
-            zipcodes (optional):
 
-        Returns:
-            list of all generated urls
+    Args:
+        makes:
+        models:
+        trims (optional):
+        zarg (optional):
+
+    Returns:
+        list of all generated urls
     """
     """
     https://www.cars.com/shopping/results/?
@@ -29,15 +29,15 @@ def gen_cars_com_urls(
     &keyword=
     &list_price_max=
     &list_price_min=
-    -> &makes[]=ford toyota (bmw)
+    -> &makes=ford toyota (bmw)
     -> &maximum_distance=250
     &mileage_max=
-    -> &models[]=ford-mustang toyota-supra (bmw-m340)
+    -> &models=ford-mustang toyota-supra (bmw-m340)
     &monthly_payment=
     -> &page_size=40
     &sort=best_match_desc
     -> &stock_type=used all
-    -> &trims[]=ford-mustang-gt
+    -> &trims=ford-mustang-gt
     &year_max=
     &year_min=
     -> &zip=15238
@@ -47,8 +47,8 @@ def gen_cars_com_urls(
     """
     urls = []
     for idx in range(len(models)):
-        for zcode in usa_metro_zipcodes():
-            #print(idx, makes[idx], models[idx], zcode)
+        for zcode in gen_zipcodes(zarg):
+            # print(idx, makes[idx], models[idx], zcode)
             urls.append(
                 "https://www.cars.com/shopping/results/?"
                 + "stock_type=all"
@@ -69,13 +69,16 @@ def gen_cars_com_urls(
     return urls
 
 
-def usa_metro_zipcodes():
-    """Hardcoded function to return zipcodes to all major USA metropolitan areas."""
+def gen_zipcodes(zarg: bool | list[int]) -> list[int]:
+    """Haven't finished this yet.
+
+    Args:
+        zarg: False is default, True is auto gen metro list.
+    """
     # TODO
-    return [15238, 47907]
-
-
-if __name__ == "__main__":
-    temp = gen_cars_com_urls(makes=["ford", "toyota"], models=["mustang", "supra"])
-    for each in temp: 
-        print(each)
+    if zarg:
+        return [0]
+    elif type(zarg) == list[int]:
+        return [0]
+    else:
+        return [15238, 47907]

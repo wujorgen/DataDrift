@@ -1,9 +1,16 @@
+"""DEMO OF VISUALIZATION"""
+
 import pandas as pd
 import plotly.graph_objects as go
 
-from BLUESKY.scrapers import scraper
+from BLUESKY.scrapers import soup_scraper as scraper
 
-data = scraper.get_spider_results()
+start_urls = [
+    "https://www.cars.com/shopping/results/?stock_type=all&zip=15024&maximum_distance=500&makes=ford&models=ford-mustang&trims=ford-mustang-gt&clean_title=true&no_accidents=true&personal_use=true",
+    "https://www.cars.com/shopping/results/?stock_type=all&zip=15024&maximum_distance=500&makes=toyota&models=toyota-supra&clean_title=true&no_accidents=true&personal_use=true",
+]
+
+data = scraper.scrape_data_payload(urls=start_urls)
 
 columns = ["make", "model", "model_year", "trim", "mileage", "price"]
 
@@ -26,9 +33,11 @@ supras = df[
     & (df["trim"].str.contains("3.0"))
 ]
 
+print("<><><>")
 print(mustangs)
-
+print("<><><>")
 print(supras)
+print("<><><>")
 
 fig1 = go.Figure(
     data=go.Scatter3d(

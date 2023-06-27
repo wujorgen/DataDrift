@@ -1,1 +1,1 @@
-from BLUESKY.scrapers import scraper
+from BLUESKY.scrapers import old_scraper
