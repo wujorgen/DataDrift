@@ -12,13 +12,15 @@ start_urls = [
 
 data = scraper.scrape_data_payload(urls=start_urls)
 
-columns = ["make", "model", "model_year", "trim", "mileage", "price"]
+columns = ["make", "model", "model_year", "trim", "mileage", "price", "listing_id"]
 
 df = pd.DataFrame(data, columns=columns)
 df["mileage"] = (
     df["mileage"].str.replace(",", "").str.extract("(\d+)", expand=False).astype(float)
 )
 df["model_year"] = df["model_year"].astype(float)
+
+df["listing_id"] = "<a href=\"cars.com/vehicledetail/"+df["listing_id"]+"\">name</a>"
 
 print(df)
 
@@ -46,6 +48,7 @@ fig1 = go.Figure(
         z=mustangs["price"],
         mode="markers",
         marker=dict(size=5, color=mustangs["price"], colorscale="Viridis", opacity=0.8),
+        customdata=mustangs["listing_id"]
     )
 )
 
@@ -67,6 +70,7 @@ fig2 = go.Figure(
         z=supras["price"],
         mode="markers",
         marker=dict(size=5, color=supras["price"], colorscale="Viridis", opacity=0.8),
+        customdata=supras["listing_id"]
     )
 )
 

@@ -1,9 +1,5 @@
-URL target generation
+sensitivity analysis on price / trend fitting
 
-redo scraper in beautifulsoup and/or selenium? YES PLZ FUCK YOU
+add all major city codes in USA
 
-sensitivity analysis on price
-
-pytest for linting and formatting
-
-mongodb integration
+mongodb integration? not really sure what this would be good for tho tbh

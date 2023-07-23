@@ -23,6 +23,7 @@ def scrape_data_payload(urls: list[str], debug=False) -> list[dict]:
         divs = soup.find_all("div", class_="vehicle-details")
         links = soup.find_all("a", class_="sds-link")
         title = soup.title.text
+        #print(title)
         if debug:
             list_out.append(title)
             continue
@@ -51,7 +52,8 @@ def get_clean_number(input: str) -> str:
 if __name__ == "__main__":
     start_urls = [
         "https://www.cars.com/shopping/results/?stock_type=all&zip=15024&maximum_distance=500&makes=ford&models=ford-mustang&trims=ford-mustang-gt&clean_title=true&no_accidents=true&personal_use=true",
-        "https://www.cars.com/shopping/results/?stock_type=all&zip=15024&maximum_distance=500&makes=toyota&models=toyota-supra&clean_title=true&no_accidents=true&personal_use=true",
+        #"https://www.cars.com/shopping/results/?stock_type=all&zip=15024&maximum_distance=500&makes=toyota&models=toyota-supra&clean_title=true&no_accidents=true&personal_use=true",
     ]
-    scrape_data_payload(start_urls)
+    temp = scrape_data_payload(start_urls)
+    print(temp)
     print("SOUP TIME")
