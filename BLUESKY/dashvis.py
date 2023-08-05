@@ -1,14 +1,12 @@
-import plotly.graph_objects as go
-import plotly.express as px
-
 import webbrowser
-from dash import html
-import dash
-from dash.exceptions import PreventUpdate
-from dash import dcc
-from dash.dependencies import Input, Output
 
+import dash
 import pandas as pd
+import plotly.express as px
+import plotly.graph_objects as go
+from dash import dcc, html
+from dash.dependencies import Input, Output
+from dash.exceptions import PreventUpdate
 
 from BLUESKY.scrapers import soup_scraper as scraper
 

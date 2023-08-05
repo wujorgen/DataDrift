@@ -20,7 +20,7 @@ df["mileage"] = (
 )
 df["model_year"] = df["model_year"].astype(float)
 
-df["listing_id"] = "<a href=\"cars.com/vehicledetail/"+df["listing_id"]+"\">name</a>"
+df["listing_id"] = '<a href="cars.com/vehicledetail/' + df["listing_id"] + '">name</a>'
 
 print(df)
 
@@ -48,7 +48,7 @@ fig1 = go.Figure(
         z=mustangs["price"],
         mode="markers",
         marker=dict(size=5, color=mustangs["price"], colorscale="Viridis", opacity=0.8),
-        customdata=mustangs["listing_id"]
+        customdata=mustangs["listing_id"],
     )
 )
 
@@ -70,7 +70,7 @@ fig2 = go.Figure(
         z=supras["price"],
         mode="markers",
         marker=dict(size=5, color=supras["price"], colorscale="Viridis", opacity=0.8),
-        customdata=supras["listing_id"]
+        customdata=supras["listing_id"],
     )
 )
 

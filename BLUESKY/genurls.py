@@ -6,6 +6,7 @@ start_urls = [
 """
 import pandas as pd
 
+
 def gen_cars_com_urls(
     makes: list,
     models: list,
@@ -76,7 +77,7 @@ def gen_zipcodes(zarg: bool = False or list[int]) -> list[int]:
         zarg: False is default, True is auto gen metro list. Not sure what to do with the list.
     """
     df = pd.read_html("https://vanwilson.info/2014/11/sample-zip-codes-50-states/")[0]
-    #print(df)
+    # print(df)
     if zarg:
         return df["Representative ZIP Code"].to_list()
     elif type(zarg) == list[int]:

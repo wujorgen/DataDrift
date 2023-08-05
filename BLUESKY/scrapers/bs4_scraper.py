@@ -23,7 +23,7 @@ def scrape_data_payload(urls: list[str], debug=False) -> list[dict]:
         divs = soup.find_all("div", class_="vehicle-details")
         links = soup.find_all("a", class_="sds-link")
         title = soup.title.text
-        #print(title)
+        # print(title)
         if debug:
             list_out.append(title)
             continue
