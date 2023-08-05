@@ -4,7 +4,7 @@ start_urls = [
     "https://www.cars.com/shopping/results/?stock_type=all&zip=15024&maximum_distance=500&makes=toyota&models=toyota-supra&clean_title=true&no_accidents=true&personal_use=true",
 ]
 """
-
+import pandas as pd
 
 def gen_cars_com_urls(
     makes: list,
@@ -69,16 +69,17 @@ def gen_cars_com_urls(
     return urls
 
 
-def gen_zipcodes(zarg: bool | list[int]) -> list[int]:
+def gen_zipcodes(zarg: bool = False or list[int]) -> list[int]:
     """Haven't finished this yet.
 
     Args:
-        zarg: False is default, True is auto gen metro list.
+        zarg: False is default, True is auto gen metro list. Not sure what to do with the list.
     """
-    # TODO
+    df = pd.read_html("https://vanwilson.info/2014/11/sample-zip-codes-50-states/")[0]
+    #print(df)
     if zarg:
-        return [0]
+        return df["Representative ZIP Code"].to_list()
     elif type(zarg) == list[int]:
         return [0]
     else:
-        return [15238, 47907]
+        return [15238, 47907, 78701, 95814]
