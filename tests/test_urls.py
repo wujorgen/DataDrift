@@ -1,4 +1,4 @@
-from BLUESKY.genurls import gen_zipcodes, gen_cars_com_urls
+from BLUESKY.scrapers.genurls import gen_zipcodes, gen_cars_com_urls
 
 
 def test_zipcodes():
