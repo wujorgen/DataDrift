@@ -5,7 +5,7 @@ import requests
 from bs4 import BeautifulSoup
 
 
-def scrape_data_payload(urls: list[str], debug=False) -> list[dict]:
+def scrape_data_payload(urls: list[str], debug=False) -> list[dict]: # TODO: use mp pool to speed this up
     """Scrapes a cars dot com url for the data override payload attribute.
 
     Args:

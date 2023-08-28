@@ -4,17 +4,13 @@ import pandas as pd
 
 
 def gen_cars_com_urls(
-    makes: list,
-    models: list,
-    trims: list or bool = False,
+    input_dict: dict,
     zarg: list or bool = False,
 ) -> list:
     """Generates urls for Cars.com.
 
     Args:
-        makes:
-        models:
-        trims (optional):
+        input_dict: dict keys are makes. contains lists consisting of models.
         zarg (optional):
 
     Returns:
@@ -43,26 +39,26 @@ def gen_cars_com_urls(
     -> &personal_use=true
     """
     urls = []
-    for idx in range(len(models)):
-        for zcode in gen_zipcodes(zarg):
-            # print(idx, makes[idx], models[idx], zcode)
-            urls.append(
-                "https://www.cars.com/shopping/results/?"
-                + "stock_type=all"
-                + "&makes="
-                + makes[idx]
-                + "&models="
-                + makes[idx]
-                + "-"
-                + models[idx]
-                + "&zip="
-                + str(zcode)
-                + "&maximum_distance=250"
-                + "&page_size=40"
-                + "&clean_title=true"
-                + "&no_accidents=true"
-                + "&personal_use=true"
-            )
+    for make in input_dict.keys():
+        for model in input_dict[make]:
+            for zcode in gen_zipcodes(zarg):
+                urls.append(
+                    "https://www.cars.com/shopping/results/?"
+                    + "stock_type=all"
+                    + "&makes="
+                    + make
+                    + "&models="
+                    + make
+                    + "-"
+                    + model
+                    + "&zip="
+                    + str(zcode)
+                    + "&maximum_distance=250"
+                    + "&page_size=40"
+                    + "&clean_title=true"
+                    + "&no_accidents=true"
+                    + "&personal_use=true"
+                )
     return urls
 
 

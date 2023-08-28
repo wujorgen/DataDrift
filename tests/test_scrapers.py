@@ -1,7 +1,7 @@
 # pytest looks for test_*.py or *_test.py
 
 import numpy as np
-from BLUESKY.scrapers.soup_scraper import scrape_data_payload, get_clean_number
+from BLUESKY.scrapers.bs4_scraper import scrape_data_payload, get_clean_number
 
 def test_payload_debug():
     start_urls = [
