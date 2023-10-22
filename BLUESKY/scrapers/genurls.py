@@ -75,4 +75,4 @@ def gen_zipcodes(zarg: bool = False or list[int]) -> list[int]:
     elif type(zarg) == list[int]:
         return [0]
     else:
-        return [15238, 47907, 78701, 95814]
+        return [15238, 47907, 78701, 95814, 14623]
