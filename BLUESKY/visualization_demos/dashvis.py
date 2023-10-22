@@ -8,7 +8,7 @@ from dash import dcc, html
 from dash.dependencies import Input, Output
 from dash.exceptions import PreventUpdate
 
-from BLUESKY.scrapers import soup_scraper as scraper
+from BLUESKY.scrapers import bs4_scraper as scraper
 
 ### GET DATA ###
 start_urls = [
