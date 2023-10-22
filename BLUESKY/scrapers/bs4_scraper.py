@@ -1,12 +1,14 @@
 import json
 import re
 from multiprocessing import Pool, cpu_count
+
 import requests
 from bs4 import BeautifulSoup
 
 
-
-def scrape_data_payload(urls: list[str], debug=False) -> list[dict]: # TODO: use mp pool to speed this up
+def scrape_data_payload(
+    urls: list[str], debug=False
+) -> list[dict]:  # TODO: use mp pool to speed this up
     """Scrapes a cars dot com url for the data override payload attribute.
 
     Args:
@@ -17,22 +19,23 @@ def scrape_data_payload(urls: list[str], debug=False) -> list[dict]: # TODO: use
     """
     list_out = []
 
-    poolscraper = Pool(processes=int(cpu_count()*0.69))
+    poolscraper = Pool(processes=int(cpu_count() * 0.69))
     margs = [[x] for x in urls]
-    results = poolscraper.starmap(scrape_worker,margs)
+    results = poolscraper.starmap(scrape_worker, margs)
 
     for ele in results:
         for dct in ele:
             list_out.append(dct)
-    
-    #for url in urls:
+
+    # for url in urls:
     #    list_out.append(scrape_worker(url))
-    
+
     return list_out
 
-def scrape_worker(url:str)->list():
+
+def scrape_worker(url: str) -> list():
     """Worker function for scraping pool.
-    
+
     Args:
         url: string containing target URL to a cars.com search.
 
@@ -46,7 +49,7 @@ def scrape_worker(url:str)->list():
     divs = soup.find_all("div", class_="vehicle-details")
     links = soup.find_all("a", class_="sds-link")
     title = soup.title.text
-    #if debug:
+    # if debug:
     #    list_out.append(title)
     #    continue
     for vehicle_div in divs:
@@ -59,6 +62,7 @@ def scrape_worker(url:str)->list():
             data_dict["mileage"] = re.sub(",", "", get_clean_number(mileage))
             list_out.append(data_dict)
     return list_out
+
 
 def get_clean_number(input: str) -> str:
     if input == "None":

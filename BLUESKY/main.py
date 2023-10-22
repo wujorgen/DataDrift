@@ -1,41 +1,74 @@
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+
 from BLUESKY.scrapers.bs4_scraper import scrape_data_payload
 from BLUESKY.scrapers.genurls import gen_cars_com_urls
-from BLUESKY.stats import clean
-from BLUESKY.stats import sensitivity
+from BLUESKY.stats.clean import calc_pct_deltas, sort_trims
 
-import matplotlib.pyplot as plt
-import pandas as pd
-import numpy as np
-
-
-#// Let's make this function as a command line utility for now!
+# // Let's make this function as a command line utility for now!
 # Workflow is below.
 
-#// Input yaml file as car dict. 
+# // Input yaml file as car dict.
 # Format:
-'''
 car_dict = {
-    "ford": ["mustang", "f_150"],
+    # "ford": ["mustang", "f_150"],
     "toyota": ["camry", "supra"],
-    "bmw": ["330", "z4", "430", "m340", "m440",],
-    "acura": ["integra"],
+    "bmw": [
+        "330",
+        "z4",
+        "430",
+        "m340",
+        "m440",
+    ],
+    "audi": ["a4", "s4", "s3", "a5", "s5"]
+    # "acura": ["integra"],
 }
 
 url_targets = gen_cars_com_urls(input_dict=car_dict)
-'''
 
-#// SCRAPE SCRAPE SCRAPE
-# temp = scrape_data_payload(url_targets)
+# // SCRAPE SCRAPE SCRAPE
+temp = scrape_data_payload(url_targets)
 
-#// Fetch list of car models, then trims per model. 
+columns = [
+    "make",
+    "model",
+    "model_year",
+    "trim",
+    "mileage",
+    "price",
+    "listing_id",
+    "bodystyle",
+]
 
-#// For each make/model/trim, prompt user for analysis options. 
-# Default option is to perform analysis only for most popular trim.
+df = pd.DataFrame(temp, columns=columns)
 
-#// Clean & preprocess dataframes
+scraped_results = {}
+cat_model_list = []
+for make in car_dict.keys():
+    for model in car_dict[make]:
+        filt = (df["make"] == make) & (df["model"] == model)
+        scraped_results[make + "_" + model] = df[filt]
 
-#// For each trim, perform sensitivity analysis.
+m340 = scraped_results["bmw_m340"]
+m440 = scraped_results["bmw_m440"]
+a4 = scraped_results["audi_a4"]
+s3 = scraped_results["audi_s3"]
+camry = scraped_results["toyota_camry"]
 
-#// Visualization!
+m440_mod = sort_trims(m440)
+# a4 = sort_trims(a4)
 
-#// Recommend best purchase point? Knee of the curve.
+m340 = calc_pct_deltas(m340)
+m440 = calc_pct_deltas(m440)
+a4 = calc_pct_deltas(a4)
+s3 = calc_pct_deltas(s3)
+camry = calc_pct_deltas(camry)
+
+# // For each trim, perform sensitivity analysis.
+
+# // Visualization!
+
+# // Recommend best purchase point? Knee of the curve.
+
+# // Ridge regression for price prediction?
