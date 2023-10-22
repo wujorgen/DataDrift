@@ -17,7 +17,7 @@ def scrape_data_payload(urls: list[str], debug=False) -> list[dict]: # TODO: use
     """
     list_out = []
 
-    poolscraper = Pool(processes=int(cpu_count*0.69))
+    poolscraper = Pool(processes=int(cpu_count()*0.69))
     margs = [[x] for x in urls]
     results = poolscraper.starmap(scrape_worker,margs)
 
@@ -30,14 +30,14 @@ def scrape_data_payload(urls: list[str], debug=False) -> list[dict]: # TODO: use
     
     return list_out
 
-def scrape_worker(url:str):
+def scrape_worker(url:str)->list():
     """Worker function for scraping pool.
     
     Args:
-        asdf
+        url: string containing target URL to a cars.com search.
 
     Returns:
-        asdf
+        list_out: list of dicts, where each dict is a data payload.
     """
     list_out = []
     response = requests.get(url)

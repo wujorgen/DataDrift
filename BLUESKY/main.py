@@ -32,11 +32,7 @@ url_targets = gen_cars_com_urls(input_dict=car_dict)
 #// For each make/model/trim, prompt user for analysis options. 
 # Default option is to perform analysis only for most popular trim.
 
-#// Clean & preprocess dataframes using this code sample:
-'''
-m440["year_delta"] = int(m440["model_year"].max()) - m440["model_year"].astype(int)
-m440["price_pct"] = m440["price"].astype(float) / float(m440["price"].max()) - 1
-'''
+#// Clean & preprocess dataframes
 
 #// For each trim, perform sensitivity analysis.
 
