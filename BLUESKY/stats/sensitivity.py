@@ -62,7 +62,7 @@ def estimate(prop_value: float = 0, func: str = "exp_decay", p1: list = [0, 0, 0
     Returns:
         depreciation value. can be absolute price or percentage loss.
     """
-    if func is "exp_decay":
+    if func == "exp_decay":
         return exp_decay(prop_value, p1[0], p1[1], p1[2])
     else:
         return -999

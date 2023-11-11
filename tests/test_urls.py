@@ -6,4 +6,4 @@ def test_zipcodes():
 
 
 def test_url_generator():
-    print(gen_cars_com_urls(["Ford"], ["Mustang"]))
+    print(gen_cars_com_urls({"Ford":["Mustang"]}))
