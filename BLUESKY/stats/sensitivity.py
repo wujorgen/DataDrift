@@ -24,7 +24,6 @@ def fit(
     property: str = "mileage",
     target: str = "price_pct",
     func: str = "exp_decay",
-    p0: list = [1, 1, 1],
 ) -> tuple:
     """Fits vehicle price function in relation to specified property.
 
@@ -44,7 +43,7 @@ def fit(
     x = df[property].values.astype(float) / 1000
 
     if func == "exp_decay":
-        popt, pcov = curve_fit(exp_decay, x, y, p0=p0)
+        popt, pcov = curve_fit(exp_decay, x, y, p0=[y.max(), 1, 1])
     else:
         return -999
 
