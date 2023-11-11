@@ -1,10 +1,12 @@
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
+import os
 
 from BLUESKY.scrapers.bs4_scraper import scrape_data_payload
 from BLUESKY.scrapers.genurls import gen_cars_com_urls
-from BLUESKY.stats.clean import calc_pct_deltas, sort_trims
+from BLUESKY.stats.clean import calc_pct_deltas, sort_trims, process_data_payload
+from BLUESKY.stats.sensitivity import fit, estimate
 
 # // Let's make this function as a command line utility for now!
 # Workflow is below.
@@ -12,17 +14,13 @@ from BLUESKY.stats.clean import calc_pct_deltas, sort_trims
 # // Input yaml file as car dict.
 # Format:
 car_dict = {
-    # "ford": ["mustang", "f_150"],
+    "ford": ["mustang"],
+    "chevrolet": ["camaro"],
     "toyota": ["camry", "supra"],
-    "bmw": [
-        "330",
-        "z4",
-        "430",
-        "m340",
-        "m440",
-    ],
-    "audi": ["a4", "s4", "s3", "a5", "s5"]
-    # "acura": ["integra"],
+    "bmw": ["z4", "m340", "m440"],
+    "audi": ["a4", "s4", "s3", "a5", "s5"],
+    "porsche": ["718_cayman", "718_boxster"],
+    "lexus": ["rc_f"],
 }
 
 url_targets = gen_cars_com_urls(input_dict=car_dict)
@@ -30,45 +28,18 @@ url_targets = gen_cars_com_urls(input_dict=car_dict)
 # // SCRAPE SCRAPE SCRAPE
 temp = scrape_data_payload(url_targets)
 
-columns = [
-    "make",
-    "model",
-    "model_year",
-    "trim",
-    "mileage",
-    "price",
-    "listing_id",
-    "bodystyle",
-]
+scraped_results = process_data_payload(temp=temp, car_dict=car_dict)
 
-df = pd.DataFrame(temp, columns=columns)
+print(scraped_results.keys())
 
-scraped_results = {}
-cat_model_list = []
-for make in car_dict.keys():
-    for model in car_dict[make]:
-        filt = (df["make"] == make) & (df["model"] == model)
-        scraped_results[make + "_" + model] = df[filt]
+# // For each model, do stuff. TODO: make this consider trims too.
+for model in scraped_results.keys():
+    print(model)
+    scraped_results[model].dropna(inplace=True)
+    scraped_results[model] = calc_pct_deltas(scraped_results[model])
+    popt, pcov = fit(
+        df=scraped_results[model], property="mileage", func="exp_decay", p0=[1, 1, 1]
+    )
 
-m340 = scraped_results["bmw_m340"]
-m440 = scraped_results["bmw_m440"]
-a4 = scraped_results["audi_a4"]
-s3 = scraped_results["audi_s3"]
-camry = scraped_results["toyota_camry"]
-
-m440_mod = sort_trims(m440)
-# a4 = sort_trims(a4)
-
-m340 = calc_pct_deltas(m340)
-m440 = calc_pct_deltas(m440)
-a4 = calc_pct_deltas(a4)
-s3 = calc_pct_deltas(s3)
-camry = calc_pct_deltas(camry)
-
-# // For each trim, perform sensitivity analysis.
-
-# // Visualization!
 
 # // Recommend best purchase point? Knee of the curve.
-
-# // Ridge regression for price prediction?
