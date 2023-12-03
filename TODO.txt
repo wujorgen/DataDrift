@@ -1,5 +1,14 @@
+add modules to scrape edmunds.com - refactor if needed
+
 sensitivity analysis on price / trend fitting
 
+car edge - useful life of 12 years - try implmenting this to compare price paid against useful life left
+google says cars are designed to last 200k miles ish, so also try that.
+
 add all major city codes in USA
+
+to make BLUESKY main.py callable from anywhere, redo the install with setup.py or TOML file.
+
+fix unit test coverage lol
 
 mongodb integration? not really sure what this would be good for tho tbh

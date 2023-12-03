@@ -1,32 +1,46 @@
+import os
+import sys
+
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-import os
+import yaml
 
 from BLUESKY.scrapers.bs4_scraper import scrape_data_payload
 from BLUESKY.scrapers.genurls import gen_cars_com_urls
-from BLUESKY.stats.clean import calc_pct_deltas, sort_trims, process_data_payload
-from BLUESKY.stats.sensitivity import fit, estimate, exp_decay
+from BLUESKY.stats.clean import (calc_pct_deltas, process_data_payload,
+                                 sort_trims)
+from BLUESKY.stats.sensitivity import estimate, exp_decay, fit
 
 # // Let's make this function as a command line utility for now!
 # Workflow is below.
 
 
 if __name__ == "__main__":
+    ROOTFOLDER = os.getcwd()
     output_folder = "BLUESKY_OUTPUT"
-    if not os.path.isdir(os.path.join(os.getcwd(), output_folder)):
-        os.mkdir(os.path.join(os.getcwd(), output_folder))
+    if not os.path.isdir(os.path.join(ROOTFOLDER, output_folder)):
+        os.mkdir(os.path.join(ROOTFOLDER, output_folder))
+
     # // Input yaml file as car dict.
     # Format:
-    car_dict = {
-        #"ford": ["mustang"],
-        "chevrolet": ["camaro"],
-        #"toyota": ["camry", "supra"],
-        #"bmw": ["z4", "m340", "m440"],
-        #"audi": ["rs_3", "s3", "rs_5", "s5"],
-        "porsche": ["718_cayman", "718_boxster"],
-        "lexus": ["rc_f"],
-    }
+    # car_dict = {
+    #    #"ford": ["mustang"],
+    #    "chevrolet": ["camaro"],
+    #    #"toyota": ["camry", "supra"],
+    #    #"bmw": ["z4", "m340", "m440"],
+    #    #"audi": ["rs_3", "s3", "rs_5", "s5"],
+    #    "porsche": ["718_cayman", "718_boxster"],
+    #    "lexus": ["rc_f"],
+    # }
+
+    with open(os.path.join(ROOTFOLDER, "BLUESKY_input.yaml"), "r") as input_doc:
+        try:
+            car_dict = yaml.safe_load(input_doc)
+        except yaml.YAMLError as e:
+            print("ERROR IN INPUT DECK.")
+            sys.exit(-1)
+    breakpoint()
     url_targets = gen_cars_com_urls(input_dict=car_dict)
 
     # // SCRAPE SCRAPE SCRAPE
@@ -46,6 +60,9 @@ if __name__ == "__main__":
         scraped_results[model] = calc_pct_deltas(scraped_results[model])
 
         xx = scraped_results[model]["mileage"].values.astype(float) / 1000
+
+        # TODO: insert logic here that prints the trims to the screen
+        # then prompts the user asking which one's they're interested in.
 
         try:
             pct_opt, pct_cov = fit(

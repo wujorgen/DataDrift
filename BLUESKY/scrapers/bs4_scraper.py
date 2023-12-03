@@ -6,9 +6,7 @@ import requests
 from bs4 import BeautifulSoup
 
 
-def scrape_data_payload(
-    urls: list[str], debug=False
-) -> list[dict]:
+def scrape_data_payload(urls: list[str], debug=False) -> list[dict]:
     """Scrapes a cars dot com url for the data override payload attribute.
 
     Args:
@@ -21,7 +19,7 @@ def scrape_data_payload(
 
     if debug:
         for url in urls:
-            list_out.append(scrape_worker(url,debug=True))
+            list_out.append(scrape_worker(url, debug=True))
             print(list_out)
         return list_out
 
@@ -56,7 +54,7 @@ def scrape_worker(url: str, debug=False) -> list():
     links = soup.find_all("a", class_="sds-link")
     title = soup.title.text
     if debug:
-       return title
+        return title
     for vehicle_div in divs:
         mileage_div = vehicle_div.find("div", class_="mileage")
         link_div = vehicle_div.find("a", class_="sds-link")
@@ -76,7 +74,7 @@ def get_clean_number(input: str) -> str:
         return input[input.find('">') + 1 : input.find("</") - 3]
 
 
-#if __name__ == "__main__":
+# if __name__ == "__main__":
 #    start_urls = [
 #        "https://www.cars.com/shopping/results/?stock_type=all&zip=15024&maximum_distance=500&makes=ford&models=ford-mustang&trims=ford-mustang-gt&clean_title=true&no_accidents=true&personal_use=true",
 #        "https://www.cars.com/shopping/results/?stock_type=all&zip=15024&maximum_distance=500&makes=toyota&models=toyota-supra&clean_title=true&no_accidents=true&personal_use=true",

@@ -15,6 +15,7 @@ dependencies:
   - lxml
   - scipy
   - pytest
+  - pyyaml
 
   # linting
   - black
