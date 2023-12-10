@@ -11,6 +11,7 @@ Install the Conda Enviroment in your preferred manner.
 
 Or, if you are not familiar with Conda, you can run:
 - $ conda env create -f ./enviroment.yml -p ./condaenv
+
 The environment can then be activated via:
 - $ conda activate ./condaenv
 

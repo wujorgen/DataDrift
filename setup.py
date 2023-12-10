@@ -1,7 +1,7 @@
 from setuptools import find_packages, setup
 
 setup(
-    name="BLUESKY",
+    name="DataDrift",
     version="0.0",
     description="",
     author="",
