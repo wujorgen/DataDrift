@@ -3,7 +3,7 @@
 import pandas as pd
 import plotly.graph_objects as go
 
-from BLUESKY.scrapers import soup_scraper as scraper
+from DataDrift.scrapers import soup_scraper as scraper
 
 start_urls = [
     "https://www.cars.com/shopping/results/?stock_type=all&zip=15024&maximum_distance=500&makes=ford&models=ford-mustang&trims=ford-mustang-gt&clean_title=true&no_accidents=true&personal_use=true",

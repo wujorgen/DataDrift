@@ -1,4 +1,4 @@
-name: BLUESKY
+name: DataDrift
 channels:
   - defaults
   - anaconda

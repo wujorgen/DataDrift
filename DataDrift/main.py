@@ -6,11 +6,11 @@ import numpy as np
 import pandas as pd
 import yaml
 
-from BLUESKY.scrapers.bs4_scraper import scrape_data_payload
-from BLUESKY.scrapers.genurls import gen_cars_com_urls
-from BLUESKY.stats.clean import (calc_pct_deltas, process_data_payload,
+from DataDrift.scrapers.bs4_scraper import scrape_data_payload
+from DataDrift.scrapers.genurls import gen_cars_com_urls
+from DataDrift.stats.clean import (calc_pct_deltas, process_data_payload,
                                  sort_trims)
-from BLUESKY.stats.sensitivity import estimate, exp_decay, fit
+from DataDrift.stats.sensitivity import estimate, exp_decay, fit
 
 # // Let's make this function as a command line utility for now!
 # Workflow is below.
@@ -18,7 +18,7 @@ from BLUESKY.stats.sensitivity import estimate, exp_decay, fit
 
 if __name__ == "__main__":
     ROOTFOLDER = os.getcwd()
-    output_folder = "BLUESKY_OUTPUT"
+    output_folder = "OUTPUT"
     if not os.path.isdir(os.path.join(ROOTFOLDER, output_folder)):
         os.mkdir(os.path.join(ROOTFOLDER, output_folder))
 
@@ -34,7 +34,7 @@ if __name__ == "__main__":
     #    "lexus": ["rc_f"],
     # }
 
-    with open(os.path.join(ROOTFOLDER, "BLUESKY_input.yaml"), "r") as input_doc:
+    with open(os.path.join(ROOTFOLDER, "DataDrift_input.yaml"), "r") as input_doc:
         try:
             car_dict = yaml.safe_load(input_doc)
         except yaml.YAMLError as e:
