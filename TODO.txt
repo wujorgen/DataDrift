@@ -1,9 +1,12 @@
-add modules to scrape edmunds.com - refactor if needed
+for refactoring:
+- put the entire workflow into the Drift object for simplicity so we're not importing 16,000 different modules
+- Drift takes the car_dict as input
+- calls url generator
+- scrapes
+- processes data
+- writes data
 
- - if refactoring, then store price data in "Drift" objects
- - each "Drift" object contains all the raw data for that car
- - also stores a list of trims for that car, has functions for scraping cleaning writing and calculating data
- - the "Drift" objects will just be stored in a dictionary, with the object as the value and key being the car make and model
+add modules to scrape edmunds.com
 
 add a "fudge factor" to the exponential decay on mileage to account for model years - start with a linear function
 

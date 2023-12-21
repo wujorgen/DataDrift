@@ -14,6 +14,7 @@ from DataDrift.stats.sensitivity import estimate, exp_decay, fit
 
 # // Let's make this function as a command line utility for now!
 # Workflow is below.
+# TODO: all this is to go in Drift.py module.
 
 
 if __name__ == "__main__":
