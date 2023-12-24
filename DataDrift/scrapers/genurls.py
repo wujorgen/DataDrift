@@ -68,11 +68,11 @@ def gen_zipcodes(zarg: bool = False or list[int]) -> list[int]:
     Args:
         zarg: False is default, True is auto gen metro list. Not sure what to do with the list.
     """
-    df = pd.read_html("https://vanwilson.info/2014/11/sample-zip-codes-50-states/")[0]
     # print(df)
     if zarg:
+        df = pd.read_html("https://vanwilson.info/2014/11/sample-zip-codes-50-states/")[0]
         return df["Representative ZIP Code"].to_list()
     elif type(zarg) == list[int]:
-        return [0]
+        return zarg
     else:
         return [15238, 47907, 78701, 95814, 14623]

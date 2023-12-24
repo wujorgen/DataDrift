@@ -1,16 +1,17 @@
-"ford": 
-  - "mustang"
 "chevrolet": 
   - "camaro"
 "toyota": 
   - "camry"
-  - "supra"
+  - "gr_supra"
 "bmw": 
   - "z4"
   - "m240"
-  - "m440"
+  - "m340"
+  - "x3"
 "audi": 
   - "rs_3"
-  - "s3"
   - "rs_5"
   - "s5"
+"acura":
+  - "integra"
+  - "tlx"
