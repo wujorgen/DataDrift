@@ -2,6 +2,8 @@
 
 - add modules to scrape edmunds.com
 
+- add the option to perform the analysis for each individual trim of car
+
 - add a "fudge factor" to the exponential decay on mileage to account for model years - start with a linear function
 
 - compare depreciation to useful life
