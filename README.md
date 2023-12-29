@@ -24,10 +24,10 @@ On the todo list is to make a setup file in setup.py or a .toml file so that the
 
 ## Usage
 Since I still don't have it installed to the conda environment as a command line alias, instead you can call the constructor like this:
-'''
+```
 from DataDrift.Drift import Drift
 DriftData = Drift()
-'''
+```
 The code above will call the DataDrift library. Then it will look for a input file called "DataDrift.yaml" in the current directory.
 Optionally, you can specify the filepath to the input yaml in the constructor argument.
 
