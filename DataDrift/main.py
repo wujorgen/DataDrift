@@ -1,6 +1,5 @@
 from DataDrift.Drift import Drift
 
-
 if __name__ == "__main__":
     # // Input yaml file as car dict.
     # Format:
