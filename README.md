@@ -32,7 +32,7 @@ The code above will call the DataDrift library. Then it will look for a input fi
 Optionally, you can specify the filepath to the input yaml in the constructor argument.
 
 ### Input format
-'''
+```
 "chevrolet": 
   - "camaro"
 "toyota": 
@@ -50,4 +50,4 @@ Optionally, you can specify the filepath to the input yaml in the constructor ar
 "acura":
   - "integra"
   - "tlx"
-'''
+```
