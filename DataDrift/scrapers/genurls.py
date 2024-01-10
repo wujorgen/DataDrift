@@ -3,7 +3,7 @@
 import pandas as pd
 
 
-def gen_cars_com_urls(
+def gen_carscom_urls(
     input_dict: dict,
     zarg: list or bool = False,
 ) -> list:

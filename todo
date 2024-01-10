@@ -1,5 +1,12 @@
 + refactored. left the scrapers as functions in their folders since OOP-ifying them was too much effort.
 
+- fix refactor? 
+    -> "Drift" class handles scrapers and returns "DriftCar" objects. 
+    -> "DriftCar" objects contain methods for writing files, analysis, prediction, etc
+
+- Test Driven Development
+- fix unit test coverage lol
+
 - add modules to scrape edmunds.com
 
 - add the option to perform the analysis for each individual trim of car
@@ -12,9 +19,7 @@ google says cars are designed to last 200k miles ish, so also try that.
 
 - add all major city codes in USA
 
-- switch from conda to poetry?
+- switch from conda to poetry? -> NO
 to make main.py callable from terminal, redo the environment with a TOML file
 
-- fix unit test coverage lol
-
-- mongodb integration? not really sure what this would be good for tho tbh
+- mongodb integration?

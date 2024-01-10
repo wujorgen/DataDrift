@@ -2,16 +2,12 @@
   - "camaro"
 "toyota": 
   - "camry"
-  - "gr_supra"
+  - "supra"
 "bmw": 
   - "z4"
   - "m240"
-  - "m340"
-  - "x3"
 "audi": 
   - "rs_3"
-  - "rs_5"
-  - "s5"
+  - "r8"
 "acura":
   - "integra"
-  - "tlx"

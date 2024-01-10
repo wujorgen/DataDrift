@@ -1,12 +1,41 @@
 import json
 import re
 from multiprocessing import Pool, cpu_count
-
+import pandas as pd
 import requests
 from bs4 import BeautifulSoup
 
 
-def scrape_data_payload(urls: list[str], debug=False) -> list[dict]:
+def process_carscom(temp: list[dict], car_dict: dict):
+    """Process the results from scrap_carscom from cars.com.
+
+    Args:
+        temp: result of scrape_carscom
+        car_dict: dictionary of all car models targeted for scraping
+
+    Returns:
+        dict of dataframes. each data frame contains information on a make_model
+    """
+    columns = [
+        "make",
+        "model",
+        "model_year",
+        "trim",
+        "mileage",
+        "price",
+        "listing_id",
+        "bodystyle",
+    ]
+    df = pd.DataFrame(temp, columns=columns)
+    scraped_results = {}
+    for make in car_dict.keys():
+        for model in car_dict[make]:
+            filt = (df["make"] == make) & (df["model"] == model)
+            scraped_results[make + "_" + model] = df[filt]
+    return scraped_results
+
+
+def scrape_carscom(urls: list[str], debug=False) -> list[dict]:
     """Scrapes a cars dot com url for the data override payload attribute.
 
     Args:

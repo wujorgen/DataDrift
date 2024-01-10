@@ -32,35 +32,6 @@ def sort_trims(df: pd.DataFrame, opt: str = "popular", spec: str = "") -> pd.Dat
         return df
 
 
-def process_data_payload(temp: list[dict], car_dict: dict):
-    """Process the results from scrap_data_payload from cars.com.
-
-    Args:
-        temp: result of scrape_data_payload
-        car_dict: dictionary of all car models targeted for scraping
-
-    Returns:
-        dict of dataframes. each data frame contains information on a make_model
-    """
-    columns = [
-        "make",
-        "model",
-        "model_year",
-        "trim",
-        "mileage",
-        "price",
-        "listing_id",
-        "bodystyle",
-    ]
-    df = pd.DataFrame(temp, columns=columns)
-    scraped_results = {}
-    for make in car_dict.keys():
-        for model in car_dict[make]:
-            filt = (df["make"] == make) & (df["model"] == model)
-            scraped_results[make + "_" + model] = df[filt]
-    return scraped_results
-
-
 def calc_pct_deltas(df: pd.DataFrame) -> pd.DataFrame:
     """Adds percent change metrics to data frame.
 

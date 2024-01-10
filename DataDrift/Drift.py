@@ -7,15 +7,19 @@ import numpy as np
 import pandas as pd
 import yaml
 
-from DataDrift.scrapers.cars_scraper import scrape_data_payload
-from DataDrift.scrapers.genurls import gen_cars_com_urls
-from DataDrift.stats.clean import calc_pct_deltas, process_data_payload, sort_trims
-from DataDrift.stats.sensitivity import estimate, exp_decay, fit
+from DataDrift.scrapers import scrape_carscom, process_carscom
+from DataDrift.scrapers import gen_carscom_urls
+from DataDrift.stats import calc_pct_deltas, sort_trims
+from DataDrift.stats import estimate, exp_decay, fit
 
+from DataDrift import DriftCar
 
 class Drift:
     def __init__(self, path_in: str or bool = None, dict_in=None):
         """Initializes the Drift class.
+
+        The Drift class is the main driver of datadrift.
+        It handles all the scraping, and returns a 
 
         Args:
             path_in: Path to input yaml. Default. If not specified, looks in current directory.
@@ -33,33 +37,35 @@ class Drift:
             if os.path.exists(self.INPUTFILE):
                 with open(self.INPUTFILE, "r") as input_doc:
                     try:
-                        self.CARDICT = yaml.safe_load(input_doc)
+                        self.cardict = yaml.safe_load(input_doc)
                     except yaml.YAMLError:
                         print("ERROR IN INPUT DECK.")
                         sys.exit(-1)
             else:
                 print("Oops there's no input file.")
-                sys.exit()
+                sys.exit(-404)
         else:
-            self.CARDICT = dict_in
-        # Time to scrape!
-        # logic needs to be added to handle scraping from multiple websites
-        self.DATA_CARS = self.scrape_cars(self.CARDICT)
-        self.write_results(self.DATA_CARS, self.OUTPUTFOLDER)
+            self.cardict = dict_in
+
+        self.data_carscom = self.scrape_carscom(self.cardict)
+        #self.write_results(self.DATA_CARS, self.OUTPUTFOLDER)
         breakpoint()
 
-    def scrape_cars(self, car_dict) -> dict:
+    def scrape_carscom(self, car_dict:dict) -> dict or DriftCar:
         """Scrapes results from cars.com.
         Args:
             car_dict:
         """
-        url_targets = gen_cars_com_urls(input_dict=self.CARDICT)
-        temp = scrape_data_payload(url_targets)
-        results = process_data_payload(temp=temp, car_dict=car_dict)
-        # print(self.RESULTS.keys())
+        url_targets = gen_carscom_urls(input_dict=self.cardict)
+        temp = scrape_carscom(url_targets)
+        results = process_carscom(temp=temp, car_dict=car_dict)
+        # convert results, a dict of dictionaries, into resultz, a dict of DriftCars
+        resultz = dict.fromkeys(results.keys())
+        for car, data in enumerate(results):
+            resultz[car] = DriftCar(df=data, source="carscom") # TODO - DriftCar not finished
         return results
 
-    def scrape_edmunds(self, car_dict) -> dict:
+    def scrape_edmunds(self, car_dict:dict) -> dict:
         """Scrapes results from edmunds.com.
         Args:
             car_dict:
@@ -105,7 +111,6 @@ class Drift:
                     pct_opt[1],
                     pct_opt[2],
                 )
-
                 tempdf = pd.DataFrame([xx, pct_fit])
                 tempdf = tempdf.T.sort_values(0)
                 plt.plot(tempdf[0], tempdf[1], c="red")
