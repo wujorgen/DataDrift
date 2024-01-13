@@ -3,6 +3,7 @@ from DataDrift.scrapers.genurls import gen_zipcodes, gen_carscom_urls
 
 def test_zipcodes():
     assert gen_zipcodes(zarg=False) == [15238, 47907, 78701, 95814, 14623]
+    assert gen_zipcodes([11,22,33,44]) == [11,22,33,44]
     assert gen_zipcodes(zarg=True) == [
         36104,
         99801,

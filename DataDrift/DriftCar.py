@@ -1,30 +1,31 @@
-"""Defines an object to process the data in dataframes."""
-import matplotlib.pyplot as plt
-import pandas as pd
-import numpy as np
+"""Defines DriftCar, an object to store individual car data."""
 import sys
 
-from DataDrift.stats import calc_pct_deltas, fit, exp_decay, estimate
-from DataDrift import Drift
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
 
-class DriftCar():
-    def __init__(self, df:pd.DataFrame, source:str):
-        if source=="carscom":
+from DataDrift.stats import calc_pct_deltas, estimate, exp_decay, fit  # noqa F401
+
+
+class DriftCar:
+    """This class houses the data for each car, and writing and processing methods."""
+
+    def __init__(self, df: pd.DataFrame, source: str):
+        if source == "carscom":
             """
-            ['make', 'model', 'model_year', 'trim', 'mileage', 'price', 'listing_id','bodystyle']
+            ['make', 'model', 'model_year', 'trim', 'mileage', 'price', 'listing_id','bodystyle'] # noqa E501
             """
-            self.make = self.try_to_load_one(df, "make")
-            self.model = self.try_to_load_one(df, "model")
+            self.make = self._try_to_load_one_(df, "make")
+            self.model = self._try_to_load_one_(df, "model")
 
         else:
-            print("Warning: you are trying to create a DriftCar for a source not yet enabled.")
-    
+            print("Warning: Source not yet enabled for DriftCar.")
 
-    def try_to_load_one(self, df:pd.DataFrame, colname:str):
-        """Tries to check and then load a column that should have a single value throughout.
-        """
+    def _try_to_load_one_(self, df: pd.DataFrame, colname: str):
+        """Tries to check and then load a column that should have a single value throughout."""  # noqa E501
         try:
-            temp = np.unique(df[f"{colname}"].values.tolist())
+            temp = np.unique(df[colname].values.tolist())
             if len(temp == 1):
                 tempvar = temp[0]
             else:
@@ -37,6 +38,10 @@ class DriftCar():
             sys.exit(-21)
         return tempvar
 
+    def write(self, fpath: str):
+        """TODO: Writes data to file."""
+        pass
+
 
 def write_results(self, scraped_results, output_folder):
     """Saves plots and files of each car.
@@ -44,7 +49,7 @@ def write_results(self, scraped_results, output_folder):
     Args:
         scraped_results: just self.DATA_CARS for now
         output_folder: self.OUTPUTFOLDER
-    Results:
+    Returns:
     """
     for model in scraped_results.keys():
         print("======================")

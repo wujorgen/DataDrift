@@ -4,12 +4,12 @@ setup(
     name="DataDrift",
     version="0.0",
     description="",
-    author="",
+    author="Jorgen Wu",
     url="",
     packages=find_packages(),
-    # entry_points={
-    #    'console_scripts': [
-    #        'custom_alias = your_package.module:main_function',
-    #    ],
-    # }
+    entry_points={
+       'console_scripts': [
+           'DataDrift = DataDrift.__init__:main',
+       ],
+    }
 )

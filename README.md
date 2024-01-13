@@ -41,9 +41,13 @@ Optionally, you can specify the filepath to the input yaml in the constructor ar
 ```
 "chevrolet": 
   - "camaro"
+"ford":
+  - "mustang"
+  - "f_150"
 "toyota": 
   - "camry"
   - "gr_supra"
+  - "supra"
 "bmw": 
   - "z4"
   - "m240"

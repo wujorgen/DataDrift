@@ -14,9 +14,8 @@ def test_black():
 
 
 def test_flake8():
-    assert _process(["flake8", "--check", "./DataDrift"])
+    assert _process(["flake8", "./DataDrift"])
 
 
-# commented out for conflicting with test_black
-# def test_isort():
-#    assert _process(["isort", "--check", "./DataDrift"])
+def test_isort():
+   assert _process(["isort", "--check", "./DataDrift"])

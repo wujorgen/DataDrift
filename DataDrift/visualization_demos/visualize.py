@@ -6,8 +6,8 @@ import plotly.graph_objects as go
 from DataDrift.scrapers import soup_scraper as scraper
 
 start_urls = [
-    "https://www.cars.com/shopping/results/?stock_type=all&zip=15024&maximum_distance=500&makes=ford&models=ford-mustang&trims=ford-mustang-gt&clean_title=true&no_accidents=true&personal_use=true",
-    "https://www.cars.com/shopping/results/?stock_type=all&zip=15024&maximum_distance=500&makes=toyota&models=toyota-supra&clean_title=true&no_accidents=true&personal_use=true",
+    "https://www.cars.com/shopping/results/?stock_type=all&zip=15024&maximum_distance=500&makes=ford&models=ford-mustang&trims=ford-mustang-gt&clean_title=true&no_accidents=true&personal_use=true",  # noqa E501
+    "https://www.cars.com/shopping/results/?stock_type=all&zip=15024&maximum_distance=500&makes=toyota&models=toyota-supra&clean_title=true&no_accidents=true&personal_use=true",  # noqa E501
 ]
 
 data = scraper.scrape_data_payload(urls=start_urls)
@@ -16,7 +16,7 @@ columns = ["make", "model", "model_year", "trim", "mileage", "price", "listing_i
 
 df = pd.DataFrame(data, columns=columns)
 df["mileage"] = (
-    df["mileage"].str.replace(",", "").str.extract("(\d+)", expand=False).astype(float)
+    df["mileage"].str.replace(",", "").str.extract(r"(\d+)", expand=False).astype(float)
 )
 df["model_year"] = df["model_year"].astype(float)
 

@@ -1,6 +1,7 @@
 import json
 import re
 from multiprocessing import Pool, cpu_count
+
 import pandas as pd
 import requests
 from bs4 import BeautifulSoup
@@ -80,7 +81,7 @@ def scrape_worker(url: str, debug=False) -> list():
     # html_content = response.content
     soup = BeautifulSoup(response.text, "html.parser")
     divs = soup.find_all("div", class_="vehicle-details")
-    links = soup.find_all("a", class_="sds-link")
+    links = soup.find_all("a", class_="sds-link")  # noqa F841
     title = soup.title.text
     if debug:
         return title

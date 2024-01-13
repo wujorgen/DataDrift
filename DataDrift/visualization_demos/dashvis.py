@@ -3,27 +3,27 @@ import webbrowser
 import dash
 import pandas as pd
 import plotly.express as px
-import plotly.graph_objects as go
+import plotly.graph_objects as go  # noqa F401
 from dash import dcc, html
 from dash.dependencies import Input, Output
 from dash.exceptions import PreventUpdate
 
 from DataDrift.scrapers import bs4_scraper as scraper
 
-### GET DATA ###
+# GET DATA #
 start_urls = [
-    "https://www.cars.com/shopping/results/?stock_type=all&zip=15024&maximum_distance=500&makes=ford&models=ford-mustang&trims=ford-mustang-gt&clean_title=true&no_accidents=true&personal_use=true",
-    "https://www.cars.com/shopping/results/?stock_type=all&zip=15024&maximum_distance=500&makes=toyota&models=toyota-supra&clean_title=true&no_accidents=true&personal_use=true",
+    "https://www.cars.com/shopping/results/?stock_type=all&zip=15024&maximum_distance=500&makes=ford&models=ford-mustang&trims=ford-mustang-gt&clean_title=true&no_accidents=true&personal_use=true",  # noqa E501
+    "https://www.cars.com/shopping/results/?stock_type=all&zip=15024&maximum_distance=500&makes=toyota&models=toyota-supra&clean_title=true&no_accidents=true&personal_use=true",  # noqa E501
 ]
 
 data = scraper.scrape_data_payload(urls=start_urls)
 
-### PROCESS DATA ###
+# PROCESS DATA #
 columns = ["make", "model", "model_year", "trim", "mileage", "price", "listing_id"]
 
 df = pd.DataFrame(data, columns=columns)
 df["mileage"] = (
-    df["mileage"].str.replace(",", "").str.extract("(\d+)", expand=False).astype(float)
+    df["mileage"].str.replace(",", "").str.extract(r"(\d+)", expand=False).astype(float)
 )
 df["model_year"] = df["model_year"].astype(float)
 
@@ -48,7 +48,7 @@ print("<><><>")
 print(supras)
 print("<><><>")
 
-### DASH APP ###
+# DASH APP #
 app = dash.Dash(__name__)
 app.title = "Vehicle Depreciation Surface"
 df = pd.DataFrame(
@@ -125,7 +125,7 @@ app.layout = html.Div(
 @app.callback(Output("3D-SURFACE", "figure"), [Input("3D-SURFACE", "clickData")])
 def open_url(clickData):
     print(clickData)
-    if clickData != None:
+    if clickData is not None:
         url = clickData["points"][0]["customdata"][0]
         webbrowser.open_new_tab(url)
     else:

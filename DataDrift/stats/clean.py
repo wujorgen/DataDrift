@@ -15,16 +15,18 @@ def sort_trims(df: pd.DataFrame, opt: str = "popular", spec: str = "") -> pd.Dat
         df: cleaned dataframe
     """
     if spec != "":
-        if type(spec) == str:
+        if type(spec) is str:
             return df[(df["trim"] == spec)]
-        elif type(spec) == list:
+        elif type(spec) is list:
             pass
 
     trims, counts = np.unique(np.array(df["trim"]), return_counts=True)
     lox = np.array(counts).argmax()
 
-    trims2, counts2 = np.unique(np.array(df["bodystyle"]), return_counts=True)
-    lox2 = np.array(counts).argmax()
+    trims2, counts2 = np.unique(
+        np.array(df["bodystyle"]), return_counts=True
+    )  # noqa F401
+    lox2 = np.array(counts).argmax()  # noqa F401
 
     if opt == "popular":
         return df[(df["trim"] == trims[lox])]
