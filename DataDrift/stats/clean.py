@@ -43,6 +43,12 @@ def calc_pct_deltas(df: pd.DataFrame) -> pd.DataFrame:
     Returns:
         df: original dataframe with metrics added.
     """
-    df["year_delta"] = int(df["model_year"].max()) - df["model_year"].astype(int)
-    df["price_pct"] = df["price"].astype(float) / float(df["price"].max()) - 1
+    max_model_year = int(df["model_year"].max())
+    max_price = float(df["price"].max())
+
+    # Use "copy" to avoid some dumb slicing warning
+    df = df.copy()
+
+    df["year_delta"] = max_model_year - df["model_year"].astype(int)
+    df["price_pct"] = df["price"].astype(float) / max_price - 1
     return df

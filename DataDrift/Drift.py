@@ -44,12 +44,15 @@ class Drift:
             self.cardict = dict_in
 
         self.data_carscom = self.scrape_carscom(self.cardict)
-        # self.write_results(self.DATA_CARS, self.OUTPUTFOLDER)
+        for car in self.data_carscom.keys():
+            self.data_carscom[car].writeall(self.OUTPUTFOLDER)
 
-    def scrape_carscom(self, car_dict: dict) -> dict or DriftCar:
+    def scrape_carscom(self, car_dict: dict) -> dict:
         """Scrapes results from cars.com.
         Args:
             car_dict:
+        Returns:
+            resultz: dict of DriftCars, keys are make_model
         """
         url_targets = gen_carscom_urls(input_dict=self.cardict)
         temp = scrape_carscom(url_targets)
@@ -57,11 +60,9 @@ class Drift:
         # convert results, a dict of dictionaries, into resultz, a dict of DriftCars
         resultz = dict.fromkeys(results.keys())
         for car in results.keys():
-            print(car)
-            resultz[car] = DriftCar(
-                df=results[car], source="carscom"
-            )  # TODO - DriftCar not finished
-        return results
+            print("Processing " + car)
+            resultz[car] = DriftCar(df=results[car], source="carscom")
+        return resultz
 
     def scrape_edmunds(self, car_dict: dict) -> dict:
         """Scrapes results from edmunds.com.

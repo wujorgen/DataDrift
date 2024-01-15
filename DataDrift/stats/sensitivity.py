@@ -39,7 +39,7 @@ def fit(
     if target not in ("price_pct", "price"):
         return -999
     y = df[target]
-    x = df[property].values.astype(float) / 1000
+    x = df[property].values.astype(float)
 
     if func == "exp_decay":
         popt, pcov = curve_fit(exp_decay, x, y, p0=[y.max(), 1, 1])

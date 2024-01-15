@@ -11,19 +11,53 @@ from DataDrift.stats import calc_pct_deltas, estimate, exp_decay, fit  # noqa F4
 class DriftCar:
     """This class houses the data for each car, and writing and processing methods."""
 
-    def __init__(self, df: pd.DataFrame, source: str):
+    def __init__(self, df: pd.DataFrame, source: str, lookback: int = 12):
+        """Constructor for drift car.
+
+        Args:
+            df: car info dataframe
+            source: website the info was scraped from
+            lookback: number of years to include in function fit. default is 12.
+
+        """
         if source == "carscom":
             """
-            ['make', 'model', 'model_year', 'trim', 'mileage', 'price', 'listing_id','bodystyle'] # noqa E501
+            ['make', 'model', 'model_year', 'trim', 'mileage', 'price', 'listing_id','bodystyle']  # noqa E501
             """
             self.make = self._try_to_load_one_(df, "make")
             self.model = self._try_to_load_one_(df, "model")
+            self.data = df.dropna()
+            self.data = calc_pct_deltas(self.data)
+            self.source = "carscom"
+            self.data["url"] = "cars.com/vehicledetail/" + self.data["listing_id"]
 
         else:
             print("Warning: Source not yet enabled for DriftCar.")
 
+        self.data["grand_mileage"] = self.data["mileage"].astype(float) / 1000.0
+        self.fit_data = self.data[(self.data["year_delta"] <= lookback)]
+        self.fit_type = "exp_decay"
+        self.pct_opt, self.pct_cov = fit(
+            df=self.fit_data,
+            target="price_pct",
+            property="grand_mileage",
+            func=self.fit_type,
+        )
+        self.p_opt, self.p_cov = fit(
+            df=self.fit_data,
+            target="price",
+            property="grand_mileage",
+            func=self.fit_type,
+        )
+        self.data["predicted_price"] = exp_decay(
+            self.data["grand_mileage"].values.astype(float),
+            self.p_opt[0],
+            self.p_opt[1],
+            self.p_opt[2],
+        )
+
     def _try_to_load_one_(self, df: pd.DataFrame, colname: str):
-        """Tries to check and then load a column that should have a single value throughout."""  # noqa E501
+        """INTERNAL: Tries to check and then load a column that should have a single value throughout."""  # noqa E501
         try:
             temp = np.unique(df[colname].values.tolist())
             if len(temp == 1):
@@ -38,91 +72,62 @@ class DriftCar:
             sys.exit(-21)
         return tempvar
 
-    def write(self, fpath: str):
-        """TODO: Writes data to file."""
-        pass
+    def writeall(self, fpath: str):
+        """Writes all info: plots, function fits, and raw csvs.
 
+        Args:
+            fpath: desired output folder, must exist.
+        """
+        self.writecsv(fpath)
+        self.writeplots(fpath)
+        self.writefunction(fpath)
 
-def write_results(self, scraped_results, output_folder):
-    """Saves plots and files of each car.
-    Currently only tested to work with cars.com results.
-    Args:
-        scraped_results: just self.DATA_CARS for now
-        output_folder: self.OUTPUTFOLDER
-    Returns:
-    """
-    for model in scraped_results.keys():
-        print("======================")
-        print(model)
-        scraped_results[model].dropna(inplace=True)
-        scraped_results[model] = calc_pct_deltas(scraped_results[model])
+    def writecsv(self, fpath: str):
+        """Writes data to output files.
 
-        xx = scraped_results[model]["mileage"].values.astype(float) / 1000
+        Args:
+            fpath: desired output folder, must exist.
+        """
+        self.data.to_csv(fpath + f"/{self.make}_{self.model}.csv")
 
-        # TODO: insert logic here that prints the trims to the screen
-        # then prompts the user asking which one's they're interested in.
+    def writeplots(self, fpath: str):
+        """Writes plots for easy visualization.
 
-        try:
-            pct_opt, pct_cov = fit(
-                df=scraped_results[model],
-                target="price_pct",
-                property="mileage",
-                func="exp_decay",
-            )
-            print(pct_opt)
-            plt.figure()
-            plt.scatter(
-                xx,
-                scraped_results[model]["price_pct"],
-            )
-            pct_fit = exp_decay(
-                xx,
-                pct_opt[0],
-                pct_opt[1],
-                pct_opt[2],
-            )
-            tempdf = pd.DataFrame([xx, pct_fit])
-            tempdf = tempdf.T.sort_values(0)
-            plt.plot(tempdf[0], tempdf[1], c="red")
-            plt.xlabel("miles (1000s)")
-            plt.ylabel("depreciation")
-            plt.title(f"{model} depreciation")
-            plt.savefig(f"{output_folder}/{model}_depreciation")
-            plt.close()
-        except RuntimeError as e:
-            print(f"Runtime error encountered for {model}. See below:")
-            print(e)
-            breakpoint()
-            continue
-        try:
-            p_opt, p_cov = fit(
-                df=scraped_results[model],
-                target="price",
-                property="mileage",
-                func="exp_decay",
-            )
-            print(p_opt)
-            plt.figure()
-            plt.scatter(
-                xx,
-                scraped_results[model]["price"],
-            )
-            p_fit = exp_decay(
-                xx,
-                p_opt[0],
-                p_opt[1],
-                p_opt[2],
-            )
-            tempdf = pd.DataFrame([xx, p_fit])
-            tempdf = tempdf.T.sort_values(0)
-            plt.plot(tempdf[0], tempdf[1], c="red")
-            plt.xlabel("miles (1000s)")
-            plt.ylabel("price")
-            plt.title(f"{model} price")
-            plt.savefig(f"{output_folder}/{model}_price")
-            plt.close()
-        except RuntimeError as e:
-            print(f"Runtime error encountered for {model}. See below:")
-            print(e)
-            breakpoint()
-            continue
+        Args:
+            fpath: desired output folder, must already exist.
+        """
+        plt.figure()
+        plt.scatter(
+            self.data["grand_mileage"],
+            self.data["price"],
+        )
+        tempdf = pd.DataFrame(
+            [self.data["grand_mileage"], self.data["predicted_price"]]
+        ).T
+        tempdf.sort_values("grand_mileage", inplace=True)
+        plt.plot(
+            tempdf["grand_mileage"], tempdf["predicted_price"], c="red"
+        )  # fix this to use a local sorted copy
+        plt.xlabel("miles (1000s)")
+        plt.ylabel("price")
+        plt.xlim((0, 120))
+        plt.grid()
+        plt.title(f"{self.make} {self.model} price")
+        plt.savefig(fpath + f"/{self.make}_{self.model}_price")
+        plt.close()
+
+    def writefunction(self, fpath: str):
+        """Writes function fit for later consideration.
+
+        Args:
+            fpath: desired output folder, must already exist.
+        """
+        with open(f"{fpath}/{self.make}_{self.model}_function.txt", "w") as file:
+            if self.fit_type == "exp_decay":
+                """A * np.exp(-B * x) - C : popt = A,B,C"""
+                file.write("Function: A * np.exp(-B * x) - C\n")
+                file.write(f"A: {self.p_opt[0]}\n")
+                file.write(f"B: {self.p_opt[1]}\n")
+                file.write(f"C: {self.p_opt[2]}\n")
+            else:
+                pass
