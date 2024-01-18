@@ -1,10 +1,10 @@
 # pytest looks for test_*.py or *_test.py
 
 import numpy as np
-from DataDrift.scrapers.carscom import scrape_carscom, get_clean_number
+from DataDrift.scrapers.carscom import scrape_carscom, scrape_worker
 
 
-def test_payload_debug():
+def test_scrape_carscom_payload_debug():
     start_urls = [
         "https://www.cars.com/shopping/results/?stock_type=all&zip=15024&maximum_distance=500&makes=ford&models=ford-mustang&trims=ford-mustang-gt&clean_title=true&no_accidents=true&personal_use=true",
         "https://www.cars.com/shopping/results/?stock_type=all&zip=15024&maximum_distance=500&makes=toyota&models=toyota-supra&clean_title=true&no_accidents=true&personal_use=true",
@@ -17,6 +17,6 @@ def test_payload_debug():
     assert "Ford Mustang" in url_titles[0]
     assert "Toyota Supra" in url_titles[1]
 
-
-def test_get_clean_number():
-    assert True
+def test_scrape_worker_debug():
+    url = "https://www.cars.com/shopping/results/?stock_type=all&zip=15024&maximum_distance=500&makes=ford&models=ford-mustang&trims=ford-mustang-gt&clean_title=true&no_accidents=true&personal_use=true"
+    assert "Ford Mustang" in scrape_worker(url, debug=True)

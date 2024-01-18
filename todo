@@ -1,17 +1,10 @@
-+ refactoring:
-    -> "Drift" class handles scrapers and returns "DriftCar" objects. 
-    -> "DriftCar" objects contain methods for writing files, analysis, prediction, etc
-    -> left the scrapers as functions in their folders since OOP-ifying them was too much effort
-
 Current:
-- once we can write data files, consider this a version 1.0 release.
-- "Test Driven Development..."
 - fix unit test coverage lol
+- add the option to perform the analysis for each individual trim of car
+- implement Abstract Base Class for scrapers to prepare for edmunds.com scraper
 
 Backlog:
 - add modules to scrape edmunds.com
-
-- add the option to perform the analysis for each individual trim of car
 
 - add a "fudge factor" to the exponential decay on mileage to account for model years - start with a linear function
 

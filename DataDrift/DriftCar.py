@@ -20,13 +20,14 @@ class DriftCar:
             lookback: number of years to include in function fit. default is 12.
 
         """
+        self.make = self._try_to_load_one_(df, "make")
+        self.model = self._try_to_load_one_(df, "model")
+        self.data = df.dropna()
+
         if source == "carscom":
             """
             ['make', 'model', 'model_year', 'trim', 'mileage', 'price', 'listing_id','bodystyle']  # noqa E501
             """
-            self.make = self._try_to_load_one_(df, "make")
-            self.model = self._try_to_load_one_(df, "model")
-            self.data = df.dropna()
             self.data = calc_pct_deltas(self.data)
             self.source = "carscom"
             self.data["url"] = "cars.com/vehicledetail/" + self.data["listing_id"]
@@ -126,6 +127,8 @@ class DriftCar:
             if self.fit_type == "exp_decay":
                 """A * np.exp(-B * x) - C : popt = A,B,C"""
                 file.write("Function: A * np.exp(-B * x) - C\n")
+                file.write("Output: Price")
+                file.write("Input: x -> miles, thousands\n")
                 file.write(f"A: {self.p_opt[0]}\n")
                 file.write(f"B: {self.p_opt[1]}\n")
                 file.write(f"C: {self.p_opt[2]}\n")

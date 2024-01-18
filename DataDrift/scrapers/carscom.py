@@ -92,16 +92,9 @@ def scrape_worker(url: str, debug=False) -> list():
             data = link_div.get("data-override-payload")
             data_dict = json.loads(data)
             mileage = mileage_div.get_text()
-            data_dict["mileage"] = re.sub(",", "", get_clean_number(mileage))
+            data_dict["mileage"] = re.sub(",", "", re.sub("mi.", "", mileage))
             list_out.append(data_dict)
     return list_out
-
-
-def get_clean_number(input: str) -> str:
-    if input == "None":
-        return "0"
-    else:
-        return input[input.find('">') + 1 : input.find("</") - 3]
 
 
 # if __name__ == "__main__":

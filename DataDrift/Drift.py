@@ -12,14 +12,14 @@ from .DriftCar import DriftCar
 class Drift:
     """This class houses the guts and data of the scraping system."""
 
-    def __init__(self, path_in: str or bool = None, dict_in=None):
+    def __init__(self, path_in: str or bool = False, dict_in=None):
         """
         Initializes the Drift class.
 
         Args:
             path_in: Path to input yaml. If not given, defaults to current directory.
             dict_in: Dict of inputs. Optional, overrides path_in.
-                Format is {"car": ["model"]}
+                Format is {"car": ["model1", "model2"]}
         """
         self.ROOTFOLDER = os.getcwd()
         self.OUTPUTFOLDER = os.path.join(self.ROOTFOLDER, "DataDriftOutput")
@@ -35,7 +35,7 @@ class Drift:
                     try:
                         self.cardict = yaml.safe_load(input_doc)
                     except yaml.YAMLError:
-                        print("ERROR IN INPUT DECK.")
+                        print("ERROR IN INPUT FILE.")
                         sys.exit(-1)
             else:
                 print("Oops there's no input file.")
