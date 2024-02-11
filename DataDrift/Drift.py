@@ -54,7 +54,7 @@ class Drift:
         Returns:
             resultz: dict of DriftCars, keys are make_model
         """
-        url_targets = gen_carscom_urls(input_dict=self.cardict)
+        url_targets = gen_carscom_urls(input_dict=self.cardict, zarg=False)
         temp = scrape_carscom(url_targets)
         results = process_carscom(temp=temp, car_dict=car_dict)
         # convert results, a dict of dictionaries, into resultz, a dict of DriftCars

@@ -22,7 +22,7 @@ class DriftCar:
         """
         self.make = self._try_to_load_one_(df, "make")
         self.model = self._try_to_load_one_(df, "model")
-        self.data = df.dropna()
+        self.data = df.dropna().drop_duplicates()
 
         if source == "carscom":
             """

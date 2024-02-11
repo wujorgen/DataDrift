@@ -53,8 +53,8 @@ def gen_carscom_urls(
                     + model
                     + "&zip="
                     + str(zcode)
-                    + "&maximum_distance=250"
-                    + "&page_size=40"
+                    + "&maximum_distance=200"
+                    + "&page_size=20"
                     + "&clean_title=true"
                     + "&no_accidents=true"
                     + "&personal_use=true"
