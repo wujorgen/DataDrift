@@ -70,5 +70,5 @@ def test_zipcodes():
 def test_url_generator():
     assert (
         gen_carscom_urls({"Ford": ["Mustang"]}, [15238])[0]
-        == "https://www.cars.com/shopping/results/?stock_type=all&makes=Ford&models=Ford-Mustang&zip=15238&maximum_distance=250&page_size=40&clean_title=true&no_accidents=true&personal_use=true"
+        == "https://www.cars.com/shopping/results/?stock_type=all&makes=Ford&models=Ford-Mustang&zip=15238&maximum_distance=200&page_size=20&clean_title=true&no_accidents=true&personal_use=true"
     )

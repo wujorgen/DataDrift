@@ -1,4 +1,5 @@
 """Defines the Drift class."""
+
 import os
 import sys
 

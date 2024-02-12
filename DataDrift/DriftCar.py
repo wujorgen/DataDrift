@@ -1,4 +1,5 @@
 """Defines DriftCar, an object to store individual car data."""
+
 import sys
 
 import matplotlib.pyplot as plt
