@@ -5,7 +5,7 @@ import pandas as pd
 
 def gen_carscom_urls(
     input_dict: dict,
-    zarg: list or bool = False,
+    zarg: list | bool = False,
 ) -> list:
     """Generates urls for Cars.com.
 

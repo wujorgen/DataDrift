@@ -12,7 +12,7 @@ from .DriftCar import DriftCar
 class Drift:
     """This class houses the guts and data of the scraping system."""
 
-    def __init__(self, path_in: str or bool = False, dict_in=None):
+    def __init__(self, path_in: str | bool = False, dict_in=None):
         """
         Initializes the Drift class.
 
