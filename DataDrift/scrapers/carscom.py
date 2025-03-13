@@ -83,7 +83,7 @@ def scrape_worker(url: str, debug=False) -> list:
     divs = soup.find_all("div", class_="vehicle-details")
     links = soup.find_all("a", class_="sds-link")  # noqa F841
     title = soup.title.text
-    if debug:
+    if debug: 
         return title
     for vehicle_div in divs:
         mileage_div = vehicle_div.find("div", class_="mileage")
