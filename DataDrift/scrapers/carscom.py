@@ -67,7 +67,7 @@ def scrape_carscom(urls: list[str], debug=False) -> list[dict]:
     return list_out
 
 
-def scrape_worker(url: str, debug=False) -> list():
+def scrape_worker(url: str, debug=False) -> list:
     """Worker function for scraping pool.
 
     Args:
