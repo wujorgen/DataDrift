@@ -2,42 +2,49 @@ from datetime import datetime
 import streamlit as st
 import pandas as pd
 import plotly.express as px
+import plotly.graph_objects as go
+import numpy as np
+from scipy.optimize import curve_fit
 import random
 
-# 1. Page Configuration
-st.set_page_config(page_title="Marketcheck Car Dashboard", layout="wide")
-st.title("🚗 Marketcheck Car Listings Dashboard")
+def exponential_decay(x, a, b, c):
+    """ Exponential model: y = a * exp(-b * x) + c """
+    return a * np.exp(-b * x) + c
 
-# Initialize session state for holding fetched data across re-renders
-if "car_df" not in st.session_state:
-    st.session_state.car_df = None
+def fit_exponential_curve(df, x_col="miles", y_col="price"):
+    """
+    Fits exponential decay parameters (a, b, c) and generates smooth 
+    curve points for plotting.
+    """
+    if len(df) < 3:
+        return None  # Need at least 3 points to fit 3 parameters
 
-# 2. Sidebar Search Controls
-st.sidebar.header("Search Filters")
+    x_data = df[x_col].values
+    y_data = df[y_col].values
 
-# Secure API Key input
-api_key = st.sidebar.text_input("API Key", type="password", help="Enter your Marketcheck API key")
+    # Initial guesses: A ~ price range, b ~ small decay factor, C ~ min price
+    initial_guess = (y_data.max() - y_data.min(), 0.00003, y_data.min())
 
-# Freeform text inputs with no default values
-make = st.sidebar.text_input("Make", value="", placeholder="e.g. Ford")
-model = st.sidebar.text_input("Model", value="", placeholder="e.g. Mustang")
+    try:
+        # Fit curve using non-linear least squares
+        popt, _ = curve_fit(
+            exponential_decay, 
+            x_data, 
+            y_data, 
+            p0=initial_guess, 
+            bounds=(0, [np.inf, 1.0, np.inf]),
+            maxfev=5000
+        )
+        
+        # Generate smooth X values for drawing the line
+        x_smooth = np.linspace(x_data.min(), x_data.max(), 100)
+        y_smooth = exponential_decay(x_smooth, *popt)
 
-# Dynamic upper bound: Current Year + 1 (handles upcoming OEM model years)
-current_year = datetime.now().year
-min_model_year = st.sidebar.number_input(
-    "Min Year", 
-    min_value=1900, 
-    max_value=current_year + 1, 
-    value=1900, 
-    step=1
-)
-max_model_year = st.sidebar.number_input(
-    "Max Year", 
-    min_value=1900, 
-    max_value=current_year + 1, 
-    value=current_year + 1, 
-    step=1
-)
+        return x_smooth, y_smooth, popt
+    except Exception as e:
+        # Returns None if optimization fails to converge
+        return None
+
 
 
 def fetch_marketcheck_mock_data(make: str, model: str, year_start: int, year_end: int) -> pd.DataFrame:
@@ -74,6 +81,41 @@ def fetch_marketcheck_mock_data(make: str, model: str, year_start: int, year_end
 
     return pd.DataFrame(records)
 
+
+# 1. Page Configuration
+st.set_page_config(page_title="Marketcheck Car Dashboard", layout="wide")
+st.title("🚗 Marketcheck Car Listings Dashboard")
+
+# Initialize session state for holding fetched data across re-renders
+if "car_df" not in st.session_state:
+    st.session_state.car_df = None
+
+# 2. Sidebar Search Controls
+st.sidebar.header("Search Filters")
+
+# Secure API Key input
+api_key = st.sidebar.text_input("API Key", type="password", help="Enter your Marketcheck API key")
+
+# Freeform text inputs with no default values
+make = st.sidebar.text_input("Make", value="", placeholder="e.g. Ford")
+model = st.sidebar.text_input("Model", value="", placeholder="e.g. Mustang")
+
+# Dynamic upper bound: Current Year + 1 (handles upcoming OEM model years)
+current_year = datetime.now().year
+min_model_year = st.sidebar.number_input(
+    "Min Year", 
+    min_value=1900, 
+    max_value=current_year + 1, 
+    value=1900, 
+    step=1
+)
+max_model_year = st.sidebar.number_input(
+    "Max Year", 
+    min_value=1900, 
+    max_value=current_year + 1, 
+    value=current_year + 1, 
+    step=1
+)
 
 # 3. Trigger API Call
 if st.sidebar.button("Fetch Car Data", type="primary"):
@@ -121,17 +163,64 @@ if st.session_state.car_df is not None:
 
         # 5. Plotly Figure Rendering using cached session state data
         if chart_type == "Price vs. Miles (by Trim)":
-            fig = px.scatter(
-                df,
-                x="miles",
-                y="price",
-                color="trim",
-                symbol="year",
-                title=f"Price vs. Mileage for {label}",
-                labels={"miles": "Mileage (miles)", "price": "Price ($)", "trim": "Trim Level"},
-                hover_data=["year", "city"],
+            # Construct an empty figure with an instructional message
+            fig = go.Figure()
+            fig.update_layout(
+                xaxis={"visible": False},
+                yaxis={"visible": False},
+                annotations=[{
+                    "text": "No Trims Selected",
+                    "xref": "paper",
+                    "yref": "paper",
+                    "showarrow": False,
+                    "font": {"size": 18, "color": "gray"}
+                }],
                 height=500
             )
+            available_trims = sorted(df["trim"].unique().tolist())
+            selected_trims = st.multiselect(
+                "Filter / Fit Specific Trims:",
+                options=available_trims,
+                default=available_trims,
+            )
+            # Filter dataframe to selected trims
+            filtered_df = df[df["trim"].isin(selected_trims)]
+            if filtered_df.empty:
+                st.info("Please select at least one trim to view scatter data.")
+            else:
+                fig = px.scatter(
+                    filtered_df,
+                    x="miles",
+                    y="price",
+                    color="trim",
+                    symbol="year",
+                    title=f"Price vs. Mileage for Selected Trims",
+                    labels={
+                        "miles": "Mileage (miles)",
+                        "price": "Price ($)",
+                        "trim": "Trim Level",
+                    },
+                    hover_data=["year", "city"],
+                    height=550,
+                )
+                # Fit curve too all selected trims
+                fit_result = fit_exponential_curve(filtered_df, x_col="miles", y_col="price")
+                if fit_result is not None:
+                    x_smooth, y_smooth, params = fit_result
+                    a, b, c = params
+                    fig.add_trace(
+                        go.Scatter(
+                            x=x_smooth,
+                            y=y_smooth,
+                            mode="lines",
+                            name=f"Fit",
+                            line=dict(dash="dash", width=2.5),
+                            hovertemplate=f"<b>Trend</b><br>Miles: %{{x:,.0f}}<br>Est Price: $%{{y:,.2f}}<extra></extra>",
+                        )
+                    )
+                st.caption(
+                    f"**Fitted Model Equation:** $\\text{{Price}} = {a:,.2f} \\cdot e^{{-{b:.6f} \\cdot \\text{{Miles}}}} + {c:,.2f}$"
+                )
         elif chart_type == "Price Distribution (by Year)":
             fig = px.box(
                 df,
