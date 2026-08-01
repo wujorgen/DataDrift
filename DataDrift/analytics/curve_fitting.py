@@ -3,13 +3,13 @@ from scipy.optimize import curve_fit
 
 
 def exponential_decay(x, a, b, c):
-    """ Exponential model: y = a * exp(-b * x) + c """
+    """Exponential model: y = a * exp(-b * x) + c"""
     return a * np.exp(-b * x) + c
 
 
 def fit_exponential_curve(df, x_col="miles", y_col="price"):
     """
-    Fits exponential decay parameters (a, b, c) and generates smooth 
+    Fits exponential decay parameters (a, b, c) and generates smooth
     curve points for plotting.
     """
     if len(df) < 3:
@@ -24,14 +24,14 @@ def fit_exponential_curve(df, x_col="miles", y_col="price"):
     try:
         # Fit curve using non-linear least squares
         popt, _ = curve_fit(
-            exponential_decay, 
-            x_data, 
-            y_data, 
-            p0=initial_guess, 
+            exponential_decay,
+            x_data,
+            y_data,
+            p0=initial_guess,
             bounds=(0, [np.inf, 1.0, np.inf]),
-            maxfev=5000
+            maxfev=5000,
         )
-        
+
         # Generate smooth X values for drawing the line
         x_smooth = np.linspace(x_data.min(), x_data.max(), 100)
         y_smooth = exponential_decay(x_smooth, *popt)
