@@ -8,11 +8,3 @@ Classes:
 - DriftCar: The object representing a car. Contains data cleaning and writing logic.
 
 """
-
-from .Drift import Drift
-from .DriftCar import DriftCar  # noqa F401
-
-
-def main():
-    DriftData = Drift()  # noqa F841
-    breakpoint()

@@ -5,6 +5,7 @@ import numpy as np
 import os
 import requests
 import sys
+import json
 
 API_KEY = os.environ.get("MARKETCHECK_API_KEY")
 
@@ -13,15 +14,6 @@ BASE_URL = "https://api.marketcheck.com/v2/search/car/active"
 LISTINGS_PER_RUN = 50
 
 WATCHED_VEHICLES = [
-    {
-        "name": "G80 M3",
-        "params": {
-            "make": "BMW",
-            "model": "M3",
-            "year_range": "2021-2026",
-            "car_type": "used",
-        },
-    },
     {
         "name": "C8 Corvette",
         "params": {
@@ -49,6 +41,52 @@ WATCHED_VEHICLES = [
             "car_type": "used",
         },
     },
+    {
+        "name": "G42 2 Series",
+        "params": {
+            "make": "BMW",
+            "model": "2 Series",
+            "year_range": "2022-present",
+            "car_type": "used",
+        }
+    },
+    {
+        "name": "G20 3 Series",
+        "params": {
+            "make": "BMW",
+            "model": "3 Series",
+            "year_range": "2019-2026",
+            "car_type": "used",
+        }
+    },
+    {
+        "name": "G80 M3",
+        "params": {
+            "make": "BMW",
+            "model": "3 Series",
+            "trim": "M3",
+            "year_range": "2021-2026",
+            "car_type": "used",
+        },
+    },
+    {
+        "name": "G30 5 Series",
+        "params": {
+            "make": "BMW",
+            "model": "5 Series",
+            "year_range": "2017-2023",
+            "car_type": "used",
+        }
+    },
+    {
+        "name": "Porsche Cayman",
+        "params": {
+            "make": "Porsche",
+            "model": "Cayman",
+            "year_range": "2006-2026",
+            "car_type": "used",
+        }
+    },
 ]
 # %%
 def fetch_vehicle_data(vehicle_params, rows):
@@ -69,26 +107,8 @@ def fetch_vehicle_data(vehicle_params, rows):
     return resp.json()
 
 
-tmp = fetch_vehicle_data(WATCHED_VEHICLES[1]["params"], LISTINGS_PER_RUN)
-print(f"{len(tmp['listings'])=}")
-
-# %%
-tmp_miles = []
-tmp_price = []
-for x in range(len(tmp['listings'])):
-    if "price" not in tmp['listings'][x].keys():
-        continue
-    if tmp['listings'][x]['build']['trim'] not in ['2LT', '3LT']:
-    # if tmp['listings'][x]['build']['trim'] not in ["GT", "GT Premium"]:
-        continue
-    tmp_miles.append(tmp['listings'][x]['miles'])
-    tmp_price.append(tmp['listings'][x]['price'])
-
-plt.figure(figsize=(6,4))
-plt.scatter(tmp_miles, tmp_price)
-plt.xlabel('Miles')
-plt.ylabel('Price')
-plt.title('Price vs Mileage')
+#response = fetch_vehicle_data(WATCHED_VEHICLES[0]["params"], LISTINGS_PER_RUN)
+#print(f"{len(response['listings'])=}")
 
 
 # %%
@@ -119,28 +139,8 @@ def fetch_vehicle_data_paginated(vehicle_params, total_rows_needed):
             
     return all_listings
 
-# Example: Fetch 50 total listings across 5 API calls
-listings = fetch_vehicle_data_paginated(WATCHED_VEHICLES[1]["params"], 150)
-print(f"Total retrieved: {len(listings)}")
-
-
-# %%
-tmp_miles = []
-tmp_price = []
-for x in range(len(listings)):
-    if "price" not in listings[x].keys():
-        continue
-    if listings[x]['build']['trim'] not in ['2LT', '3LT']:
-    # if tmp['listings'][x]['build']['trim'] not in ["GT", "GT Premium"]:
-        continue
-    tmp_miles.append(listings[x]['miles'])
-    tmp_price.append(listings[x]['price'])
-
-plt.figure(figsize=(6,4))
-plt.scatter(tmp_miles, tmp_price)
-plt.xlabel('Miles')
-plt.ylabel('Price')
-plt.title('Price vs Mileage')
+#listings = fetch_vehicle_data_paginated(WATCHED_VEHICLES[0]["params"], 150)
+#print(f"Total retrieved: {len(listings)}")
 
 # %%
 def fetch_vehicle_trims(vehicle_params):
@@ -163,5 +163,15 @@ def fetch_vehicle_trims(vehicle_params):
         print(f"  {t['item']:<30} ({t['count']} listings)")
     return trims
 
-tmp_trims = fetch_vehicle_trims(WATCHED_VEHICLES[1]["params"])
+# tmp_trims = fetch_vehicle_trims(WATCHED_VEHICLES[1]["params"])
 # %%
+# fetch 150 instances of each watched vehicle and store to JSON
+# so we can work with temp data instead of spamming API calls
+
+for vehicle in WATCHED_VEHICLES:
+    print(vehicle["name"])
+    listings = fetch_vehicle_data_paginated(vehicle["params"], 150)
+    fname = "_".join(vehicle["name"].split()) + ".json"
+    print("Writing to", fname, "...")
+    with open("sample-data/" + fname, "w", encoding="utf-8") as f:
+        json.dump(listings, f, indent=4)
